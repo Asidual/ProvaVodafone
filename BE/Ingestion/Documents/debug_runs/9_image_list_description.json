@@ -1,0 +1,722 @@
+[
+  {
+    "name": "page6_figure3",
+    "page": 6,
+    "chapter": "1 DESCRIZIONE GENERALE",
+    "section": "1.3 VISTE",
+    "images": [
+      "figures2/page6_figure3.png"
+    ],
+    "description": "L'immagine mostra un dispositivo di stampa compatto con un design moderno e angoli arrotondati. La parte superiore presenta un'uscita per lo scontrino, con un rotolo di carta visibile. Sul lato frontale, è presente il marchio \"Print! F\". Sono evidenziati vari componenti: il connettore per tastiera PS2, il vano MMC (DGFE), e diverse spie luminose per indicare lo stato della carta, eventuali anomalie della stampante e lo stato di accensione (POWER). Sulla parte superiore, ci sono due tasti: uno per l'avanzamento della carta (Feed), che funge anche da tasto di cancellazione (CL) in caso di errore, e un altro per l'apertura del coperchio. La struttura sembra essere realizzata in metallo o plastica con finitura opaca. Nella parte inferiore dell'immagine, è presente una nota di copyright del RCH GROUP."
+  },
+  {
+    "name": "page7_figure4",
+    "page": 6,
+    "chapter": "1 DESCRIZIONE GENERALE",
+    "section": "1.3 VISTE",
+    "images": [
+      "figures2/page7_figure4.png"
+    ],
+    "description": "L'immagine mostra la parte posteriore di un dispositivo elettronico con vari connettori e componenti. In alto a sinistra, è presente un foro etichettato come \"Foro ANTENNA (opzionale) per moduli aggiuntivi\". A destra, si trova un interruttore etichettato \"INTERRUTTORE ON/OFF\". Nella parte inferiore, sono visibili diverse porte e connettori. Da sinistra a destra, troviamo una porta USB indicata come \"USB (colleg. PC)\", una porta LAN etichettata \"LAN (colleg. PC)\", un connettore per il display indicato come \"DISPLAY\", una porta seriale etichettata \"SERIALE (colleg. PC)\", un connettore per il cassetto indicato come \"CASSETTO\", e infine un connettore di alimentazione etichettato \"Alimentazione +24V\". La struttura del dispositivo sembra essere in plastica con una finitura liscia."
+  },
+  {
+    "name": "page7_figure5",
+    "page": 7,
+    "chapter": "1 DESCRIZIONE GENERALE",
+    "section": "1.4 DISPLAY ALFANUMERICO",
+    "images": [
+      "figures2/page7_figure5.png"
+    ],
+    "description": "Il display alfanumerico mostrato è un dispositivo rettangolare con una struttura di colore nero. È montato su una base solida tramite un supporto centrale. La parte frontale del display è retroilluminata, consentendo una chiara visualizzazione dei caratteri. Il display è suddiviso in due righe, ognuna in grado di visualizzare fino a 20 caratteri. Attualmente, sul display sono visibili le seguenti informazioni: sulla prima riga è presente la scritta \"CONTANTI\", mentre sulla seconda riga si leggono \"EURO\" e \"12,00\". La disposizione dei caratteri è ordinata e facilmente leggibile, con un contrasto adeguato tra il testo e lo sfondo retroilluminato. Non sono visibili icone, simboli, spie o porte/connettori aggiuntivi. Il materiale del display sembra essere plastico, con una texture liscia e opaca."
+  },
+  {
+    "name": "page11_figure6",
+    "page": 11,
+    "chapter": "2 OPERATIVITA' AL PUNTO CASSA",
+    "section": "2.1 SOSTITUZIONE DEL ROTOLO SCONTRINO",
+    "images": [
+      "figures2/page11_figure6.png"
+    ],
+    "description": "Le immagini mostrano una sequenza di operazioni per la sostituzione del rotolo scontrino in una cassa. Nella prima immagine (Figura 1), si vede un dispositivo con un pannello nero e un dito che preme il tasto di apertura del coperchio, indicato come \"Tasto AP. COPERCHIO\". Il pannello presenta icone e simboli, tra cui una freccia rivolta verso l'alto. Nella seconda immagine (Figura 2), il coperchio della cassa è aperto, rivelando l'alloggiamento del rotolo di carta. Si nota un rotolo di carta parzialmente inserito, con il coperchio sollevato. Nella terza immagine (Figura 3), viene mostrato nuovamente il pannello nero con un dito che preme il tasto di avanzamento carta, indicato come \"Tasto AVANZAMENTO CARTA [CL]\". Anche qui sono visibili icone simili a quelle della prima immagine. Le superfici appaiono lisce e di colore nero, con una texture uniforme."
+  },
+  {
+    "name": "page13_figure7",
+    "page": 13,
+    "chapter": "2 OPERATIVITA' AL PUNTO CASSA",
+    "section": "2.2 GIORNALE ELETTRONICO",
+    "images": [
+      "figures2/page13_figure7.png"
+    ],
+    "description": "L'immagine mostra un dispositivo di stampa fiscale, identificato come \"Print! F\", con un design compatto e moderno. Il dispositivo è di colore bianco con dettagli neri e presenta un'area superiore inclinata da cui emerge uno scontrino stampato. Sul lato frontale, è visibile il logo \"RCH\" e il nome \"Print! F\". Sul lato destro del dispositivo, evidenziato da un cerchio giallo, si trova lo slot per l'inserimento della Multi Media Card (MMC), utilizzata come giornale elettronico (DGFE). Accanto al dispositivo, un riquadro mostra una mano che tiene una MMC con l'etichetta \"RAL Memory Card\" visibile. Sopra la mano, un testo indica: \"Inserire il giornale elettronico (MMC) Con l'etichetta verso l'alto\". L'immagine suggerisce la corretta direzione di inserimento della MMC nel dispositivo."
+  },
+  {
+    "name": "page14_figure8",
+    "page": 13,
+    "chapter": "2 OPERATIVITA' AL PUNTO CASSA",
+    "section": "2.2 GIORNALE ELETTRONICO",
+    "images": [
+      "figures2/page14_figure8.png"
+    ],
+    "description": "L'immagine mostra due schermate di un display. La prima schermata presenta il testo \"-- STAMPE/AZZERAM. -- Inizializzaz. DGFE\" con una freccia rivolta verso il basso. La seconda schermata, sotto la freccia, riporta il testo \"INSERIRE NUOVA MMC Premere un tasto\" con un'altra freccia rivolta verso il basso. Le schermate sono disposte in modo verticale e il testo è centrato all'interno di ciascuna sezione. Non sono presenti icone, simboli, spie, porte o connettori visibili. Il design è semplice e funzionale, con un carattere chiaro e leggibile."
+  },
+  {
+    "name": "page15_figure9",
+    "page": 15,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.1 INDICAZIONE MODALITA'",
+    "images": [
+      "figures2/page15_figure9.png"
+    ],
+    "description": "L'immagine mostra un display rettangolare con bordi arrotondati. Sul display sono presenti due elementi testuali: in alto a sinistra si legge \"PRG\" e in basso a destra il numero \"0\". Lo sfondo del display è bianco e il testo è di colore nero. Non sono presenti icone, simboli, spie, porte o connettori visibili. La texture appare liscia e uniforme."
+  },
+  {
+    "name": "page16_figure10",
+    "page": 16,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.2 BLOCCO TASTIERA",
+    "images": [
+      "figures2/page16_figure10.png"
+    ],
+    "description": "L'immagine mostra una rappresentazione schematica di un display con due sezioni principali. Nella parte superiore, all'interno di un rettangolo, è presente la domanda \"BLOCCO TASTIERA ?\" seguita dalle opzioni \"<SI> / NO\". Sotto questa sezione, una freccia punta verso un altro rettangolo che contiene il testo \"** TASTIERA ** ** BLOCCATA **\", con le parole disposte su due righe e circondate da asterischi. Il layout è semplice e lineare, con un chiaro focus sulla funzione di blocco della tastiera. Non sono presenti icone, simboli, spie, porte o connettori visibili. Il design è essenziale, con un uso di caratteri maiuscoli per enfatizzare i messaggi."
+  },
+  {
+    "name": "page17_figure11",
+    "page": 17,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.3 PROGRAMMAZIONE REPARTI",
+    "images": [
+      "figures2/page17_figure11.png"
+    ],
+    "description": "L'immagine mostra una sequenza di schermate di programmazione per un sistema di gestione dei reparti. Ogni schermata è racchiusa in un riquadro rettangolare con un testo centrale. La sequenza inizia con \"COD. REPARTO ?\" seguito dal numero \"1\". Successivamente, \"PREZZO ?\" con il valore \"0,00\". La terza schermata mostra \"DESCRIZIONE ?\" con \"<REPARTO 01 > 01\". Seguono \"LIMITE SUPERIORE ?\" con \"0,00\" e \"LIMITE INFERIORE ?\" con \"0,01\". La schermata successiva è \"CODICE IVA ?\" con \"0\", seguita da \"COD. GRUPPO REPARTO?\" con \"0\". L'ultima schermata è \"CHIUSURA AUTOM. ?\" con le opzioni \"SI / <NO>\". Tra ogni riquadro c'è una freccia verso il basso che indica la progressione del processo."
+  },
+  {
+    "name": "page18_figure12",
+    "page": 18,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.4 PROGRAMMAZIONE CLIENTI",
+    "images": [
+      "figures2/page18_figure12.png"
+    ],
+    "description": "L'immagine mostra un diagramma di flusso verticale composto da sette riquadri rettangolari, ciascuno contenente un campo di testo. Ogni riquadro è collegato al successivo tramite una freccia verso il basso. \n\n1. **Primo riquadro**: contiene la scritta \"CODICE CLIENTE ?\" con il numero \"1\" posizionato in basso a destra.\n2. **Secondo riquadro**: presenta \"NOME / COGNOME\" seguito da \"<CLIENTE 00001 >01\".\n3. **Terzo riquadro**: mostra \"INDIRIZZO 1:\" con \"< >01\" sotto.\n4. **Quarto riquadro**: contiene \"INDIRIZZO 2:\" seguito da \"< >01\".\n5. **Quinto riquadro**: include \"PARTITA IVA:\" con \"< >01\".\n6. **Sesto riquadro**: mostra \"DATI CLIENTE\" seguito da \"< >01\".\n7. **Settimo riquadro**: presenta \"CLIENTE ATTIVO?\" con le opzioni \"SI/ <NO>\".\n\nOgni riquadro è delimitato da una linea sottile e le frecce indicano la sequenza logica da seguire. Non ci sono icone, simboli o texture visibili."
+  },
+  {
+    "name": "page19_figure13",
+    "page": 19,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.5 PROGRAMMAZIONE TIPI PAGAMENTO",
+    "images": [
+      "figures2/page19_figure13.png"
+    ],
+    "description": "L'immagine mostra un diagramma di flusso verticale composto da sei riquadri rettangolari, ciascuno contenente una domanda relativa alla programmazione dei tipi di pagamento. Ogni riquadro è collegato al successivo tramite una freccia verso il basso. \n\n1. Il primo riquadro contiene il testo \"COD. PAGAMENTO ?\" seguito dal numero \"1\".\n2. Il secondo riquadro presenta \"DESCRIZIONE ?\" con \"<CONTANTI >\" e il numero \"01\".\n3. Il terzo riquadro chiede \"RESTO ABILITATO ?\" con le opzioni \"<SI> / NO\".\n4. Il quarto riquadro domanda \"SOMMA A CASSA ?\" con le opzioni \"<SI> / NO\".\n5. Il quinto riquadro chiede \"NON RISCOSSI ?\" con le opzioni \"SI / <NO>\".\n6. Il sesto riquadro domanda \"APERTURA CASSETTO?\" con le opzioni \"<SI> / NO\".\n7. L'ultimo riquadro chiede \"IMPORTO OBBLIGATOR\" con le opzioni \"<SI> / NO\".\n\nI riquadri sono di colore bianco con testo nero, e le frecce sono semplici linee nere. Non ci sono icone, simboli o texture visibili."
+  },
+  {
+    "name": "page20_figure14",
+    "page": 20,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.6 PROGRAMMAZIONE OPERATORI",
+    "images": [
+      "figures2/page20_figure14.png"
+    ],
+    "description": "L'immagine mostra due riquadri rettangolari disposti verticalmente, collegati da una freccia rivolta verso il basso. Nel riquadro superiore è presente il testo \"COD. OPERATORE\" seguito da un punto interrogativo e il numero \"1\" allineato a destra. Nel riquadro inferiore, il testo \"NOME OPERATORE\" è seguito da un punto interrogativo, con il nome \"<MARIO>\" centrato e il numero \"01\" allineato a destra. Entrambi i riquadri hanno un bordo semplice e sono collegati da una freccia che indica una sequenza o un passaggio successivo. Non sono presenti icone, simboli o texture particolari."
+  },
+  {
+    "name": "page20_figure15",
+    "page": 20,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.7 PROGRAMMAZIONE IVA",
+    "images": [
+      "figures2/page20_figure15.png"
+    ],
+    "description": "L'immagine mostra due riquadri rettangolari disposti verticalmente, collegati da una freccia che punta verso il basso. Nel riquadro superiore è presente il testo \"CODICE IVA ?\" seguito dal numero \"1\". Nel riquadro inferiore si legge \"PERCENTUALE IVA ?\" seguito dal numero \"10\". Entrambi i riquadri hanno un bordo sottile e il testo è centrato al loro interno. La freccia tra i riquadri indica una sequenza logica o un passaggio di informazioni dal primo al secondo riquadro."
+  },
+  {
+    "name": "page21_figure16",
+    "page": 21,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.8 PERCENTUALE DI MAGGIORAZIONE",
+    "images": [
+      "figures2/page21_figure16.png"
+    ],
+    "description": "L'immagine mostra un display rettangolare con sfondo bianco e bordi neri. Al centro, in alto, è presente il testo \"PERC. MAGGIORAZ. ?\" scritto in caratteri maiuscoli neri. Sotto questa scritta, centrato, è visualizzato il numero \"10,00\", anch'esso in nero, che rappresenta un valore percentuale con due cifre decimali. Al di sotto del display, al centro, è presente un'icona a forma di freccia rivolta verso il basso, anch'essa di colore nero. Non sono visibili altri elementi, icone o texture."
+  },
+  {
+    "name": "page21_figure17",
+    "page": 21,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.9 PERCENTUALE DI SCONTO",
+    "images": [
+      "figures2/page21_figure17.png"
+    ],
+    "description": "L'immagine mostra un display rettangolare con angoli arrotondati. Al suo interno, sulla parte sinistra, è presente il testo \"PERC. SCONTO?\" mentre sulla destra è visualizzato il valore \"5,00\". Sotto il display, al centro, è presente una freccia rivolta verso il basso. Lo sfondo del display è bianco e il testo è in nero, con caratteri chiari e leggibili. Non sono presenti icone, simboli, spie, porte o connettori visibili."
+  },
+  {
+    "name": "page22_figure18",
+    "page": 22,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.10 PROGRAMMAZIONE STATISTICHE",
+    "images": [
+      "figures2/page22_figure18.png"
+    ],
+    "description": "L'immagine mostra una sequenza di blocchi rettangolari disposti verticalmente, ciascuno contenente un'opzione di programmazione statistica con la possibilità di selezionare \"SI\" o \"NO\". I blocchi sono collegati da frecce che indicano il flusso di selezione. I blocchi sono etichettati come segue: \"REPARTI\", \"OPERATORI\", \"IVA\", \"ORARIA\", \"FINANZIARI\", \"DETTAGLIO GRUPPI\", e \"TOTALE GRUPPI\". Ogni blocco ha la dicitura \"SI / <NO>\" sotto il titolo, suggerendo la possibilità di scegliere tra le due opzioni. Le frecce tra i blocchi indicano la progressione sequenziale delle scelte. Non sono presenti icone, simboli, spie, porte o connettori visibili. Il design è semplice e lineare, con un layout chiaro e leggibile."
+  },
+  {
+    "name": "page23_figure19",
+    "page": 23,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.11 DATA/ORA",
+    "images": [
+      "figures2/page23_figure19.png"
+    ],
+    "description": "L'immagine mostra una sequenza verticale di caselle rettangolari, ciascuna contenente un'etichetta e un valore numerico. Ogni casella è separata da una freccia verso il basso che indica la progressione. La prima casella in alto riporta \"GIORNO :\" seguito dal numero \"24\". La seconda casella mostra \"MESE :\" con il valore \"05\". La terza casella presenta \"ANNO :\" con \"2012\". La quarta casella indica \"ORE :\" con il numero \"8\". Infine, l'ultima casella in basso mostra \"MINUTI :\" con il valore \"30\". Le caselle sono disposte in modo ordinato e allineato verticalmente, con un design semplice e chiaro."
+  },
+  {
+    "name": "page24_figure20",
+    "page": 24,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.12 PROGRAMMAZIONE INTESTAZIONE SCONTRINO",
+    "images": [
+      "figures2/page24_figure20.png"
+    ],
+    "description": "L'immagine mostra una sequenza di schermate disposte verticalmente, ciascuna all'interno di un riquadro rettangolare. Ogni riquadro contiene un testo centrato. Il primo riquadro presenta la dicitura \"- SELEZ. GRAFICO -\" seguita dalla parola \"Nessuno\". Una freccia rivolta verso il basso collega questo riquadro al successivo. Il secondo riquadro mostra \"N. RIGA INTEST. ?\" con il numero \"4\" sotto. Un'altra freccia collega questo al terzo riquadro, che contiene \"DESCRIZIONE ?\" e sotto \"<PARTITA IVA > 12\". L'ultima freccia conduce al quarto riquadro, che presenta \"TESTO CENTRATO ?\" con le opzioni \"<SI> / NO\". Le frecce indicano un flusso sequenziale tra le schermate. Non sono presenti icone, simboli o texture visibili."
+  },
+  {
+    "name": "page25_figure21",
+    "page": 25,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.13 PROGRAMMAZIONE PIEDINO",
+    "images": [
+      "figures2/page25_figure21.png"
+    ],
+    "description": "L'immagine mostra due sezioni rettangolari sovrapposte. La sezione superiore contiene il testo \"- SELEZ. GRAFICO -\" centrato, seguito dalla parola \"Nessuno\" al di sotto. Tra le due sezioni c'è una freccia verso il basso. La sezione inferiore presenta il testo \"MESSAGGIO QR:\" seguito da \"<VISITATE IL >01\". Lo sfondo è bianco e i bordi delle sezioni sono delineati da linee nere."
+  },
+  {
+    "name": "page26_figure22",
+    "page": 26,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.14 PROGRAMMAZIONE MESSAGGI CLIENTE",
+    "images": [
+      "figures2/page26_figure22.png"
+    ],
+    "description": "L'immagine mostra un diagramma di flusso per la programmazione dei messaggi cliente su un dispositivo. Il diagramma è suddiviso in diverse sezioni, ciascuna con un titolo e istruzioni specifiche. \n\n1. **MESSAGGIO DI CORTESIA**: \n   - **RIGA 1**: Mostra il testo \"< GRAZIE E >09\". Le istruzioni (A) indicano di digitare il testo della prima riga di cortesia (massimo 48 caratteri) e premere [CONTANTI]. Sono presenti comandi per cancellare la riga ([CL]), inserire uno spazio ([00]) e usare il backspace ([,]).\n   - **RIGA 2**: Mostra il testo \"< ARRIVEDERCI >12\". Le istruzioni (B) suggeriscono di digitare il testo della seconda riga di cortesia (massimo 48 caratteri) e premere [CONTANTI].\n\n2. **MESSAGGIO SCORREVOLE**: \n   - Include una nota che indica di premere [CONTANTI] senza inserire caratteri se non si vuole scrivere nulla. \n   - **MSG. SCORREVOLE**: Mostra il testo \"<GRAZIE PER >10\". Le istruzioni (C) richiedono di digitare il testo del messaggio pubblicitario scorrevole (massimo 36 caratteri) e premere [CONTANTI].\n\n3. **MOSTRA DATA/ORA IN AUTOMATICO**: \n   - **SECONDI ? (0 = OFF)**: Mostra il valore \"0\". Le istruzioni (D) spiegano come impostare il valore in secondi per la visualizzazione automatica della data e ora dopo un periodo di inattività della cassa, e di premere [CONTANTI]. Se non si desidera abilitare questa funzione, lasciare il valore a zero e premere [CONTANTI].\n\nIl diagramma è organizzato in modo sequenziale, con frecce che collegano le varie sezioni, guidando l'utente attraverso il processo di programmazione."
+  },
+  {
+    "name": "page27_figure23",
+    "page": 27,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.15 PROGRAMMAZIONE IMPULSO CASSETTO",
+    "images": [
+      "figures2/page27_figure23.png"
+    ],
+    "description": "L'immagine mostra un rettangolo con bordi neri contenente il testo \"LUNGH. IMPULSO 1-5\" nella parte superiore e il numero \"2\" centrato sotto di esso. Sotto il rettangolo, al centro, è presente una freccia rivolta verso il basso. Lo sfondo è bianco e non ci sono altri elementi visibili."
+  },
+  {
+    "name": "page27_figure24",
+    "page": 27,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.16 SCORPORO IVA SU SCONTRINO",
+    "images": [
+      "figures2/page27_figure24.png"
+    ],
+    "description": "L'immagine mostra una schermata di programmazione relativa allo \"Scorporo IVA\". La parte superiore presenta il testo \"-PROGRAMMAZIONE- Scorporo IVA\" centrato e in maiuscolo. Sotto, una freccia rivolta verso il basso indica la progressione al passo successivo. La sezione inferiore chiede \"SCORPORO IVA?\" con due opzioni disponibili: \"SI\" e \"<NO>\", separate da una barra. Il layout è semplice e lineare, con un design essenziale e privo di icone o simboli aggiuntivi. I testi sono chiari e leggibili, con un uso di caratteri maiuscoli per enfatizzare le opzioni."
+  },
+  {
+    "name": "page28_figure25",
+    "page": 28,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.17 CONTROLLO DI MEZZANOTTE",
+    "images": [
+      "figures2/page28_figure25.png"
+    ],
+    "description": "L'immagine presenta un diagramma di flusso con due riquadri principali. Il primo riquadro in alto contiene il testo \"-PROGRAMMAZIONE- Avviso Mezzanotte\" ed è collegato con una freccia verso il basso al secondo riquadro. Il secondo riquadro contiene il testo \"ATTIVA ALLARME? <SI> / NO\". A destra dei riquadri, ci sono due istruzioni testuali: \"A) Premere [CONTANTI].\" e \"B) Premere il tasto [PREZZO REPARTO] e [CONTANTI] per disattivare il controllo (disabilitato di default)\". Le frecce indicano il flusso delle operazioni da seguire. Non sono presenti icone, simboli, spie, porte o connettori. L'immagine utilizza un layout semplice e chiaro, con testo nero su sfondo bianco."
+  },
+  {
+    "name": "page28_figure26",
+    "page": 28,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.18 PROGRAMMAZIONE FATTURE",
+    "images": [
+      "figures2/page28_figure26.png"
+    ],
+    "description": "L'immagine mostra una schermata di programmazione per le fatture. Nella parte superiore, è presente il testo \"-PROGRAMMAZIONE- Programm. FATTURE\" all'interno di un riquadro. Sotto questo, c'è un'icona a forma di freccia rivolta verso il basso che punta a un altro riquadro contenente il testo \"NUMERO FATTURA 0\". Al di sotto di questo secondo riquadro, un'altra freccia verso il basso indica che il display tornerà al menù principale. Il design è semplice e lineare, con un layout chiaro e testi ben leggibili."
+  },
+  {
+    "name": "page29_figure27",
+    "page": 29,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.19 PROGRAMMAZIONE NUMERO CASSA",
+    "images": [
+      "figures2/page29_figure27.png"
+    ],
+    "description": "L'immagine mostra una sequenza di schermate di un display per la programmazione del numero cassa. La prima schermata presenta il testo \"-PROGRAMMAZIONE- Imposta Nr. Cassa\". Segue una freccia verso il basso che conduce alla seconda schermata con il testo \"STAMPA NUM. CASSA? SI/ <NO>\". Un'altra freccia porta alla terza schermata che mostra \"NUMERO CASSA: 1\". Sotto, in caratteri più piccoli, è presente la frase \"Il display torna al menù principale.\" Le schermate sono disposte in un flusso verticale, con frecce che indicano la progressione da una schermata all'altra. Il testo è chiaro e leggibile, senza icone o simboli aggiuntivi."
+  },
+  {
+    "name": "page29_figure28",
+    "page": 29,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.20 SUBTOTALE OBBLIGATORIO",
+    "images": [
+      "figures2/page29_figure28.png"
+    ],
+    "description": "L'immagine mostra due sezioni rettangolari sovrapposte verticalmente, collegate da una freccia verso il basso. La sezione superiore contiene il testo \"-PROGRAMMAZIONE- Subtot.Obbligat.\" su sfondo bianco. La sezione inferiore presenta il testo \"SUBTOT. OBBLIGATORIO SI/ <NO>\" anch'esso su sfondo bianco. La freccia tra le due sezioni indica un passaggio o una sequenza di azioni. Non ci sono icone, simboli, spie, porte o connettori visibili. I materiali e le texture non sono distinguibili poiché l'immagine è stilizzata e monocromatica."
+  },
+  {
+    "name": "page30_figure29",
+    "page": 30,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.21 LIMITE IMPORTO SCONTRINO",
+    "images": [
+      "figures2/page30_figure29.png"
+    ],
+    "description": "L'immagine mostra una schermata di programmazione di un dispositivo, probabilmente una cassa. La schermata è divisa in due sezioni principali. Nella parte superiore, all'interno di un rettangolo, è presente il testo \"-PROGRAMMAZIONE- LIM.IMP.SCONTR.\" con una freccia rivolta verso il basso. Sotto, in un altro rettangolo, si legge \"MASSIMO IMPORTO ? 999.999,99\", seguito da un'altra freccia verso il basso. Al di sotto delle frecce, c'è il testo \"Il display torna al menù principale.\" La grafica è semplice e lineare, con caratteri chiari e leggibili. Non sono presenti icone, simboli, spie, porte o connettori visibili."
+  },
+  {
+    "name": "page30_figure30",
+    "page": 30,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.22 ASSOCIAZIONE RESTO",
+    "images": [
+      "figures2/page30_figure30.png"
+    ],
+    "description": "L'immagine mostra un diagramma di flusso con due rettangoli collegati da una freccia verso il basso. Il primo rettangolo contiene il testo \"-PROGRAMMAZIONE- ASSOCIAZ. RESTO\". Il secondo rettangolo, posizionato sotto il primo, contiene il testo \"RESTO SUI PAGAMENTI? SI/ <NO>\". La freccia indica una progressione logica o un passaggio da un'opzione all'altra. Non sono presenti icone, simboli, spie, porte o connettori. Il design è semplice, con linee pulite e testo centrato all'interno dei rettangoli."
+  },
+  {
+    "name": "page31_figure31",
+    "page": 31,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.23 GRUPPI REPARTO",
+    "images": [
+      "figures2/page31_figure31.png"
+    ],
+    "description": "L'immagine mostra due riquadri rettangolari disposti verticalmente, collegati da una freccia verso il basso. Il riquadro superiore contiene il testo \"COD. GRUPPO REPARTO\" seguito dal numero \"1\". Il riquadro inferiore presenta il testo \"DESCRIZIONE ?\" e sotto di esso \"<GRUPPO 01 > 01\". Entrambi i riquadri hanno un bordo nero sottile e sfondo bianco. La freccia tra i due riquadri indica una sequenza o un passaggio da uno stato all'altro. Non sono presenti icone, simboli, spie, porte o connettori visibili."
+  },
+  {
+    "name": "page31_figure32",
+    "page": 31,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.24 STAMPA VALORE NETTO NELLO SCONTRINO",
+    "images": [
+      "figures2/page31_figure32.png"
+    ],
+    "description": "L'immagine mostra una schermata di programmazione suddivisa in due sezioni principali. La parte superiore presenta il testo \"-PROGRAMMAZIONE- St. Valore Netto\" racchiuso in un rettangolo con frecce che indicano la progressione verso la sezione inferiore. La parte inferiore contiene la domanda \"STAMPA VALORE NETTO?\" con le opzioni \"SI/\" e \"<NO>\", dove \"<NO>\" è evidenziato come opzione predefinita. Sotto queste sezioni, è presente una nota che indica \"Il display torna al menù principale.\" Il design è semplice, con linee pulite e testo chiaro, senza icone, spie o connettori visibili."
+  },
+  {
+    "name": "page31_figure33",
+    "page": 31,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.25 NOTA DI CREDITO",
+    "images": [
+      "figures2/page31_figure33.png"
+    ],
+    "description": "L'immagine mostra un diagramma composto da due riquadri rettangolari disposti verticalmente e collegati da una freccia verso il basso. Il riquadro superiore contiene il testo \"NOTA DI CREDITO <SI> / NO\", mentre il riquadro inferiore riporta \"NR. PRATICA DI RESO 0\". Sotto il secondo riquadro, è presente una freccia che punta verso il basso e un testo parzialmente leggibile: \"Il display ritorna nel menù princi...\". Lo sfondo è bianco e i bordi dei riquadri sono neri."
+  },
+  {
+    "name": "page32_figure34",
+    "page": 32,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.26 CANCELLA CLIENTE",
+    "images": [
+      "figures2/page32_figure34.png"
+    ],
+    "description": "L'immagine mostra due riquadri rettangolari disposti verticalmente, collegati da una freccia verso il basso. Nel riquadro superiore è presente il testo \"CODICE CLIENTE ?\" seguito dal numero \"11\" allineato a destra. Nel riquadro inferiore è scritto \"CLIENTE CANCELLATO\". Entrambi i riquadri hanno un bordo sottile e il testo è centrato al loro interno. La freccia tra i riquadri indica una sequenza di azioni o un passaggio di stato. Non sono presenti icone, simboli, spie, porte o connettori. La texture è uniforme e non presenta particolari dettagli."
+  },
+  {
+    "name": "page34_figure35",
+    "page": 34,
+    "chapter": "3 PROGRAMMAZIONE (PRG)",
+    "section": "3.32 ABILITA/DISABILITA CONNESSIONE WIFI opzionale)",
+    "images": [
+      "figures2/page34_figure35.png"
+    ],
+    "description": "L'immagine mostra un diagramma di flusso con quattro riquadri principali disposti verticalmente e collegati da frecce che indicano la sequenza delle operazioni. Il primo riquadro in alto contiene il testo \"ABILITA WIFI ? <SI> / NO\", suggerendo un'opzione di scelta per abilitare il WiFi. Segue un riquadro con il testo \"ATTENDERE… >>\", che indica una fase di attesa. Il terzo riquadro presenta il testo \"DISABILITA WIFI ? SI / <NO>\", offrendo un'opzione per disabilitare il WiFi. L'ultimo riquadro mostra \"NOME AP ABC SEGNALE: -52DBM CL\", fornendo informazioni sul nome dell'access point e la potenza del segnale. Le frecce tra i riquadri guidano il flusso logico delle operazioni."
+  },
+  {
+    "name": "page35_figure36",
+    "page": 35,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.1 SCELTA OPERATORE",
+    "images": [
+      "figures2/page35_figure36.png"
+    ],
+    "description": "L'immagine mostra due file di display digitali, ciascuna composta da cinque sezioni rettangolari. Nella fila superiore, i display mostrano i seguenti valori: \"5\", \"0\", \"00\", \"PR. REP.\", \"2\", e \"REP ARTO\". Nella fila inferiore, i display mostrano: \"5\", \"0\", \"00\", \"REPARTO 2\". Ogni sezione è delimitata da una cornice rettangolare e le frecce tra i display indicano una sequenza o un flusso di informazioni. I numeri e i testi sono centrati all'interno di ciascun display. Non sono presenti icone, simboli aggiuntivi, spie, porte o connettori visibili. Le cornici sembrano avere una texture liscia e uniforme."
+  },
+  {
+    "name": "page36_figure37",
+    "page": 35,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.1 SCELTA OPERATORE",
+    "images": [
+      "figures2/page36_figure37.png"
+    ],
+    "description": "L'immagine mostra un esempio di scontrino con diverse sezioni chiaramente etichettate. Nella parte superiore, sotto la dicitura \"RAGIONE SOCIALE\", sono presenti sei righe destinate all'intestazione, che includono informazioni come ubicazione, indirizzo, partita IVA e telefono/fax. Al centro, sotto la voce \"DESCRIZIONE REPARTO\", è riportato \"REPARTO 02\" con l'importo di \"50,00 EURO\". Una linea tratteggiata separa questa sezione dal totale. La sezione \"TOTALE EURO\" evidenzia l'importo totale di \"50,00\", con una specifica per i \"CONTANTI\" dello stesso valore. In basso, sotto \"N° SCONTRINO\", è indicato \"NR.0001 11/02/12 12:07\" seguito da \"MF U1 72000001\", che rappresenta la data, l'ora e un codice identificativo. L'immagine utilizza frecce per indicare le diverse sezioni e le loro descrizioni."
+  },
+  {
+    "name": "page37_figure38",
+    "page": 37,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.3 REGISTRARE QUANTITA' MULTIPLE",
+    "images": [
+      "figures2/page37_figure38.png"
+    ],
+    "description": "L'immagine mostra una sequenza di operazioni per registrare quantità multiple su un dispositivo. I componenti sono rappresentati come pulsanti o display con bordi rettangolari. La sequenza inizia con il numero \"3\", seguito da \"x Ora\", \"1\", \"5\", \"00\", e termina con \"REPARTO 1\". Sotto questa sequenza, un rettangolo contiene il testo \"REG 3X 15,00\", indicando la registrazione di tre articoli al prezzo di 15,00 euro ciascuno. Una freccia punta verso un altro rettangolo che mostra \"REPARTO 01 EURO 45,00\", rappresentando il totale calcolato. Il testo \"visualizza:\" precede quest'ultimo rettangolo, suggerendo che è ciò che appare sul display del dispositivo."
+  },
+  {
+    "name": "page37_figure39",
+    "page": 37,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.3 REGISTRARE QUANTITA' MULTIPLE",
+    "images": [
+      "figures2/page37_figure39.png"
+    ],
+    "description": "L'immagine mostra uno scontrino con diversi elementi testuali disposti verticalmente. In alto, troviamo la dicitura \"RAGIONE SOCIALE\" seguita da \"UBICAZIONE\", \"INDIRIZZO\", \"PARTITA IVA\" e \"TELEFONO/FAX\". Sotto, è presente la sezione relativa all'importo: \"EURO\" è posizionato a destra, seguito dalla descrizione \"3 X 15,00\" e \"REPARTO 01\" con l'importo \"45,00\" allineato a destra. Una linea tratteggiata separa questa sezione dal totale, dove è scritto \"TOTALE EURO\" con l'importo \"45,00\" in grassetto. Sotto, \"CONTANTI\" è seguito dall'importo \"45,00\". In fondo, sono riportati il numero dello scontrino \"NR.0002\" e la data e ora \"11/02/12 12:09\", seguiti da \"MF U1 72000001\". Il layout è semplice e ordinato, con un carattere tipografico standard."
+  },
+  {
+    "name": "page38_figure40",
+    "page": 38,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.4 CALCOLO DEL RESTO",
+    "images": [
+      "figures2/page38_figure40.png"
+    ],
+    "description": "L'immagine mostra una sequenza di display numerici e testuali, simili a quelli di una calcolatrice o di un registratore di cassa. I componenti sono disposti orizzontalmente e separati da frecce che indicano la direzione della sequenza. I display mostrano i seguenti valori: \"8\", \"9\", \"00\", \"REPARTO 3\", \"1\", \"00\", \"00\". Ogni elemento è racchiuso in un rettangolo con bordi spessi, e il testo è centrato all'interno di ciascun riquadro. La disposizione suggerisce una sequenza di digitazione per l'inserimento di dati in un sistema di registrazione."
+  },
+  {
+    "name": "page38_figure41",
+    "page": 38,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.4 CALCOLO DEL RESTO",
+    "images": [
+      "figures2/page38_figure41.png"
+    ],
+    "description": "L'immagine mostra un esempio di scontrino con dettagli specifici. Al centro, il scontrino include le seguenti informazioni: \"RAGIONE SOCIALE\", \"UBICAZIONE\", \"INDIRIZZO\", \"PARTITA IVA\", e \"TELEFONO/FAX\". Sotto, nella colonna \"EURO\", è indicato \"REPARTO 03\" con un importo di \"89,00\". Segue la voce \"TOTALE EURO\" con lo stesso importo di \"89,00\". Più in basso, sono riportati \"CONTANTI\" con \"100,00\" e \"RESTO\" con \"11,00\". Alla fine, ci sono i dettagli \"NR.0004 11/02/12 12:12\" e \"MF U1 72000001\". Ai lati dello scontrino, ci sono due riquadri tratteggiati: a sinistra, con la scritta \"CONTANTI\", e a destra, con la scritta \"RESTO\"."
+  },
+  {
+    "name": "page39_figure42",
+    "page": 39,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.5 SCONTI",
+    "images": [
+      "figures2/page39_figure42.png"
+    ],
+    "description": "L'immagine mostra una sequenza di tasti da digitare su un dispositivo, probabilmente una cassa o un registratore di cassa, per applicare uno sconto. I tasti sono rappresentati in una serie di riquadri rettangolari disposti orizzontalmente. Da sinistra a destra, i tasti sono: \"4\", \"0\", \"00\", \"REPARTO 1\", \"5\", \"00\", e infine un tasto etichettato \"SCONT MAG\". Ogni riquadro è separato da una freccia che indica la sequenza di digitazione. Il testo \"Digitare:\" precede la sequenza, posizionato a sinistra dell'immagine."
+  },
+  {
+    "name": "page39_figure43",
+    "page": 39,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.5 SCONTI",
+    "images": [
+      "figures2/page39_figure43.png"
+    ],
+    "description": "L'immagine mostra una rappresentazione grafica di uno scontrino. A sinistra, c'è un rettangolo tratteggiato con la scritta \"SCONTI\". Una freccia punta verso destra, indicando un scontrino dettagliato. Lo scontrino include le seguenti voci: \"RAGIONE SOCIALE\", \"UBICAZIONE\", \"INDIRIZZO\", \"PARTITA IVA\", \"TELEFONO/FAX\". Sotto queste informazioni, nella colonna \"EURO\", sono elencati \"REPARTO 01\" con l'importo di \"40,00\", \"SCONTI\" con \"-5,00\", e una linea tratteggiata separa queste voci dal \"TOTALE EURO\" di \"35,00\". Sotto, è indicato \"CONTANTI\" con \"35,00\". In fondo, ci sono dettagli come \"NR.0005 11/02/12 12:14\" e \"MF U1 72000001\". L'aspetto generale è quello di un documento stampato con caratteri tipografici chiari e ben allineati."
+  },
+  {
+    "name": "page39_figure44",
+    "page": 39,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.6 MAGGIORAZIONI",
+    "images": [
+      "figures2/page39_figure44.png"
+    ],
+    "description": "L'immagine mostra due tasti stilizzati. Il primo tasto, a sinistra, è etichettato con la scritta \"SHIFT\" ed è rappresentato all'interno di un rettangolo con bordi definiti. Accanto, a destra, c'è un secondo tasto diviso in due sezioni: la parte superiore contiene la scritta \"SCONTI\" e la parte inferiore \"MAGG.\". Entrambi i tasti hanno un aspetto tridimensionale, suggerito dalle linee di contorno. Tra i due tasti è presente una freccia che indica un'azione di passaggio o selezione tra il tasto \"SHIFT\" e il tasto \"SCONTI/MAGG.\"."
+  },
+  {
+    "name": "page40_figure45",
+    "page": 40,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.7 SCONTO PERCENTUALE",
+    "images": [
+      "figures2/page40_figure45.png"
+    ],
+    "description": "L'immagine mostra una sequenza di display digitali, ciascuno racchiuso in una cornice rettangolare. Da sinistra a destra, i display mostrano i seguenti valori e testi: \"3\", \"3\", \"00\", \"REPARTO 5\", \"2\", \"0\", \"00\", e infine un display con i simboli \"%-\" e \"%+\". Ogni display è separato da una freccia che indica la direzione del flusso di dati o operazioni. La disposizione è lineare e ordinata, con caratteri chiari e leggibili. La cornice di ciascun display ha un aspetto tridimensionale, suggerendo un design leggermente in rilievo."
+  },
+  {
+    "name": "page40_figure46",
+    "page": 40,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.7 SCONTO PERCENTUALE",
+    "images": [
+      "figures2/page40_figure46.png"
+    ],
+    "description": "L'immagine rappresenta uno scontrino con vari dettagli. Nella parte superiore, in caratteri maiuscoli e centrati, sono presenti le diciture \"RAGIONE SOCIALE\", \"UBICAZIONE\", \"INDIRIZZO\", \"PARTITA IVA\" e \"TELEFONO/FAX\". Sotto, è riportata una tabella con due colonne: la prima colonna elenca \"REPARTO 05\" e \"SCONTO 20%\", mentre la seconda colonna mostra gli importi corrispondenti, rispettivamente \"33,00\" e \"-6,60\" euro. Una linea tratteggiata separa questa sezione dal totale. La riga successiva evidenzia \"TOTALE EURO\" con l'importo \"26,40\" in grassetto, seguito dalla voce \"CONTANTI\" con lo stesso importo. In fondo, sono riportati il numero dello scontrino \"NR.0006\", la data e l'ora \"11/02/12 12:16\", e un codice \"MF U1 72000001\". L'intero documento è in bianco e nero, con testo ben leggibile e formattato in modo ordinato."
+  },
+  {
+    "name": "page41_figure47",
+    "page": 41,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.8 MAGGIORAZIONE IN PERCENTUALE",
+    "images": [
+      "figures2/page41_figure47.png"
+    ],
+    "description": "L'immagine mostra una sequenza di display digitali rettangolari, ciascuno con un bordo in rilievo. I display contengono i seguenti elementi, da sinistra a destra: \"1\", \"6\", \"00\", \"REPARTO 2\", \"1\", \"0\", \"00\", \"SHIFT\", e \"%+\". Ogni elemento è centrato all'interno del proprio display. I numeri e i testi sono di colore nero su sfondo bianco, con caratteri chiari e leggibili. Non sono presenti icone, simboli aggiuntivi, spie, porte o connettori visibili. La texture appare liscia e uniforme, tipica di un display digitale."
+  },
+  {
+    "name": "page42_figure48",
+    "page": 42,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.9 RESO MERCE",
+    "images": [
+      "figures2/page42_figure48.png"
+    ],
+    "description": "L'immagine mostra una sequenza di tasti disposti in due righe. Nella prima riga, da sinistra a destra, ci sono i tasti con i numeri \"1\", \"0\", \"00\", seguiti dal tasto \"REPARTO 5\". Dopo questo, ci sono i tasti \"SHIFT\" e un tasto con due funzioni indicate: \"STOR.\" e \"RESO\". Nella seconda riga, i tasti mostrano i numeri \"5\", \"00\", seguiti dal tasto \"REPARTO 4\". Ogni tasto è rappresentato all'interno di un rettangolo con frecce che indicano la direzione della sequenza da seguire."
+  },
+  {
+    "name": "page42_figure49",
+    "page": 42,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.9 RESO MERCE",
+    "images": [
+      "figures2/page42_figure49.png"
+    ],
+    "description": "L'immagine mostra uno scontrino di reso merce. A sinistra, un pulsante rettangolare con bordo tratteggiato contiene il testo \"RESO MERCE\". A destra, lo scontrino è suddiviso in sezioni. La parte superiore riporta \"RAGIONE SOCIALE\", \"UBICAZIONE\", \"INDIRIZZO\", \"PARTITA IVA\", \"TELEFONO/FAX\". Sotto, la sezione \"EURO\" elenca \"REPARTO 05\" con l'importo \"10,00\", seguito da \"-- RESO --\" e \"REPARTO 04\" con \"-5,00\". La sezione \"TOTALE EURO\" mostra \"5,00\", con \"CONTANTI\" pari a \"5,00\". In fondo, il numero dello scontrino \"NR.0008\" con data e ora \"11/02/12 12:20\" e il codice \"MF U1 72000001\". Lo scontrino è in bianco e nero, con testo allineato a destra."
+  },
+  {
+    "name": "page43_figure50",
+    "page": 43,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.10 STORNI E ANNULLI",
+    "images": [
+      "figures2/page43_figure50.png"
+    ],
+    "description": "L'immagine mostra una sequenza di tasti e display di un registratore di cassa. I tasti sono disposti in due righe. Nella prima riga, da sinistra a destra, ci sono i tasti con i numeri \"2\", \"0\", \"D\", \"00\", \"D\", seguiti dalla scritta \"REPARTO 5\". Nella seconda riga, i tasti mostrano \"1\", \"1\", \"D\", \"0\", \"00\", seguiti dalla scritta \"REPARTO 3\". Alla fine della seconda riga, c'è un tasto con la scritta \"ANNUL AN-SC.\". Sotto queste righe, è presente un display rettangolare con il testo \"Sul display: REPARTO 03 EURO -110,00\". I tasti e il display sono rappresentati con contorni rettangolari e frecce indicano la sequenza di operazioni."
+  },
+  {
+    "name": "page43_figure51",
+    "page": 43,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.10 STORNI E ANNULLI",
+    "images": [
+      "figures2/page43_figure51.png"
+    ],
+    "description": "L'immagine mostra due elementi principali. A sinistra, un riquadro tratteggiato con una freccia che punta verso destra, contenente il testo \"ANNULLATA ULTIMA OPERAZIONE\". A destra, un esempio di scontrino con intestazione \"RAGIONE SOCIALE\" seguita da \"UBICAZIONE INDIRIZZO PARTITA IVA TELEFONO/FAX\". Sotto, una tabella con due colonne: la prima elenca \"REPARTO 05\", \"REPARTO 03\", \"-- ANNULLO --\", \"REPARTO 03\", \"TOTALE EURO\", \"CONTANTI\", e un numero di riferimento con data e ora \"NR.0009 11/02/12 12:30 MF U1 72000001\". La seconda colonna mostra gli importi in euro: \"20,00\", \"110,00\", \"-110,00\", \"30,00\", \"30,00\". Il layout è semplice e chiaro, con testo allineato a sinistra e importi allineati a destra."
+  },
+  {
+    "name": "page44_figure52",
+    "page": 44,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.10 STORNI E ANNULLI",
+    "images": [
+      "figures2/page44_figure52.png"
+    ],
+    "description": "L'immagine mostra una sequenza di operazioni su una calcolatrice o registratore di cassa, rappresentata attraverso una serie di pulsanti numerici e di funzione. I pulsanti sono disposti in tre righe principali. Nella prima riga, i pulsanti mostrano i numeri \"2\", \"0\", \"0\", seguiti dalla dicitura \"REPARTO 5\". Nella seconda riga, i pulsanti mostrano \"1\", \"1\", \"0\", seguiti da \"00\" e \"REPARTO 2\". Alla fine di questa riga, c'è un pulsante con la scritta \"STOR. RESO\". Nella terza riga, i pulsanti mostrano \"2\", \"0\", \"0\", seguiti da \"REPARTO 5\". A destra, c'è una sezione etichettata \"A display:\" che mostra un display con il testo \"REPARTO 05\", \"EURO\", e \"-20,00\"."
+  },
+  {
+    "name": "page44_figure53",
+    "page": 44,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.10 STORNI E ANNULLI",
+    "images": [
+      "figures2/page44_figure53.png"
+    ],
+    "description": "L'immagine mostra un esempio di scontrino emesso dopo un'operazione di storno. A sinistra, un riquadro tratteggiato contiene le parole \"STORNO\", \"IMPORTO\" e \"REPARTO\", con una freccia che punta verso destra. A destra, lo scontrino è suddiviso in diverse sezioni. In alto, sono presenti intestazioni generiche come \"RAGIONE SOCIALE\", \"UBICAZIONE\", \"INDIRIZZO\", \"PARTITA IVA\" e \"TELEFONO/FAX\". Sotto, la sezione centrale elenca i reparti e gli importi: \"REPARTO 05\" con 20,00 Euro, \"REPARTO 02\" con 110,00 Euro, seguito da una linea tratteggiata con la dicitura \"-- STORNO --\", e \"REPARTO 05\" con -20,00 Euro. Nella parte inferiore, il totale è indicato come \"TOTALE EURO 5,00\" e \"CONTANTI 5,00\". Infine, in basso, sono riportati il numero dello scontrino e la data e ora: \"NR.0010 11/02/12 12:35\" e il codice \"MF U1 72000001\"."
+  },
+  {
+    "name": "page45_figure54",
+    "page": 45,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.10 STORNI E ANNULLI",
+    "images": [
+      "figures2/page45_figure54.png"
+    ],
+    "description": "L'immagine mostra una sequenza di tasti disposti in due righe, ciascuno all'interno di un riquadro rettangolare. Nella prima riga, da sinistra a destra, i tasti sono: \"2\", \"0\", \"00\", \"PR. REP.\", \"9\", \"REP. ARTO\". Nella seconda riga, i tasti sono: \"5\", \"00\", \"PR. REP.\", \"8\", \"REP. ARTO\", \"SHIFT\", \"ANNUL AN-SC.\". Ogni tasto è separato da una freccia che indica la direzione della sequenza. I tasti hanno un aspetto tridimensionale con bordi in rilievo."
+  },
+  {
+    "name": "page45_figure55",
+    "page": 45,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.10 STORNI E ANNULLI",
+    "images": [
+      "figures2/page45_figure55.png"
+    ],
+    "description": "L'immagine mostra un esempio di scontrino annullato. Nella parte superiore, sono presenti le diciture \"RAGIONE SOCIALE\", \"UBICAZIONE\", \"INDIRIZZO\", \"PARTITA IVA\", e \"TELEFONO/FAX\", che rappresentano i dati aziendali. Sotto, sono elencati i reparti con i relativi importi: \"REPARTO 09\" con 20,00 Euro e \"REPARTO 08\" con 5,00 Euro, seguiti da un \"SUB-TOTALE\" di 25,00 Euro. Successivamente, appare la dicitura \"STORNO SCONTRINO\" e \"SCONTRINO ANNULLATO\" con un importo di -25,00 Euro. Il \"TOTALE EURO\" è indicato come 0,00 Euro. In fondo, sono riportati il numero dello scontrino \"NR.0011\", la data e l'ora \"11/02/12 12:40\", e un codice \"MF U1 72000001\". A sinistra, una freccia tratteggiata punta verso il testo \"STORNO SCONTRINO\". L'intero scontrino è rappresentato in un formato rettangolare con testo allineato a sinistra e importi allineati a destra."
+  },
+  {
+    "name": "page46_figure56",
+    "page": 46,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.11 FORME DI PAGAMENTO",
+    "images": [
+      "figures2/page46_figure56.png"
+    ],
+    "description": "L'immagine mostra una sequenza di display digitali, ciascuno racchiuso in una cornice rettangolare con bordi arrotondati. I display presentano numeri e testi in caratteri neri su sfondo chiaro. Da sinistra a destra, i display mostrano: \"9\", \"0\", \"00\", \"PR. REP.\", \"6\", \"REP ARTO\", e \"SUBTOTALE\". Ogni elemento è separato da una freccia che indica la direzione della sequenza. La disposizione è lineare e ordinata, con una chiara distinzione tra i numeri e le etichette testuali."
+  },
+  {
+    "name": "page46_figure57",
+    "page": 46,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.11 FORME DI PAGAMENTO",
+    "images": [
+      "figures2/page46_figure57.png"
+    ],
+    "description": "L'immagine mostra una sequenza di pulsanti disposti orizzontalmente, ciascuno all'interno di un riquadro rettangolare con bordi leggermente spessi. Da sinistra a destra, i pulsanti presentano i seguenti testi: \"5\", \"0\", \"00\", \"ASSEGNI\" e \"CONTANTI\". Ogni pulsante è separato da una freccia che indica la direzione verso il pulsante successivo. I riquadri hanno un aspetto tridimensionale con un effetto di ombreggiatura che conferisce profondità. I testi sono centrati all'interno dei riquadri e sono scritti in caratteri maiuscoli."
+  },
+  {
+    "name": "page48_figure59",
+    "page": 48,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.12 STAMPA CODICE FISCALE E STRINGA ALFANUMERICA",
+    "images": [
+      "figures2/page48_figure59.png"
+    ],
+    "description": "L'immagine mostra un esempio di scontrino fiscale. Nella parte superiore, sono elencati i dettagli della \"RAGIONE SOCIALE\", \"UBICAZIONE\", \"INDIRIZZO\", \"PARTITA IVA\" e \"TELEFONO/FAX\". Sotto questi, è indicato \"EURO\" seguito da \"50,00\" e \"REPARTO 01\". Una linea tratteggiata separa questa sezione dalla successiva, dove sono riportati \"SUB-TOTALE\", \"TOTALE EURO\" e \"CONTANTI\", ciascuno con l'importo di \"50,00\". Più in basso, è presente il \"C.F. 01033470251\". In fondo, ci sono i dettagli \"NR.0013 11/02/12 12:49\" e \"MF U1 72000001\". Accanto allo scontrino, una freccia punta verso un riquadro con la scritta \"STAMPA CODICE FISCALE\". Sotto, una nota specifica che il codice fiscale può essere inserito prima o durante uno scontrino in corso, e che la stampa verrà eseguita in testa agli articoli o al termine delle registrazioni."
+  },
+  {
+    "name": "page49_figure60",
+    "page": 49,
+    "chapter": "4 REGISTRAZIONI (REG)",
+    "section": "4.12 STAMPA CODICE FISCALE E STRINGA ALFANUMERICA",
+    "images": [
+      "figures2/page49_figure60.png"
+    ],
+    "description": "L'immagine mostra un esempio di scontrino fiscale con diverse sezioni di testo. In alto, sono presenti le intestazioni \"RAGIONE SOCIALE\", \"UBICAZIONE\", \"INDIRIZZO\", \"PARTITA IVA\" e \"TELEFONO/FAX\". Sotto queste, vi è una sezione dedicata agli importi in euro, con due righe alfanumeriche: \"#12345ABCDEFG\" associata a \"REPARTO 01\" con un importo di \"50,00\" e \"#56789LMNOPQR\" associata a \"REPARTO 02\" con un importo di \"30,00\". Seguono le voci \"SUB-TOTALE\", \"TOTALE EURO\" e \"CONTANTI\", tutte con l'importo di \"80,00\". In fondo, sono riportati il numero di registrazione \"NR.0014\", la data e l'ora \"11/02/12 12:50\", e un codice \"MF U1 72000001\". A destra, un riquadro tratteggiato con la scritta \"STAMPA STRINGA ALFANUMERICA\" è collegato con una freccia alla parte centrale dello scontrino."
+  },
+  {
+    "name": "page54_figure61",
+    "page": 54,
+    "chapter": "5 LETTURE - MODALITA' X",
+    "section": "5.2 LETTURA GIORNALIERA REPARTI",
+    "images": [
+      "figures2/page54_figure61.png"
+    ],
+    "description": "L'immagine mostra uno scontrino con intestazione \"** NON FISCALE **\" sia in alto che in basso. Al centro, il titolo \"TOTALI GIORN.REPARTI\" è seguito dalla colonna \"EURO\". Sotto, sono elencati tre reparti: \"REPARTO 1\" con \"1,00\", \"REPARTO 2\" con \"2,00\" e \"REPARTO 3\" con \"3,00\", ciascuno accompagnato da \"Q.1\". Una linea separa i totali, con \"TOT.\" indicante \"6,00\" e \"Q. 3\". In fondo, è riportato \"NR.0001 12/02/12 12:50\". La disposizione è ordinata e simmetrica, con testo allineato a sinistra e valori numerici a destra."
+  },
+  {
+    "name": "page54_figure62",
+    "page": 54,
+    "chapter": "5 LETTURE - MODALITA' X",
+    "section": "5.4 LETTURA GIORNALIERA OPERATORI",
+    "images": [
+      "figures2/page54_figure62.png"
+    ],
+    "description": "L'immagine mostra un documento stampato con intestazione e dettagli relativi alla lettura giornaliera degli operatori. Nella parte superiore, centrato, è presente il testo \"** NON FISCALE **\". Sotto, in caratteri maiuscoli e centrati, si legge \"TOTALI OPERATORI\". Seguono dettagli specifici: sulla sinistra, il nome \"MARIO\" e sotto di esso \"Q.2\", mentre sulla destra è indicato l'importo \"EURO 36,00\". Una linea tratteggiata separa questi dati dal totale, dove è riportato \"TOT.\" seguito da \"36,00\" e \"Q. 2\". In fondo, si trova il numero di riferimento \"NR.0003\" con la data e l'ora \"12/02/12 12:52\". Infine, in basso, è ripetuto il testo \"** NON FISCALE **\". L'intero documento è in bianco e nero, con un layout semplice e chiaro."
+  },
+  {
+    "name": "page55_figure63",
+    "page": 55,
+    "chapter": "5 LETTURE - MODALITA' X",
+    "section": "5.5 LETTURA GIORNALIERA IVA",
+    "images": [
+      "figures2/page55_figure63.png"
+    ],
+    "description": "L'immagine mostra un documento con intestazione \"** NON FISCALE **\" sia in alto che in basso. Al centro, il titolo \"TOTALI GIORN. IVA\" è seguito dalla colonna \"EURO\". Sotto, ci sono diverse voci: \"ESENTE\" con un valore di \"0,00\", \"CORRISP. 10%\" con \"10,00\", \"IMPON.\" con \"9,09\", e \"IVA\" con \"0,91\". Segue \"CORRISP. 20%\" con \"26,00\", \"IMPON.\" con \"21,67\", e \"IVA\" con \"4,33\". In fondo, è riportato \"NR.0004 12/02/12 12:54\". Il documento sembra essere una lettura giornaliera IVA con dettagli su importi esenti, imponibili e IVA per diverse aliquote."
+  },
+  {
+    "name": "page55_figure64",
+    "page": 55,
+    "chapter": "5 LETTURE - MODALITA' X",
+    "section": "5.7 LETTURA GIORNALIERA FASCE ORARIE",
+    "images": [
+      "figures2/page55_figure64.png"
+    ],
+    "description": "L'immagine mostra un documento con intestazione \"** NON FISCALE **\" centrata in alto e in basso. Al centro, il titolo \"TOTALI ORARI\" è evidenziato in caratteri maiuscoli. Sotto, sono elencate due fasce orarie: \"10:00-10:59\" e \"11:00-11:59\". Accanto a ciascuna fascia, è riportato il numero di scontrini emessi (\"Q. 1\") e l'importo in euro: \"6,00\" per la prima fascia e \"30,00\" per la seconda. Una linea orizzontale separa questi dati dal totale, indicato come \"TOT. 36,00\" e \"Q. 2\". In fondo, è presente un numero di riferimento e una data/ora: \"NR.0005 12/02/12 12:55\". Il documento è semplice, con testo allineato a sinistra e numeri allineati a destra."
+  },
+  {
+    "name": "page56_figure65",
+    "page": 56,
+    "chapter": "5 LETTURE - MODALITA' X",
+    "section": "5.8 LETTURA TOTALI FINANZIARI GIORNALIERI",
+    "images": [
+      "figures2/page56_figure65.png"
+    ],
+    "description": "L'immagine mostra una tabella con i totali finanziari giornalieri, etichettata come \"** NON FISCALE **\". La tabella è organizzata in colonne con intestazioni \"TOTALI FINANZIARI\" e \"EURO\". I dettagli includono:\n\n- \"CONTANTI\" con un importo di \"20,00\" euro, seguito da \"Q.2\".\n- \"CORR. NON RISC.\" con \"10,00\" euro, seguito da \"Q.1\".\n- \"ASSEGNI\" con \"6,00\" euro, seguito da \"Q.1\".\n- Una riga di separazione orizzontale.\n- \"TOT.\" con un totale di \"36,00\" euro, seguito da \"Q.4\".\n- \"IN CASSA\" con \"26,00\" euro.\n- Una riga con \"NR.0006 12/02/12\" e l'orario \"12:57\".\n- Alla fine, la dicitura \"** NON FISCALE **\" è ripetuta.\n\nLa disposizione è chiara e ordinata, con importi allineati a destra sotto la colonna \"EURO\"."
+  },
+  {
+    "name": "page56_figure66",
+    "page": 56,
+    "chapter": "5 LETTURE - MODALITA' X",
+    "section": "5.10 LETTURA GIORNALIERA DETTAGLIO GRUPPI REPARTO",
+    "images": [
+      "figures2/page56_figure66.png"
+    ],
+    "description": "L'immagine mostra uno scontrino con intestazione \"** NON FISCALE **\" sia in alto che in basso. Al centro, il titolo \"GI. DETTAGLIO GRUPPI\" è seguito dalla categoria \"BIBITE\" con due voci: \"COCA\" al prezzo di 1,00 euro con quantità \"Q. 1\" e \"ARANCIATA\" al prezzo di 2,00 euro con quantità \"Q. 1\". Il totale per le bibite è 3,00 euro con una percentuale del 30,00% e quantità totale \"Q. 2\". Sotto, la categoria \"PANINI\" include \"CLASSICO\" al prezzo di 3,00 euro con quantità \"Q. 1\" e \"VEGETARIANO\" al prezzo di 4,00 euro con quantità \"Q. 1\". Il totale per i panini è 7,00 euro con una percentuale del 70,00% e quantità totale \"Q. 2\". In fondo, è presente il numero \"NR.0001\" con la data e l'ora \"12/02/12 10:50\"."
+  },
+  {
+    "name": "page57_figure67",
+    "page": 57,
+    "chapter": "5 LETTURE - MODALITA' X",
+    "section": "5.12 LETTURA GIORNALIERA GRUPPI REPARTO",
+    "images": [
+      "figures2/page57_figure67.png"
+    ],
+    "description": "L'immagine mostra uno scontrino con intestazione \"** NON FISCALE **\" centrata in alto. Sotto, il titolo \"GIOR. TOTALE GRUPPI\" è evidenziato in grassetto. La sezione è divisa in due categorie: \"BIBITE\" e \"PANINI\". Per \"BIBITE\", sono riportati \"TOT.\" con un valore di \"3,00 EURO\", \"30.00% Q.\" e la quantità \"2\". Per \"PANINI\", \"TOT.\" ha un valore di \"7,00 EURO\", \"70.00% Q.\" e la quantità \"2\". In fondo, è presente il numero \"NR.0002\" seguito dalla data e ora \"12/02/12 10:51\". L'intestazione \"** NON FISCALE **\" è ripetuta anche in basso. Il layout è semplice, con linee tratteggiate che separano le sezioni."
+  },
+  {
+    "name": "page59_figure68",
+    "page": 59,
+    "chapter": "6 CHIUSURA FISCALE, LETTURA MEMORIA FISCALE E GIORNALE ELETTRONICO (DGFE)",
+    "section": "6.1 CHIUSURA FISCALE GIORNALIERA",
+    "images": [
+      "figures2/page59_figure68.png"
+    ],
+    "description": "L'immagine mostra due sezioni principali di un diagramma di flusso per la chiusura fiscale giornaliera. La prima sezione, in alto, contiene un riquadro con il testo \"-STAMPE/AZZER.- Chiusura Fiscale\" seguito da una freccia verso il basso. Accanto, a destra, c'è l'istruzione \"A) Premere [CONTANTI].\" La seconda sezione, in basso, presenta un altro riquadro con il testo \"Confermi ? <SI > / NO\" e una freccia che punta verso il basso. Accanto, a destra, si trova l'istruzione \"B) Scegliere SI o NO (tasto [REPARTO] o [PREZZO REPARTO]) e premere [CONTANTI].\" Il layout è semplice e chiaro, con frecce che guidano il flusso delle operazioni."
+  },
+  {
+    "name": "page60_figure69",
+    "page": 60,
+    "chapter": "6 CHIUSURA FISCALE, LETTURA MEMORIA FISCALE E GIORNALE ELETTRONICO (DGFE)",
+    "section": "6.1 CHIUSURA FISCALE GIORNALIERA",
+    "images": [
+      "figures2/page60_figure69.png"
+    ],
+    "description": "L'immagine mostra un esempio di stampa per la chiusura fiscale giornaliera. A sinistra, una tabella elenca diverse voci con i relativi importi in euro. Le voci includono \"VENDITE\" con 110,00 euro, \"GRAN TOTALE\" con 549,46 euro, \"RESI\" con 10,00 euro, \"STORNI /ANN\" con 25,00 euro, \"ANN. SCONTR.\" con 29,97 euro, \"SCONTI\" con 2,00 euro, \"SCONTI %\" con 3,00 euro, \"CORR.NON RISC.\" con 5,00 euro, \"NOTE DI CREDITO\" con 1, \"TOT.N. DI CREDITO\" con 10,00 euro, \"PR.N.DI CREDITO\" con 5, \"GT N. DI CREDITO\" con 150,00 euro, \"FATTURE N.\" con 2, e \"TOTALE FATTURE\" con 120,00 euro. Altre voci includono \"CHIUSURA FISCALE\" con 0014, \"SCONTRINI FISCALI\" con 0007, \"DOCUMENTI NON FISC.\" con 0002, \"LETTURE MEM. FISC.\" con 0000, \"N.0007 13/02/12\" con l'orario 19:35, e \"RIPRISTINI\" con 0001. In fondo, è presente la dicitura \"DFGE: 01 SIGIL. FISC. : ABCD\" e \"MF U1 72000001\". A destra, sono presenti delle frecce che collegano le voci della tabella a una serie di descrizioni: \"Totale dei corrispettivi fiscali\", \"GT (Totale progressivo)\", \"Annulli, Resi, Storni\", \"Sconti e Maggiorazioni\", \"Totale dei corrispettivi non riscossi\", \"NOTE DI CREDITO\", \"FATTURE INTERNE\", \"Azzeramenti eseguiti\", \"Scontrini fiscali emessi\", \"Scontrini non fiscali emessi\", \"Letture della memoria fiscale\", \"Numero scontrino fiscale, data e ora della chiusura\", \"Numero di reset eseguiti dal tecnico (max. 200)\", e \"Numero progressivo del giornale elettronico e sigillo fiscale della chiusura\". In alto a sinistra, è presente un'intestazione con \"RAGIONE SOCIALE\", \"UBICAZIONE\", \"INDIRIZZO\", \"PARTITA IVA\", \"TELEFONO/FAX\". In alto a destra, c'è una nota che ricorda di verificare lo stato del rotolo di carta prima di procedere con la stampa della chiusura giornaliera."
+  },
+  {
+    "name": "page61_figure70",
+    "page": 61,
+    "chapter": "6 CHIUSURA FISCALE, LETTURA MEMORIA FISCALE E GIORNALE ELETTRONICO (DGFE)",
+    "section": "6.2 LETTURE MEMORIA FISCALE",
+    "images": [
+      "figures2/page61_figure70.png"
+    ],
+    "description": "L'immagine mostra un display e una stampa di un dispositivo fiscale. Nella parte superiore, il display visualizza \"-STAMPE/AZZER.- MF integrale\". Sotto, c'è una stampa con vari dettagli. Inizia con \"RAGIONE SOCIALE\", seguita da campi per \"UBICAZIONE\", \"INDIRIZZO\", \"PARTITA IVA\", e \"TELEFONO/FAX\". Seguono le intestazioni \"LETT. INTEGR. MEM. FISC.\" e \"EURO\". La stampa elenca diverse voci, tra cui:\n\n- \"DGFE N. 01 INIZIALIZZATO IL 01/12/11 ALLE 08:55\"\n- \"AZZ.N.0001 DEL 01/12/11 CORRISPETTIVO 10,00 DGFE: 01 SIGIL. FISC: XYXY\"\n- \"NOTE DI CREDITO 0 TOT.N. DI CREDITO 0,00\"\n- \"AZZ.N.0002 DEL 02/12/11 CORRISPETTIVO 35,00 DGFE: 01 SIGIL. FISC: XZYZ\"\n- \"FATTURE 2 TOT. FATTURE 125,00\"\n- \"AZZ.N.0003 DEL 03/12/11 CORRISPETTIVO 78,00 DGFE: 01 SIGIL. FISC: XYZZ\"\n- \"TOTALE CORRISPETTIVI EURO 123,00\"\n- \"NR.0001 04/12/11 09:01 MF U1 72000001\"\n\nIl documento sembra essere una stampa di riepilogo fiscale con dettagli su corrispettivi, note di credito e fatture."
+  },
+  {
+    "name": "page62_figure71",
+    "page": 62,
+    "chapter": "6 CHIUSURA FISCALE, LETTURA MEMORIA FISCALE E GIORNALE ELETTRONICO (DGFE)",
+    "section": "6.3 LETTURE GIORNALE ELETTRONICO DGFE",
+    "images": [
+      "figures2/page62_figure71.png"
+    ],
+    "description": "L'immagine mostra un display con un testo suddiviso su due righe. La prima riga riporta la dicitura \"-- STAMPE/AZZERERAM. --\", mentre la seconda riga mostra \"DGFE integrale\". Sotto il testo è presente una freccia rivolta verso il basso. Lo sfondo del display è bianco con caratteri neri, e il bordo è delineato da una linea sottile. Non sono presenti altri elementi visibili come icone, simboli, spie, porte o connettori."
+  },
+  {
+    "name": "page67_figure72",
+    "page": 67,
+    "chapter": "8 LOGO GRAFICO",
+    "section": null,
+    "images": [
+      "figures2/page67_figure72.png"
+    ],
+    "description": "L'immagine mostra uno scontrino fiscale con vari elementi grafici e testuali. In alto, è presente un logo grafico con la scritta \"TERRAZZA BAR\" accompagnata da un disegno stilizzato di una luna e una tazzina di caffè. Sotto, sono riportati i dettagli del bar: \"TERRAZZA BAR DI EUGENIO ROSSI, VIA G. LEOPARDI, 31, 55110 LUCCA\". Segue una tabella con due colonne, la prima con i nomi dei prodotti (\"CAFFE'\", \"BRIOCHES\") e la seconda con i relativi prezzi in euro (\"0,80\", \"1,20\"). Sotto la tabella, è indicato il \"SUB-TOTALE\" di 2,00 euro, il \"TOTALE EURO\" di 2,00 euro e l'importo pagato in \"CONTANTI\" di 2,00 euro. In fondo allo scontrino, sono riportati il numero progressivo \"NR.0021\", la data e l'ora \"09/01/12 07:49\", e il codice \"MF U1 72000001\". Infine, in basso a destra, è presente un disegno di una tazzina di caffè fumante con la scritta \"Grazie e Arrivederci\"."
+  },
+  {
+    "name": "page71_figure73",
+    "page": 71,
+    "chapter": "11 INFORMAZIONI AGLI UTENTI",
+    "section": "11.1 RIMOZIONE DELLA BATTERIA INTERNA",
+    "images": [
+      "figures2/page71_figure73.png"
+    ],
+    "description": "L'immagine mostra una sezione di una scheda elettronica con vari componenti. Al centro, è visibile una batteria a bottone, identificata con la sigla \"BT1\". Accanto alla batteria, si trova il punto di test \"TP1\". Sono presenti diverse serigrafie con sigle come \"R37\", \"C44\", \"E22\", \"PRN\", \"BUZ1\", e \"JUF\", che indicano probabilmente resistenze, condensatori e altri componenti elettronici. La scheda presenta una texture tipica del circuito stampato, con tracce di rame visibili sotto la superficie. Non ci sono icone o simboli particolari visibili, né spie luminose o porte/connettori evidenti nell'immagine."
+  },
+  {
+    "name": "page71_figure74",
+    "page": 71,
+    "chapter": "11 INFORMAZIONI AGLI UTENTI",
+    "section": "11.1 RIMOZIONE DELLA BATTERIA INTERNA",
+    "images": [
+      "figures2/page71_figure74.png"
+    ],
+    "description": "L'immagine mostra una scheda elettronica vista di lato, con un saldatore avvicinato alla superficie della scheda. La scheda presenta vari componenti elettronici, tra cui piazzole e tracce visibili. Non sono chiaramente leggibili testi o simboli specifici sulla scheda. La texture della scheda è tipica di un circuito stampato, con una superficie liscia e componenti saldati. Il saldatore è posizionato vicino a una delle piazzole, suggerendo un'operazione di dissaldatura. L'immagine è in bianco e nero, il che rende difficile distinguere i colori dei componenti."
+  },
+  {
+    "name": "page72_figure75",
+    "page": 72,
+    "chapter": "11 INFORMAZIONI AGLI UTENTI",
+    "section": "11.2 SMALTIMENTO DEL PRODOTTO",
+    "images": [
+      "figures2/page72_figure75.png"
+    ],
+    "description": "L'immagine mostra un simbolo di un cassonetto barrato. Il cassonetto è rappresentato in modo stilizzato, con due ruote visibili alla base e un coperchio nella parte superiore. Una linea diagonale attraversa il simbolo, indicando che l'oggetto non deve essere smaltito con i rifiuti domestici. Sotto il simbolo, c'è una barra nera, ma non sono presenti testi leggibili."
+  }
+]

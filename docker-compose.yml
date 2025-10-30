@@ -1,0 +1,45 @@
+services:
+  backend:
+    build:
+      context: ./BE
+      dockerfile: Dockerfile
+    container_name: rag-backend
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./BE:/app
+      - ./BE/RagCode/audit:/app/RagCode/audit
+      - ./BE/AllVectorDB:/app/AllVectorDB
+      - ./BE/RagCode/.logs:/app/RagCode/.logs
+    working_dir: /app/RagCode
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+    networks:
+      - ragnet
+    restart: always
+
+  frontend:
+    build:
+      context: ./FE
+      dockerfile: Dockerfile
+    container_name: rag-frontend
+    env_file:
+      - .env
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./FE:/app
+    environment:
+      - API_BASE_URL=http://backend:8000/api
+    depends_on:
+      - backend
+    working_dir: /app
+    command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+    networks:
+      - ragnet
+    restart: always
+
+networks:
+  ragnet:
+    driver: bridge

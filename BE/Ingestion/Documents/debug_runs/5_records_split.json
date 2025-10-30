@@ -1,0 +1,1052 @@
+[
+  {
+    "Testo": "# 1 DESCRIZIONE GENERALE  \nDall'avanzata ricerca tecnologica di RCH GROUP nasce PRINT! F, l'innovativo sistema di\ngestione del punto vendita.  \nPRINT! F è un prodotto modulare interamente pensato, progettato e realizzato da RCH\nGROUP.  \nPRINT! F permette di fornire un servizio più rapido ai tuoi clienti, perché dotata di taglierina\nautomatica, cambio rotolo con sistema di caricamento \"drop-in\" e meccanismo di stampa a\n300 mm/sec.  \nPRINT! F si integra facilmente nell'infrastruttura esistente, grazie alle interfacce, SERIALE,\nUSB ed ETHERNET ed ai molteplici protocolli di comunicazione gestiti.  \nPRINT! F stampa 48 caratteri per riga e supporta la stampa barcode nei molteplici formati.",
+    "Pagina": 4,
+    "Capitolo #": "1 DESCRIZIONE GENERALE",
+    "Sezione ##": null,
+    "Lista di Figure interne": [],
+    "Global_order": 1
+  },
+  {
+    "Testo": "## 1.1 CARATTERISTICHE TECNICHE  \n<table>\n<tr>\n<td>- Alimentazione :</td>\n<td>Tipo esterno. Input: 100-240V 50-60 Hz Output : +24V 2.5A 60W</td>\n</tr>\n<tr>\n<td>- Tecnologia di stampa :</td>\n<td>Stampante termica con taglierina automatica</td>\n</tr>\n<tr>\n<td>- Qualità di stampa :</td>\n<td>8dot/mm</td>\n</tr>\n<tr>\n<td>- Velocità di stampa :</td>\n<td>300 mm/sec (Alta velocità)</td>\n</tr>\n<tr>\n<td>- Carta :</td>\n<td>Utilizzare carta termica omologata per misuratori fiscali.</td>\n</tr>\n<tr>\n<td>- Rotolo :</td>\n<td>Larghezza 80 mm +0 - 0,5 mm, diametro max. 83 mm</td>\n</tr>\n<tr>\n<td>- Giornale Elettronico (DGFE):</td>\n<td>MMC (Multi Media Card)</td>\n</tr>\n<tr>\n<td rowspan=\"4\">- Interfacce disponibili :</td>\n<td>- 1 porta RJ11 per alimentazione cassetto 24V - 1 porta seriale RS 232</td>\n</tr>\n<tr>\n<td>- 1 porta Ethernet LAN,</td>\n</tr>\n<tr>\n<td>- 1 porta USB device;</td>\n</tr>\n<tr>\n<td>- 1 porta PS/2</td>\n</tr>\n<tr>\n<td rowspan=\"2\">- Condizioni ambientali :</td>\n<td>Temperatura di funzionamento 0 ℃ - 40° C</td>\n</tr>\n<tr>\n<td>Umidità relativa 35% - 85% senza condensa</td>\n</tr>\n<tr>\n<td>- Dimensioni stampante :</td>\n<td>L 138 x P 175 x H 120 mm</td>\n</tr>\n<tr>\n<td>- Peso :</td>\n<td>1250 g</td>\n</tr>\n<tr>\n<td>- Tastiera (opzionale) :</td>\n<td>28 o 40 tasti</td>\n</tr>\n<tr>\n<td>- Display :</td>\n<td>LCD a torretta 2 righe per 20 caratteri alfanumerico</td>\n</tr>\n</table>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"4\" -->\n<!-- PageBreak -->",
+    "Pagina": 4,
+    "Capitolo #": "1 DESCRIZIONE GENERALE",
+    "Sezione ##": "1.1 CARATTERISTICHE TECNICHE",
+    "Lista di Figure interne": [],
+    "Global_order": 2
+  },
+  {
+    "Testo": "## 1.2 NORME DI SICUREZZA  \nPremesso che PRINT! F deve essere installato presso il punto vendita esclusivamente da\npersonale tecnico autorizzato, ricordiamo che per un buon funzionamento è opportuno\nattenersi alle seguenti indicazioni:  \n\\- all'atto dell'installazione verificare che l'impianto elettrico sia dotato di un corretto\ncollegamento di terra, che la presa di corrente sia installata in prossimità\ndell'apparecchio e sia di facile accesso;  \n\\- evitare di far funzionare l'apparecchio in luoghi eccessivamente freddi o\neccessivamente caldi o esposti a raggi solari diretti per lungo tempo (il\nfunzionamento corretto è garantito per temperature comprese tra 0°℃ e 50℃);  \n\\- evitare che l'apparecchio venga a contatto con liquidi di qualsiasi genere;  \n\\- evitare di far funzionare l'apparecchio in luoghi molto polverosi;  \n\\- L'apparecchio contiene una batteria ricaricabile al LITIO la cui sostituzione è\nconsentita esclusivamente da parte del personale tecnico autorizzato.  \nNell'eventualità di guasti o malfunzionamenti che impediscano un corretto funzionamento\ndell'apparecchio dal punto di vista fiscale, il registratore di cassa si blocca, sul display\ncompare un codice numerico e viene emesso un segnale acustico.  \nIn questi casi è opportuno spegnere la macchina e fare intervenire il servizio d'assistenza\ntecnica del Centro autorizzato.  \nL'apparecchio deve in ogni caso essere sottoposto ad una revisione (visita periodica)\nalmeno una volta l'anno o comunque non oltre un anno dalla data dell'ultimo intervento,\nrisultante dal libretto di dotazione fiscale; l'utilizzatore è obbligato ad attenersi a questa\ndisposizione, in dipendenza di quanto indicato dalla normativa in vigore (Legge n. 18 del\n26/01/83 e successivi decreti d'applicazione).  \nQuando PRINT! F è prossimo all'esaurimento della Memoria Fiscale, in testa agli scontrini\nd'azzeramento giornaliero compare il messaggio \"memoria fiscale in esaurimento, -XX\nchiusure\".  \nTale messaggio è stampato a decorrere da 60 azzeramenti prima del completamento della\nMemoria Fiscale e pertanto l'utilizzatore è preavvisato con circa due mesi d'anticipo.  \n**ALTRE AVVERTENZE :**  \nPRINT! F è dotato di stampante termica, quindi, è fatto obbligo di utilizzare carta termica\nomologata riportante sia gli estremi dell'omologazione sia la data di scadenza, secondo\nquanto specificato nel D.M. del Min. Finanze, 30/03/93, all. E. Inoltre l'utilizzatore dovrà\nconservare i documenti previsti dalla legge, in luoghi oscuri, con umidità relativa inferiore\nall' 80% e temperatura inferiore a 35°℃, evitando il contatto diretto con materiali plastici ed\nin particolare con polivinilcloruro.  \nGli scontrini di chiusura giornaliera devono essere conservati per 10 anni dalla data di\nemissione, mentre la memoria DGFE (supporto Multi Media Card, specifico e certificato\ndal produttore) deve essere conservata per due anni dalla data dell'ultima registrazione\n(scontrino fiscale) effettuata.  \nApparecchio a norme\nCE  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"5\" -->\n<!-- PageBreak -->  \n<figure>",
+    "Pagina": 5,
+    "Capitolo #": "1 DESCRIZIONE GENERALE",
+    "Sezione ##": "1.2 NORME DI SICUREZZA",
+    "Lista di Figure interne": [],
+    "Global_order": 3
+  },
+  {
+    "Testo": "## 1.3 VISTE  \nUSCITA SCONTRINO  \n844  \nEURO  \n2.00  \nTOTALE EURO\nCONTANTI  \n2.00\n2.00  \nNADOOG  \n14/05/12 0.52  \nMEU1 72123458  \nPrint! F  \nVANO MMC\n(DGFE)  \nConnettore TASTIERA PS2  \nSpia ANOMALIA STAMPANTE  \nSpia FINE CARTA  \nSpia POWER\n(acceso/spento)  \nU  \nTasto AVANZAMENTO\nCARTA (Feed)  \nRCH\nVie Cendon, 39\nZzina (TV)  \nA  \nNOTA; simula anche il\ntasto CL (cancella), nel\ncaso di errore.  \nOTALE EURO\nCONTANTI  \nMROXXO  \nEURO\n2.00  \n2.00  \n14/00/12 952  \n2.00  \nTasto\nAPERTURA\nCOPERCHIO  \nPrintl F  \n<!-- PageNumber=\"6\" -->  \n5 Hnh4  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->  \n</figure>  \n<!-- PageBreak -->  \n<figure>  \nForo ANTENNA (opzionale)\nper moduli aggiuntivi  \nINTERRUTTORE ON/OFF  \nUSB (colleg. PC)  \nAlimentazione +24V  \nLAN (colleg. PC)  \nCASSETTO  \nDISPLAY  \nSERIALE (colleg. PC)  \n</figure>",
+    "Pagina": 6,
+    "Capitolo #": "1 DESCRIZIONE GENERALE",
+    "Sezione ##": "1.3 VISTE",
+    "Lista di Figure interne": [
+      "[page6_figure3](figures2/page6_figure3.png)"
+    ],
+    "Global_order": 4
+  },
+  {
+    "Testo": "## 1.4 DISPLAY ALFANUMERICO  \nPRINT! F è collegabile al display in figura;\nIl display è retro illuminato e permette la\nvisualizzazione di 40 caratteri (20 + 20\ncaratteri disposti su due file.  \n<figure>  \nCONTANTI\nEURO  \n12,00  \n</figure>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"7\" -->\n<!-- PageBreak -->",
+    "Pagina": 7,
+    "Capitolo #": "1 DESCRIZIONE GENERALE",
+    "Sezione ##": "1.4 DISPLAY ALFANUMERICO",
+    "Lista di Figure interne": [
+      "[page7_figure4](figures2/page7_figure4.png)",
+      "[page7_figure5](figures2/page7_figure5.png)"
+    ],
+    "Global_order": 5
+  },
+  {
+    "Testo": "## 1.5 TASTIERA 40 TASTI  \nL'operatività di PRINT! F è garantita da una tastiera a 40 tasti, che permette di comandare\nmanualmente tutte le funzioni fiscali. La figura mostra la configurazione standard della\ntastiera.  \n<table>\n<tr>\n<th>CL</th>\n<th>X /ORA</th>\n<th>SHIFT</th>\n<th>REPARTO 5</th>\n<th>STORNO RESO M.</th>\n<th>ANNULLO ANN-SCO.</th>\n<th>CHIAVE</th>\n</tr>\n<tr>\n<td>7</td>\n<td>8 ABC</td>\n<td>9 DEF</td>\n<td>REPARTO 4</td>\n<td>REPARTO</td>\n<td>PREZZO REPARTO</td>\n<td>COD. FISC. STR. ALFA</td>\n</tr>\n<tr>\n<td>4 GHI</td>\n<td>5 JKL</td>\n<td>6 MNO</td>\n<td>REPARTO 3</td>\n<td>OPERA TORE</td>\n<td>ASSEGNI PAG. DIV.</td>\n<td>CORR.N.RIS C. DI CRED.</td>\n</tr>\n<tr>\n<td>1 PQRS</td>\n<td>2 TUV</td>\n<td>3 WXYZ</td>\n<td>REPARTO 2</td>\n<td>SCONTO MAGG.</td>\n<td colspan=\"2\">SUBTOTALE</td>\n</tr>\n<tr>\n<td>0</td>\n<td>00 SPACE</td>\n<td>, BKSP</td>\n<td>REPARTO 1</td>\n<td>- % + %</td>\n<td colspan=\"2\">CONTANTI</td>\n</tr>\n</table>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"8\" -->\n<!-- PageBreak -->",
+    "Pagina": 8,
+    "Capitolo #": "1 DESCRIZIONE GENERALE",
+    "Sezione ##": "1.5 TASTIERA 40 TASTI",
+    "Lista di Figure interne": [],
+    "Global_order": 6
+  },
+  {
+    "Testo": "### 1.5.1 TASTI FUNZIONE TASTIERA 65 TASTI  \n<table>\n<tr>\n<th>TASTO</th>\n<th>Funzione</th>\n</tr>\n<tr>\n<td>&amp; T CHIAVE</td>\n<td>Tasto per la selezione dei modi operativi (LOCK - REG - X - Z - PRG - SRV)</td>\n</tr>\n<tr>\n<td>OPERATORE</td>\n<td>Tasto utilizzato per inserire il codice Operatore</td>\n</tr>\n<tr>\n<td>STORNO</td>\n<td>Tasto usato per stornare un articolo dallo scontrino</td>\n</tr>\n<tr>\n<td>RESO MERCE</td>\n<td>Tasto usato per effettuare un reso su reparto</td>\n</tr>\n<tr>\n<td>ANNULLO</td>\n<td>Tasto usato per annullare l'ultima registrazione</td>\n</tr>\n<tr>\n<td>ANNULLO SCONTRINO</td>\n<td>Tasto usato per annullare interamente lo scontrino</td>\n</tr>\n<tr>\n<td>MAGGIORAZIONE</td>\n<td>Tasto usato per maggiorare di un valore il Subtotale o il prezzo dell'articolo</td>\n</tr>\n<tr>\n<td>SCONTO</td>\n<td>Tasto usato per dedurre un valore dal Subtotale o dal prezzo dell'articolo</td>\n</tr>\n<tr>\n<td>%-</td>\n<td>Tasto usato per scontare a percentuale il Subtotale o il prezzo dell'articolo</td>\n</tr>\n<tr>\n<td>%+</td>\n<td>Tasto usato per maggiorare a percentuale il Subtotale o il prezzo dell'articolo</td>\n</tr>\n<tr>\n<td>SHIFT</td>\n<td>Abilita la seconda funzione dei tasti (es. MAGG.) Nota: Eseguendo una qualsiasi sequenza completa o tasto funzionale, si resetta lo stato di SHIFT ATTIVO.</td>\n</tr>\n<tr>\n<td>COD. FISCALE / STRINGA ALFA</td>\n<td>Tasto usato per l'inserimento del codice fiscale e di stringhe alfanumeriche</td>\n</tr>\n<tr>\n<td>XI ORA</td>\n<td>Il tasto X è usato nella modalità \"Registrazione\" per registrare quantità da moltiplicare per il prezzo unitario dei reparti. Il tasto ORA è usato per visualizzare l'ora (solo a scontrino chiuso)</td>\n</tr>\n<tr>\n<td>REPARTO</td>\n<td>Ha tre funzioni 1. modalità REG :Tasto usato per la registrazione su un reparto non presente in tastiera (digitare preventivamente il numero del reparto). 2. modalità X, Z e PRG: Nei menù, ha funzione di tasto di scorrimento indietro. 3. durante la programmazione delle descrizioni, permette di scorrere indietro il cursore.</td>\n</tr>\n<tr>\n<td>PREZZO Reparto</td>\n<td>Ha tre funzioni: 1. modalità REG : Tasto usato per la registrazione del prezzo di un reparto non presente in tastiera (digitare preventivamente il prezzo). 2. modalità X, Z e PRG : Nei menù, ha funzione di tasto di scorrimento in avanti. 3. durante la programmazione delle descrizioni, permette di scorrere in avanti il cursore.</td>\n</tr>\n<tr>\n<td>CL</td>\n<td>Tasto usato per cancellare un dato prima di averlo registrato o un messaggio d'errore.</td>\n</tr>\n<tr>\n<td>SUBTOT.</td>\n<td>Tasto usato per la stampa e la visualizzazione del Subtotale dello scontrino aperto</td>\n</tr>\n<tr>\n<td>CONTANTI</td>\n<td>Tasto di chiusura con pagamento in contanti</td>\n</tr>\n<tr>\n<td>C. NON RISC. / #</td>\n<td>Tasto di chiusura con corrispettivo non riscosso. A scontrino chiuso ha la funzione di apertura cassetto</td>\n</tr>\n<tr>\n<td>ASSEGNI</td>\n<td>Tasto di chiusura con pagamento in Assegni</td>\n</tr>\n</table>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"9\" -->\n<!-- PageBreak -->  \n<table>\n<tr>\n<th colspan=\"3\">CARTE DI CREDITO</th>\n<th colspan=\"3\">Tasto di chiusura con pagamento con carte di credito/bancomat</th>\n</tr>\n<tr>\n<th colspan=\"3\">PAG. DIVERSI</th>\n<th colspan=\"3\">Altro tasto di chiusura</th>\n</tr>\n<tr>\n<th colspan=\"3\" rowspan=\"2\"></th>\n<th colspan=\"3\">TASTIERA NUMERICA CON FUNZIONE ALFABETICA La tastiera numerica consente la digitazione di informazioni numeriche e alfanumeriche, utili per la stampa degli scontrini fiscali (digitazione per la stampa del Codice Fiscale del cliente nello scontrino fiscale) e per le operazioni di programmazione del misuratore fiscale (Intestazione, descrizione degli articoli, ecc.)</th>\n</tr>\n<tr>\n<th rowspan=\"2\">[7] = 7</th>\n<th rowspan=\"2\">[8] = A B C a b c</th>\n<th rowspan=\"2\">[9] = 9 D E F de f</th>\n</tr>\n<tr>\n<th rowspan=\"2\">7</th>\n<th rowspan=\"2\">8 abc</th>\n<th rowspan=\"2\">def</th>\n</tr>\n<tr>\n<td rowspan=\"2\">[4] = 4 GHIghi</td>\n<td rowspan=\"2\">[5 ]= 5 J KLjkl</td>\n<td rowspan=\"2\">[6 ]= 6 MN Omno</td>\n</tr>\n<tr>\n<td>64</td>\n<td>jkl</td>\n<td>6 mno</td>\n</tr>\n<tr>\n<td>1 pqrs</td>\n<td>2 tuv</td>\n<td>3 wxyz</td>\n<td>[1 ]= 1 P Q R S pq rs</td>\n<td>[2 ]= 2 TU Vtu v</td>\n<td>[3]= 3 WX Y Zwxyz</td>\n</tr>\n<tr>\n<td colspan=\"2\">0 00</td>\n<td>,</td>\n<td colspan=\"3\">[0 ]= 0 /. : , ; ' \"^ + - = % &amp; !? * #@_ ( ) []{} &lt;&gt;1$ ☒</td>\n</tr>\n<tr>\n<td colspan=\"3\"></td>\n<td colspan=\"2\">[00] = SPACE (Spazio)</td>\n<td>[, ]= BACKSPACE</td>\n</tr>\n<tr>\n<td colspan=\"3\"></td>\n<td colspan=\"3\">Nota: durante la programmazione delle descrizioni, la pressione del tasto CL cancella tutti i caratteri della riga che si sta programmando.</td>\n</tr>\n<tr>\n<td colspan=\"3\"></td>\n<td colspan=\"3\"></td>\n</tr>\n<tr>\n<td colspan=\"3\">CLIENTE</td>\n<td colspan=\"3\">Richiama i clienti in memoria; inserire preventivamente il codice cliente.</td>\n</tr>\n<tr>\n<td colspan=\"3\">FATTURA INTERNA</td>\n<td colspan=\"3\">Tasto funzione che permette di aprire un documento FATTURA interna. Il tasto deve essere premuto prima di iniziare le registrazioni degli articoli e dopo l'inserimento del codice CLIENTE.</td>\n</tr>\n</table>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"10\" -->\n<!-- PageBreak -->",
+    "Pagina": [
+      9,
+      10
+    ],
+    "Capitolo #": "1 DESCRIZIONE GENERALE",
+    "Sezione ##": "1.5 TASTIERA 40 TASTI",
+    "Lista di Figure interne": [],
+    "Global_order": 7
+  },
+  {
+    "Testo": "# 2 OPERATIVITA' AL PUNTO CASSA  \n## 2.1 SOSTITUZIONE DEL ROTOLO SCONTRINO  \nLa cassa è predisposta per la segnalazione di fine carta tramite un sensore. Quando\ndurante una stampa, il sensore rileva l'assenza della carta sul display, viene visualizzato il\nseguente messaggio;  \nE60: FINE CARTA\nINSERIRE ROTOLO [CL]  \nprocedere alla sostituzione del rotolo carta (vedi\nprocedura sottostante) e premere il tasto [CL] se\nè collegata una tastiera meccanica, oppure il tasto\nFEED (Av. carta) sulla stampante, per procedere\ncon altre registrazioni.  \nPer evitare di dover cambiare rotolo con uno scontrino aperto, è preferibile cambiarlo alla\ncomparsa delle strisce colorate.  \nNota: è possibile utilizzando la funzione ANNULLO SCONTRINO, annullare lo scontrino\nin corso ed emetterne uno nuovo completo, registrando nuovamente gli articoli.  \nLa sostituzione del rotolo di carta è molto veloce e deve essere eseguita a cassa accesa:  \n1\\)\npremere il tasto di apertura coperchio(vedi fig.1).  \n2\\)\nrimuovere la rimanenza del vecchio rotolo  \n3\\)\ninserire il nuovo rotolo (vedi fig.2)  \n4\\)\nchiudere il coperchio  \n5\\)\nrimuovere la rimanenza carta  \n6\\)\npremere il tasto [CL] se è collegata una tastiera, altrimenti premere il tasto AV.\nCARTA (Feed) sulla stampante (vedi fig.3) e procedere con le registrazioni.  \n<figure>  \nFigura 1 - Tasto AP. COPERCHIO  \nFigura 2 - Inserire il rotolo  \n\\+  \n5  \nFigura 3 - Tasto AVANZAMENTO CARTA [CL]  \n</figure>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"11\" -->\n<!-- PageBreak -->",
+    "Pagina": 11,
+    "Capitolo #": "2 OPERATIVITA' AL PUNTO CASSA",
+    "Sezione ##": "2.1 SOSTITUZIONE DEL ROTOLO SCONTRINO",
+    "Lista di Figure interne": [
+      "[page11_figure6](figures2/page11_figure6.png)"
+    ],
+    "Global_order": 8
+  },
+  {
+    "Testo": "## 2.2 GIORNALE ELETTRONICO  \nPRINT! F è dotato di giornale di fondo elettronico (DGFE) invece del cartaceo.  \nUna MMC (Multi Media Card) registra tutti gli scontrini fiscali emessi dalla cassa; questi\nscontrini possono essere in ogni momento stampati sullo scontrino o visualizzati sul\nmonitor del PC tramite il programma HyperTerminal (escluso durante l'emissione dello\nscontrino fiscale). Questo comporta vari vantaggi, oltre alla rapidità di lettura, si hanno\nrisparmi di costi della carta e di tempo. Infatti la durata di un giornale elettronico è\nsuperiore a quella cartacea ed inoltre si hanno minori problemi di conservazione per\neventuali controlli fiscali.  \nPer la conservazione della MMC, attenersi alle regole usate per la conservazione dei rotoli\nGiornale di fondo cartaceo. La MMC è un supporto inalterabile di tipo WOCF; una volta\nscritto un settore, non può più essere riscritto.  \nAppositi controlli sono stati inseriti per il monitoraggio continuo del corretto funzionamento\ndella MMC; nel caso si verificasse un'anomalia nel sistema con blocco delle funzioni\ncassa, chiamare il centro assistenza che provvederà al ripristino del corretto\nfunzionamento di PRINT! F e all'eventuale sostituzione della MMC.  \nL'etichetta sulla MMC, deve riportare :  \n· Data di Inizializzazione della MMC  \n· Il numero progressivo della MMC (uguale a 1 alla fiscalizzazione della cassa)  \n· Il numero di matricola della cassa  \nNOTA : scrivere i dati sull'etichetta della MMC con un pennarello indelebile con punta fine.\nQuando lo spazio sul giornale elettronico sta per esaurirsi, il display visualizzerà un\nmessaggio d'avvertimento, al fine di procedere appena possibile alla sua sostituzione.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"12\" -->\n<!-- PageBreak -->",
+    "Pagina": 12,
+    "Capitolo #": "2 OPERATIVITA' AL PUNTO CASSA",
+    "Sezione ##": "2.2 GIORNALE ELETTRONICO",
+    "Lista di Figure interne": [],
+    "Global_order": 9
+  },
+  {
+    "Testo": "### 2.2.1 SOSTITUZIONE GIORNALE ELETTRONICO (DGFE)  \nPRINT! F utilizza come giornale di fondo una Multi media card (MMC).  \nQuesto supporto viene chiamato DGFE (Giornale di fondo elettronico) e registra tutti gli\nscontrini fiscali emessi dalla cassa che possono essere successivamente controllati\nutilizzando le funzioni del cap.6.3 .  \nIn prossimità all'esaurimento del DGFE, alcuni giorni prima della saturazione dello spazio\nnella MMC, PRINT! F visualizza dei messaggi di avvertimento a display accompagnati da\nsegnalazioni acustiche (beep). Mantenendo la MMC ormai satura, la segnalazione di\n\"DGFE IN ESAURIMENTO\" viene ripetuta al termine di ogni scontrino. La comparsa del\nmessaggio \"DGFE ESAURITO\" indica che non sono più possibili altre registrazioni\nperché è stato completamente utilizzato tutto lo spazio dati nella MMC. E' buona regola\nsostituire la MMC appena possibile dopo la prima segnalazione di esaurimento DGFE. Le\nnuove MMC devono essere richieste al concessionario autorizzato.  \nPer verificare quanto spazio è attualmente ancora libero nella MMC corrente, eseguire la\nseguente operazione;  \nentrare in modalità Z (3 [CHIAVE]), premere due volte il tasto [REPARTO] per visualizzare\na display \"DGFE spazio libero\"e premere [CONTANTI].  \nIl display visualizza lo spazio in percentuale ancora disponibile al contenimento dati nella\nMMC.  \nSPAZIO LIBERO\nSUL DGFE = 20%  \nPer sostituire il giornale elettronico (DGFE):  \n· A cassa spenta, estrarre la MMC dal lato destro di PRINT! F (vedi figura), facendo\nuna piccola pressione sulla stessa verso l'interno e rilasciandola. Completare i dati\nsull'etichetta e archiviarla.  \n· Inserire la nuova MMC nell'apposito lettore, facendo attenzione a inserirla dal lato\ncorretto con l'etichetta verso l'alto (vedi figura).  \n<figure>  \nRCH  \nBAR  \nThe City 19  \nCONTANTI\nNADO08  \nTOTALE EURO  \nEURO  \n2.00  \nMEUA 72:123458  \n2.00\n2.00  \n14/05/12 0.02  \nInserire il giornale\nelettronico (MMC)\nCon l'etichetta verso l'alto  \nRCH  \nPrint! F  \n·DGFE Qcm\nRal Memory Card\nRAL  \nMatricola:\nNr.DGFE:  \n</figure>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"13\" -->\n<!-- PageBreak -->  \nAccendere PRINT! F, entrare in modalità Z (3 + [CHIAVE]) e scorrere il menu con il\ntasto [PREZZO REPARTO] fino alla voce \"Inizializzazione DGFE\".  \nIl display visualizza:  \n<figure>  \n-- STAMPE/AZZERAM.\nInizializzaz. DGFE  \nINSERIRE NUOVA MMC\nPremere un tasto  \n</figure>  \nA) Premere [CONTANTI].  \nB) NOTA: se la MMC satura non è stata ancora\nestratta, procedere alla sostituzione inserendo una\nMMC vergine.\nPremere [CONTANTI].  \nDopo qualche istante viene stampato uno scontrino non fiscale con i dati riferiti\nall'inizializzazione del nuovo supporto DGFE.  \nPremere il tasto [STORNO] per uscire dal menù.  \nPremere 1 + [CHIAVE] per tornare in modalità Registrazioni.\nProcedere con la registrazione degli articoli.",
+    "Pagina": 13,
+    "Capitolo #": "2 OPERATIVITA' AL PUNTO CASSA",
+    "Sezione ##": "2.2 GIORNALE ELETTRONICO",
+    "Lista di Figure interne": [
+      "[page13_figure7](figures2/page13_figure7.png)"
+    ],
+    "Global_order": 10
+  },
+  {
+    "Testo": "### 2.2.2 COMPILARE L'ETICHETTA  \nL'etichetta sul supporto giornale elettronico (DGFE) va debitamente compilata prima di\nutilizzare la MMC; inserire i seguenti dati:  \n· Matricola della cassa  \n· Numero progressivo del giornale elettronico (DGFE)",
+    "Pagina": 14,
+    "Capitolo #": "2 OPERATIVITA' AL PUNTO CASSA",
+    "Sezione ##": "2.2 GIORNALE ELETTRONICO",
+    "Lista di Figure interne": [
+      "[page14_figure8](figures2/page14_figure8.png)"
+    ],
+    "Global_order": 11
+  },
+  {
+    "Testo": "### 2.2.3 AVVERTENZE NELL'UTILIZZO DELLA MMC  \n· Non utilizzare la MMC se l'alimentazione di PRINT! F è insufficiente  \n· Non rimuovere la MMC durante il trasferimento dei dati o a dispositivo acceso\n(salvo nella procedura di sostituzione MMC satura)  \n· Non togliere l'alimentazione al dispositivo durante la lettura/scrittura di dati nella\nMMC  \n· Non forzare l'introduzione (e l'estrazione) della MMC nel connettore  \n· Conservare la MMC lontano da fonti di calore, polvere e umidità e non esporre\ndirettamente ai raggi solari.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"14\" -->\n<!-- PageBreak -->",
+    "Pagina": 14,
+    "Capitolo #": "2 OPERATIVITA' AL PUNTO CASSA",
+    "Sezione ##": "2.2 GIORNALE ELETTRONICO",
+    "Lista di Figure interne": [
+      "[page14_figure8](figures2/page14_figure8.png)"
+    ],
+    "Global_order": 12
+  },
+  {
+    "Testo": "# 3 PROGRAMMAZIONE (PRG)  \nPer entrare nel menù programmazione digitare i tasti [4] e [CHIAVE];  \n· spostarsi da una funzione all'altra utilizzando il tasto [PREZZO REPARTO] avanti\ne [REPARTO] indietro  \n· per selezionare la funzione premere [CONTANTI]  \n· per uscire da una funzione o tornare al menu principale, premere il tasto [STORNO]  \n· Per uscire dal menù PRG e tornare in REG premere [1]+[CHIAVE]",
+    "Pagina": 15,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": null,
+    "Lista di Figure interne": [
+      "[page15_figure9](figures2/page15_figure9.png)"
+    ],
+    "Global_order": 13
+  },
+  {
+    "Testo": "## 3.1 INDICAZIONE MODALITA'  \n<table>\n<tr>\n<th colspan=\"2\">MODALITA'</th>\n<th>DESCRIZIONE</th>\n</tr>\n<tr>\n<td>0 CHIAVE</td>\n<td></td>\n<td>Blocco tastiera</td>\n</tr>\n<tr>\n<td>1 CHIAVE</td>\n<td>REG</td>\n<td>Modo operativo (registrazione)</td>\n</tr>\n<tr>\n<td>2 CHIAVE</td>\n<td>X</td>\n<td>Letture senza azzeramento - statistiche</td>\n</tr>\n<tr>\n<td>3 CHIAVE</td>\n<td>Z</td>\n<td>Stampe/Azzeramento dei finanziari, letture dgfe e memoria fiscale</td>\n</tr>\n<tr>\n<td>4 CHIAVE</td>\n<td>PRG</td>\n<td>Programmazione ( Reparti, Iva, ecc.)</td>\n</tr>\n</table>  \nPer selezionare una modalità è sufficiente digitare il numero della modalità da attivare\nseguito dal tasto CHIAVE. (Es: per entrare in programmazione : 4 e [CHIAVE]). Quando ci\nsi trova in una modalità diversa da Registrazione si può selezionare una delle funzioni\ndesiderate mediante i due tasti di scorrimento [PREZZO REPARTO] e [REPARTO].  \nSecondo la modalità in cui la macchina si trova il display operatore ne fornirà indicazione\nvisualizzandone la relativa identificazione nell'angolo superiore sinistro.  \n<figure>  \nPRG  \n0  \n</figure>  \nEntrati nei menù con i tasti [PREZZO REPARTO] o [REPARTO], il display visualizza sulla\nriga superiore il tipo di modalità attiva e in quella inferiore la funzione eventualmente\nselezionabile mediante scorrimento(vedi figura sottostante con esempio di visualizzazione\nin modalità Z.  \n\\- STAMPE/AZZERAM. -\nChiusura Fiscale  \nPer uscire dal menu, premere il tasto [STORNO].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"15\" -->\n<!-- PageBreak -->",
+    "Pagina": 15,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.1 INDICAZIONE MODALITA'",
+    "Lista di Figure interne": [
+      "[page15_figure9](figures2/page15_figure9.png)"
+    ],
+    "Global_order": 14
+  },
+  {
+    "Testo": "## 3.2 BLOCCO TASTIERA  \nPer evitare registrazioni involontarie o per impedire che personale non autorizzato possa\nutilizzare PRINT! F senza necessariamente dover spegnere la cassa, utilizzare la\nprocedura \"0\" e tasto CHIAVE da qualsiasi modalità (REG - X - Z - PRG).  \nIl display visualizza:  \n<figure>  \nBLOCCO TASTIERA ?\n<SI>\n/\nNO  \n**\nTASTIERA\n**  \n**  \nBLOCCATA\n**  \n</figure>  \nPremendo il tasto [CONTANTI] blocco l'utilizzo della\ntastiera (valore \"SI\" preselezionato), altrimenti premendo\nil tasto [PREZZO REPARTO] e [CONTANTI] ritorno alla\nmodalità precedente.  \nPer utilizzare nuovamente la tastiera è sufficiente premere la sequenza dei tasti per\nentrare in una delle quattro modalità (es. 1 e CHIAVE).  \nNOTA: Se a display ho solo il valore 0,00 è possibile bloccare e successivamente\nsbloccare la tastiera premendo in sequenza i tasti [CHIAVE] e [CONTANTI].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"16\" -->\n<!-- PageBreak -->",
+    "Pagina": 16,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.2 BLOCCO TASTIERA",
+    "Lista di Figure interne": [
+      "[page16_figure10](figures2/page16_figure10.png)"
+    ],
+    "Global_order": 15
+  },
+  {
+    "Testo": "## 3.3 PROGRAMMAZIONE REPARTI  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] per visualizzare REPARTI.\nPremere [CONTANTI] per iniziare la programmazione dei reparti:  \n<figure>  \nCOD. REPARTO ?\n1  \nPREZZO ?  \n0,00  \nDESCRIZIONE\n<REPARTO 01 > 01  \n?  \nLIMITE SUPERIORE ?\n0,00  \nLIMITE INFERIORE ?\n0,01  \nCODICE IVA ?\n0  \nCOD. GRUPPO REPARTO?\n0  \nCHIUSURA AUTOM. ?\nSI / <NO>\nU  \n</figure>  \nA) Inserire un valore da 1 a 99 e premere\n[CONTANTI]  \nB) Inserire il prezzo (PRIMO LISTINO) da\nassociare al tasto Reparto e premere\n[CONTANTI]  \nC) Inserire la descrizione utilizzando i caratteri a\ntastiera, inserendo un massimo di 20 caratteri\ne premere [CONTANTI]  \nD) Inserire il valore massimo che può accettare il\nreparto e premere [CONTANTI]. Se zero, non\nc'è limite.  \nE) Inserire il valore minimo che può accettare il\nreparto e premere [CONTANTI]. Se zero, non\nc'è limite.  \nF) Associare un codice IVA (da 0 a 7) al reparto\ne premere [CONTANTI] (vedi cap. 3.7)\nNOTA: 0 = Esente IVA (IVA8)  \nG) Se si desidera gestire i gruppi reparto,\nassociare il reparto a un gruppo (da 1 a 6) e\npremere [CONTANTI].  \nNOTA: 0 = nessun gruppo (default).\nPer la programmazione dei gruppi reparto,\ncontattare il centro assistenza.  \nH) Utilizzando i tasti [PREZZO REPARTO] e\n[REPARTO] abilitare o meno la battuta singola\nsul reparto e premere [CONTANTI]  \nIl display si imposta per la successiva programmazione di un altro reparto; ripetere la\nsequenza per programmare i reparti successivi.  \nPer uscire dalla programmazione dei REPARTI, premere [STORNO].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"17\" -->\n<!-- PageBreak -->",
+    "Pagina": 17,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.3 PROGRAMMAZIONE REPARTI",
+    "Lista di Figure interne": [
+      "[page17_figure11](figures2/page17_figure11.png)"
+    ],
+    "Global_order": 16
+  },
+  {
+    "Testo": "## 3.4 PROGRAMMAZIONE CLIENTI  \nPRINT! F gestisce 100 clienti.  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare CLIENTI.\nPremere [CONTANTI] per iniziare la programmazione dei clienti.  \n<figure>  \nCODICE CLIENTE ?\n1  \nNOME / COGNOME\n<CLIENTE 00001 >01  \nINDIRIZZO 1:\n<\n\\>01  \nINDIRIZZO 2:\n<\n\\>01  \nPARTITA IVA:\n<\n\\>01  \nDATI CLIENTE\n<\n\\>01  \nCLIENTE ATTIVO?\nSI/ <NO>  \n</figure>  \nA) Inserire il codice cliente digitandolo sulla\ntastiera e premere [CONTANTI].  \nB) Inserire la descrizione del cliente utilizzando i\ncaratteri a tastiera, inserendo un massimo di 20\ncaratteri e premere [CONTANTI].  \nC) Inserire i primi dati (massimo 20 caratteri)\nrelativi all'indirizzo, utilizzando la tastiera\nalfanumerica e premere [CONTANTI]  \nD) Inserire i secondi dati (massimo 20 caratteri)\nrelativi all'indirizzo, utilizzando la tastiera\nalfanumerica e premere [CONTANTI]  \nE) Inserire i dati relativi alla partita iva del cliente,\nutilizzando la tastiera alfanumerica e premere\n[CONTANTI]  \nF) Se necessario, è possibile inserire altre\ninformazioni relative al cliente (massimo 20\ncaratteri), utilizzando la tastiera alfanumerica e\npremere [CONTANTI]  \nG) Premere il tasto [REPARTO] e [CONTANTI]\nper abilitare il cliente (disabilitato di default).  \nIl display si imposta per la successiva programmazione di un altro cliente; ripetere la\nsequenza per programmare altri clienti. Per uscire premere [STORNO].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"18\" -->\n<!-- PageBreak -->",
+    "Pagina": 18,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.4 PROGRAMMAZIONE CLIENTI",
+    "Lista di Figure interne": [
+      "[page18_figure12](figures2/page18_figure12.png)"
+    ],
+    "Global_order": 17
+  },
+  {
+    "Testo": "## 3.5 PROGRAMMAZIONE TIPI PAGAMENTO  \nCon PRINT! F è possibile utilizzare fino a dieci differenti Totali per il pagamento.  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare Tipi Pagamento.\nPremere [CONTANTI] per iniziarne la programmazione:  \n<figure>  \nCOD. PAGAMENTO\n?  \n1  \nDESCRIZIONE\n<CONTANTI\n\\>\n01  \n?  \nRESTO ABILITATO ?\n<SI> / NO  \nSOMMA A CASSA\n?\n<SI> / NO  \nNON RISCOSSI\nSI / <NO>  \n?  \nAPERTURA CASSETTO?\n<SI> / NO  \nIMPORTO OBBLIGATOR\n<SI> / NO  \nI  \n</figure>  \nA) Inserire un valore da 1 a 10 e premere\n[CONTANTI]  \nB) Inserire la descrizione del Tipo pagamento\nutilizzando i caratteri a tastiera, (inserire al\nmassimo 20 caratteri) e premere\n[CONTANTI].  \nC) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se abilitare il pagamento con\ngestione del resto e confermare con\n[CONTANTI].  \nD) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se il Totale incrementa il\nTotalizzatore CASSA e confermare con\n[CONTANTI].  \nE) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se abilitare il pagamento a credito\ne confermare con [CONTANTI].  \nF) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se abilitare o disabilitare l'apertura\ncassetto e confermare con [CONTANTI].  \nG) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se abilitare o disabilitare la\ngestione dell'importo obbligatorio, da inserire\nprima di chiudere lo scontrino con un tasto\nTotale.  \nIl display si imposta per la successiva programmazione di un altro tipo di pagamento;\nripetere la sequenza per programmare i successivi. Per uscire dal programma\nPAGAMENTO premere [STORNO].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"19\" -->\n<!-- PageBreak -->",
+    "Pagina": 19,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.5 PROGRAMMAZIONE TIPI PAGAMENTO",
+    "Lista di Figure interne": [
+      "[page19_figure13](figures2/page19_figure13.png)"
+    ],
+    "Global_order": 18
+  },
+  {
+    "Testo": "## 3.6 PROGRAMMAZIONE OPERATORI  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare Operatori.\nPremere [CONTANTI] per iniziarne la programmazione:  \n<figure>  \nCOD. OPERATORE\n?\n1  \nNOME OPERATORE\n?  \n<MARIO\n\\>\n01  \n</figure>  \nA) Inserire un valore da 1 a 99 e premere [CONTANTI]  \nB) Inserire il nome dell'operatore utilizzando i caratteri a\ntastiera, inserendo un massimo di 20 caratteri e\npremere [CONTANTI].  \nIl display si imposta per la successiva programmazione di un altro operatore; ripetere la\nsequenza per programmare ulteriori operatori. Per uscire dalla funzione PRG\nOPERATORI premere [STORNO].",
+    "Pagina": 20,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.6 PROGRAMMAZIONE OPERATORI",
+    "Lista di Figure interne": [
+      "[page20_figure14](figures2/page20_figure14.png)",
+      "[page20_figure15](figures2/page20_figure15.png)"
+    ],
+    "Global_order": 19
+  },
+  {
+    "Testo": "## 3.7 PROGRAMMAZIONE IVA  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare Percentuali IVA.\nPremere [CONTANTI] per iniziarne la programmazione:  \nA) Inserire un valore da 1 a 7 e premere [CONTANTI]\n(IVA8 è esente IVA)  \n<figure>  \nCODICE IVA ?\n1  \nPERCENTUALE IVA ?\n10  \n</figure>  \nB) Digitare la percentuale IVA e confermare con\n[CONTANTI].  \nIl display si imposta per la successiva programmazione di un altro codice IVA; ripetere la\nsequenza per programmare ulteriori ive. Per uscire dalla funzione premere [STORNO].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"20\" -->\n<!-- PageBreak -->",
+    "Pagina": 20,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.7 PROGRAMMAZIONE IVA",
+    "Lista di Figure interne": [
+      "[page20_figure14](figures2/page20_figure14.png)",
+      "[page20_figure15](figures2/page20_figure15.png)"
+    ],
+    "Global_order": 20
+  },
+  {
+    "Testo": "## 3.8 PERCENTUALE DI MAGGIORAZIONE  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare Percentuale\nmaggiorazione. Premere [CONTANTI] per iniziare la programmazione del valore da\nassociare al tasto [%+]:  \n<figure>  \nPERC. MAGGIORAZ. ?\n10,00  \n</figure>  \nDigitare la percentuale di maggiorazione con due\ncifre decimali e premere [CONTANTI].  \nIl display esce dalla programmazione visualizzando nuovamente \"Percentuale\nmaggiorazione\". Per uscire dalla funzione premere il tasto [STORNO].",
+    "Pagina": 21,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.8 PERCENTUALE DI MAGGIORAZIONE",
+    "Lista di Figure interne": [
+      "[page21_figure16](figures2/page21_figure16.png)",
+      "[page21_figure17](figures2/page21_figure17.png)"
+    ],
+    "Global_order": 21
+  },
+  {
+    "Testo": "## 3.9 PERCENTUALE DI SCONTO  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare Percentuale\nsconto. Premere [CONTANTI] per iniziare la programmazione del valore da associare al\ntasto [%-]:  \n<figure>  \nPERC. SCONTO?\n5,00  \n</figure>  \nDigitare la percentuale di sconto con due cifre\ndecimali e premere [CONTANTI].  \nIl display esce dalla programmazione visualizzando nuovamente \"Percentuale sconto\". Per\nuscire dalla funzione premere il tasto [STORNO].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"21\" -->\n<!-- PageBreak -->",
+    "Pagina": 21,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.9 PERCENTUALE DI SCONTO",
+    "Lista di Figure interne": [
+      "[page21_figure16](figures2/page21_figure16.png)",
+      "[page21_figure17](figures2/page21_figure17.png)"
+    ],
+    "Global_order": 22
+  },
+  {
+    "Testo": "## 3.10 PROGRAMMAZIONE STATISTICHE  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare Statistiche\ngiorno. Premere [CONTANTI] per iniziarne la programmazione:  \n<figure>  \nREPARTI\nSI / <NO>  \nU  \nOPERATORI\nSI / <NO>\n1  \nIVA\nSI / <NO>\n1  \nORARIA\nSI / <NO>  \nFINANZIARI\nSI / <NO>  \nJ  \nDETTAGLIO GRUPPI\nSI / <NO>  \nTOTALE GRUPPI\nSI / <NO>  \nI  \n</figure>  \nA) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se si vuole abilitare la stampa del\nreport REPARTI. Scegliere SI o NO e premere\n[CONTANTI].  \nB) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se si vuole abilitare la stampa del\nreport OPERATORI. Scegliere SI o NO e premere\n[CONTANTI].  \nC) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se si vuole abilitare la stampa del\nreport IVA . Scegliere SI o NO e premere\n[CONTANTI].  \nD) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se si vuole abilitare la stampa del\nreport ORARIA. Scegliere SI o NO e premere\n[CONTANTI].  \nE) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se si vuole abilitare la stampa del\nreport FINANZIARI. Scegliere SI o NO e premere\n[CONTANTI].  \nF) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se si vuole abilitare la stampa del\ndettaglio per Gruppi Reparto. Scegliere SI o NO e\npremere [CONTANTI].  \nG) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se si vuole abilitare la stampa del\ntotale importo per Gruppi Reparto. Scegliere SI o\nNO e premere [CONTANTI].  \nIl display esce dalla programmazione visualizzando nuovamente \"Statistiche Giorno\". Per\nuscire dalla funzione premere il tasto [STORNO].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"22\" -->\n<!-- PageBreak -->",
+    "Pagina": 22,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.10 PROGRAMMAZIONE STATISTICHE",
+    "Lista di Figure interne": [
+      "[page22_figure18](figures2/page22_figure18.png)"
+    ],
+    "Global_order": 23
+  },
+  {
+    "Testo": "## 3.11 DATA/ORA  \nNOTA IMPORTANTE: la seguente procedura può essere utilizzata esclusivamente\nper il cambio dell'ORA. Non modificare la DATA; contattare il centro assistenza se la\ndata non fosse corretta.  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare Data/ora.\nPremere [CONTANTI] per iniziarne la programmazione (previa chiusura giornaliera):  \n<figure>  \nGIORNO :\n24  \nMESE :  \n05  \nANNO :  \n2012  \nORE :\n8  \nMINUTI :  \n30  \n</figure>  \nA) Inserire un valore da 1 a 31 riferito al giorno\ncorrente e premere [CONTANTI]  \nB) Inserire un valore da 1 a 12 riferito al mese\ncorrente e premere [CONTANTI]  \nC) Inserire l'anno corrente a 4 cifre e premere\n[CONTANTI]  \nD) Inserire un valore da 0 a 23 riferito all'ora\ncorrente e premere [CONTANTI]  \nE) Inserire un valore da 0 a 59 riferito ai minuti\ndell'ora corrente e premere [CONTANTI]  \nIl display esce dalla programmazione visualizzando nuovamente \"Data/Ora\". Per uscire\ndalla funzione PRG \" Data/Ora\" premere [STORNO].  \nNOTA: se il display dopo l'inserimento della data e ora, visualizza il seguente messaggio ,\nsignifica che la data impostata, rispetto all'ultima chiusura fiscale operata, è superiore di\nalmeno tre giorni.  \nDATA AVANTI\nOK / <ANNULLA>  \nScegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se confermare i dati impostati e\npremere [CONTANTI]  \nScegliendo ANNULLA, la data e l'ora rimangono invariate.\nPer uscire dalla funzione PRG \"Data/ora\" premere [STORNO].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"23\" -->\n<!-- PageBreak -->",
+    "Pagina": 23,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.11 DATA/ORA",
+    "Lista di Figure interne": [
+      "[page23_figure19](figures2/page23_figure19.png)"
+    ],
+    "Global_order": 24
+  },
+  {
+    "Testo": "## 3.12 PROGRAMMAZIONE INTESTAZIONE SCONTRINO  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare Intestazione.\nPremere [CONTANTI] per iniziarne la programmazione:  \n<figure>  \n\\- SELEZ. GRAFICO -\nNessuno  \nN. RIGA INTEST.\n?\n4  \nDESCRIZIONE ?\n<PARTITA IVA >\n12  \nTESTO CENTRATO ?\n<SI> / NO  \n</figure>  \nA) Scorrere con i tasto [PREZZO REPARTO] e\n[REPARTO] per scegliere di abilitare un Logo in\ntesta da stampare sullo scontrino fiscale.\nVisualizzare \"Definito utente\" (da 1 a 4) associato\nal logo e premere [CONTANTI]. Una volta\nmodificate le impostazioni relative al logo, è\nnecessario riavviare il sistema per renderle\neffettive.  \nNota; contattare il centro assistenza per il\ncaricamento del logo personalizzato.  \nB) Inserire un valore da 1 a 6 relativo alla riga di\nintestazione da riprogrammare e premere\n[CONTANTI].  \nC) Inserire I dati anagrafici utilizzando I caratteri a\ntastiera, inserendo un massimo di 48 caratteri e\npremere [CONTANTI].  \nNota: la pressione del tasto CL seguito da\nCONTANTI cancella la riga di intestazione (non\nviene più stampata sullo scontrino).  \nD) Scegliere con i tasti [PREZZO REPARTO] e\n[REPARTO] se si vuole abilitare la stampa\ncentrata del testo e premere [CONTANTI].  \nRipetere la stessa sequenza per le righe successive.\nPer uscire dalla funzione premere [STORNO].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"24\" -->\n<!-- PageBreak -->",
+    "Pagina": 24,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.12 PROGRAMMAZIONE INTESTAZIONE SCONTRINO",
+    "Lista di Figure interne": [
+      "[page24_figure20](figures2/page24_figure20.png)"
+    ],
+    "Global_order": 25
+  },
+  {
+    "Testo": "## 3.13 PROGRAMMAZIONE PIEDINO  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare Piedino.\nPremere [CONTANTI] per iniziarne la programmazione.  \n<figure>  \n\\- SELEZ. GRAFICO -\nNessuno  \nMESSAGGIO QR:\n<VISITATE IL\n\\>01  \n</figure>  \nScorrere con i tasto [PREZZO REPARTO] e\n[REPARTO] per scegliere quale Logo \"Definito\nutente (da 1 a 4)\"o festività o QR code stampare\nin coda allo scontrino fiscale. Visualizzare il nome\ndel logo da attivare e premere [CONTANTI].  \nSe viene scelto di attivare il QR code, digitare fino\na 48 caratteri con le informazioni da inserire e\npremere [CONTANTI].  \nUna volta modificate le impostazioni relative al QR\ncode o logo, è necessario riavviare il sistema per\nrenderle effettive.  \nUsciti dalla funzione, premere [STORNO] per ritornare in modalità PRG, oppure\ncontinuare con le programmazioni.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"25\" -->\n<!-- PageBreak -->",
+    "Pagina": 25,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.13 PROGRAMMAZIONE PIEDINO",
+    "Lista di Figure interne": [
+      "[page25_figure21](figures2/page25_figure21.png)"
+    ],
+    "Global_order": 26
+  },
+  {
+    "Testo": "## 3.14 PROGRAMMAZIONE MESSAGGI CLIENTE  \nQuesta programmazione permette di programmare fino a due righe di cortesia (massimo\n48 caratteri per riga), che verranno stampate tre righe sotto lo scontrino fiscale e di\nprogrammare anche un messaggio a scorrimento sul display lato cliente (massimo 36\ncaratteri). Questi messaggi servono per pubblicizzare la vostra attività. E' possibile inoltre\nimpostare un valore in secondi che permette la visualizzazione automatica della data e\ndell'ora a display dopo tot secondi di inattività della cassa.  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare Messaggi\ncliente. Premere [CONTANTI] per iniziarne la programmazione:  \n<figure>  \nMESSAGGIO\nDI CORTESIA  \nRIGA 1 :\n< GRAZIE E\n\\>09  \nA) Digitare il testo della prima riga di cortesia\n(massimo 48 caratteri) e premere [CONTANTI].\n[ CL ] = cancella tutta la riga\n[ 00 ] = SPACE\n[, ] = Backspace  \nRIGA 2 :\n< ARRIVEDERCI\n\\>12  \nB) Digitare il testo della seconda riga di cortesia\n(massimo 48 caratteri) e premere [CONTANTI].  \nMESSAGGIO\nSCORREVOLE  \nNota: se non si vuole scrivere nulla, premere\n[CONTANTI] senza inserire caratteri.  \nMSG. SCORREVOLE\n<GRAZIE PER\n\\>10  \nC) Digitare il testo del Messaggio pubblicitario\nscorrevole (massimo 36 caratteri) e premere\n[CONTANTI].  \nMOSTRA DATA/ORA\nIN AUTOMATICO  \nSECONDI ? (0 = OFF)\n0  \nD) Impostare il valore in secondi che permette la\nvisualizzazione automatica della data e ora a\ndisplay dopo tot secondi di inattività della cassa e\npremere [CONTANTI]. Se non si vuole abilitare,\nlasciare il valore a zero e premere [CONTANTI].  \n</figure>  \nUsciti dalla funzione PRG \"Messaggi cliente\" premere il tasto [STORNO] per ritornare in\nAssetto PRG, oppure continuare con le programmazioni.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"26\" -->\n<!-- PageBreak -->",
+    "Pagina": 26,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.14 PROGRAMMAZIONE MESSAGGI CLIENTE",
+    "Lista di Figure interne": [
+      "[page26_figure22](figures2/page26_figure22.png)"
+    ],
+    "Global_order": 27
+  },
+  {
+    "Testo": "## 3.15 PROGRAMMAZIONE IMPULSO CASSETTO  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare IMPULSO\nCASSETTO. Premere [CONTANTI] per iniziarne la programmazione:  \n<figure>  \nLUNGH. IMPULSO 1-5\n2  \n</figure>  \nInserire un valore da 1 a 5 a seconda del cassetto\ne premere [CONTANTI].  \nUsciti dalla funzione PRG \"Impulso cassetto\" premere [STORNO] per ritornare in Assetto\nPRG, oppure continuare con le programmazioni.",
+    "Pagina": 27,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.15 PROGRAMMAZIONE IMPULSO CASSETTO",
+    "Lista di Figure interne": [
+      "[page27_figure23](figures2/page27_figure23.png)",
+      "[page27_figure24](figures2/page27_figure24.png)"
+    ],
+    "Global_order": 28
+  },
+  {
+    "Testo": "## 3.16 SCORPORO IVA SU SCONTRINO  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare SCORPORO\nIVA. Premere [CONTANTI] per entrare nella programmazione:  \n<figure>  \n\\- PROGRAMMAZIONE-\nScorporo IVA  \nSCORPORO IVA?\nSI / <NO>  \n</figure>  \nA) Premere [CONTANTI].  \nB) Premere il tasto [PREZZO REPARTO] e\n[CONTANTI] per abilitare lo scorporo IVA su\nscontrino (disabilitato di default).  \nIl display torna al menù principale. Lo scontrino successivo riporterà la stampa dello\nscorporo IVA.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"27\" -->\n<!-- PageBreak -->",
+    "Pagina": 27,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.16 SCORPORO IVA SU SCONTRINO",
+    "Lista di Figure interne": [
+      "[page27_figure23](figures2/page27_figure23.png)",
+      "[page27_figure24](figures2/page27_figure24.png)"
+    ],
+    "Global_order": 29
+  },
+  {
+    "Testo": "## 3.17 CONTROLLO DI MEZZANOTTE  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare AVVISO\nMEZZANOTTE. Premere [CONTANTI] per entrare nella programmazione:  \n<figure>  \n\\- PROGRAMMAZIONE-\nAvviso Mezzanotte  \nA) Premere [CONTANTI].  \nATTIVA ALLARME?\n<SI> / NO  \nB) Premere il tasto [PREZZO REPARTO] e\n[CONTANTI] per disattivare il controllo\n(disabilitato di default)  \n</figure>  \nIl display torna al menù principale. Se il controllo è attivo (ed è stato emesso almeno uno\nscontrino fiscale), dalle 23.55 la cassa emette una segnalazione acustica e visiva a display\ncon la scritta \"ESEGUI CHIUSURA GIORNALIERA!\".  \nLa segnalazione termina a mezzanotte. Se viene eseguita la chiusura giornaliera, la\nsegnalazione cessa (non eseguire altri scontrini fiscali fino allo scadere della mezzanotte).",
+    "Pagina": 28,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.17 CONTROLLO DI MEZZANOTTE",
+    "Lista di Figure interne": [
+      "[page28_figure25](figures2/page28_figure25.png)",
+      "[page28_figure26](figures2/page28_figure26.png)"
+    ],
+    "Global_order": 30
+  },
+  {
+    "Testo": "## 3.18 PROGRAMMAZIONE FATTURE  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare\nPROGRAMMAZIONE FATTURE. Premere [CONTANTI] per entrare nella\nprogrammazione:  \n<figure>  \n\\- PROGRAMMAZIONE-\nProgramm. FATTURE  \nNUMERO FATTURA\n0  \nI  \nIl display torna al menù principale.  \n</figure>  \nA) Premere [CONTANTI]  \nB) Inserire il numero dell'ultima fattura emessa e\npremere [CONTANTI].  \nNOTA: Il limite del numero progressivo per\ndocumenti FATTURE è 50.000.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"28\" -->\n<!-- PageBreak -->",
+    "Pagina": 28,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.18 PROGRAMMAZIONE FATTURE",
+    "Lista di Figure interne": [
+      "[page28_figure25](figures2/page28_figure25.png)",
+      "[page28_figure26](figures2/page28_figure26.png)"
+    ],
+    "Global_order": 31
+  },
+  {
+    "Testo": "## 3.19 PROGRAMMAZIONE NUMERO CASSA  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare IMPOSTA\nNUMERO CASSA. Premere [CONTANTI] per entrare nella programmazione:  \n<figure>  \n\\- PROGRAMMAZIONE-\nImposta Nr. Cassa  \nSTAMPA NUM. CASSA?\nSI/ <NO>  \nNUMERO CASSA:\n1  \nIl display torna al menù principale.  \n</figure>  \nA) Premere [CONTANTI].  \nB) Premere il tasto [REPARTO] e [CONTANTI]\nper abilitare la stampa su scontrino del\nnumero della cassa (disabilitato di default)  \nC) Inserire il numero che identifichi la cassa\n(da 1 a 99) e premere [CONTANTI] per\nabilitare la stampa su scontrino",
+    "Pagina": 29,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.19 PROGRAMMAZIONE NUMERO CASSA",
+    "Lista di Figure interne": [
+      "[page29_figure27](figures2/page29_figure27.png)",
+      "[page29_figure28](figures2/page29_figure28.png)"
+    ],
+    "Global_order": 32
+  },
+  {
+    "Testo": "## 3.20 SUBTOTALE OBBLIGATORIO  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare SUBTOTALE\nOBBLIGATORIO. Premere [CONTANTI] per entrare nella programmazione:  \n<figure>  \n\\- PROGRAMMAZIONE-\nSubtot. Obbligat.  \nSUBTOT . OBBLIGATORIO\nSI/ <NO>  \n</figure>  \nIl display torna al menù principale.  \nA) Premere [CONTANTI].  \nB) Premere il tasto [REPARTO] e [CONTANTI]\nper abilitare l'obbligo della pressione del\ntasto SUBTOTALE prima della pressione del\ntotale (disabilitato di default)  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"29\" -->\n<!-- PageBreak -->",
+    "Pagina": 29,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.20 SUBTOTALE OBBLIGATORIO",
+    "Lista di Figure interne": [
+      "[page29_figure27](figures2/page29_figure27.png)",
+      "[page29_figure28](figures2/page29_figure28.png)"
+    ],
+    "Global_order": 33
+  },
+  {
+    "Testo": "## 3.21 LIMITE IMPORTO SCONTRINO  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare LIMITE\nIMPORTO SCONTRINO. Premere [CONTANTI] per entrare nella programmazione:  \n<figure>  \n\\- PROGRAMMAZIONE-\nLIM.IMP.SCONTR.  \nMASSIMO IMPORTO ?\n999.999,99  \nIl display torna al menù principale.  \n</figure>  \nA) Premere [CONTANTI].  \nB) Digitare il valore massimo che può\nraggiungere lo scontrino e premere\n[CONTANTI]. Superato il valore impostato, la\ncassa segnalerà errore e non permetterà\naltre registrazioni ..",
+    "Pagina": 30,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.21 LIMITE IMPORTO SCONTRINO",
+    "Lista di Figure interne": [
+      "[page30_figure29](figures2/page30_figure29.png)",
+      "[page30_figure30](figures2/page30_figure30.png)"
+    ],
+    "Global_order": 34
+  },
+  {
+    "Testo": "## 3.22 ASSOCIAZIONE RESTO  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare ASSOCIAZIONE\nRESTO. Premere [CONTANTI] per entrare nella programmazione:  \n<figure>  \n\\- PROGRAMMAZIONE-\nASSOCIAZ. RESTO  \nRESTO SUI PAGAMENTI?\nSI/ <NO>  \n</figure>  \nA) Premere [CONTANTI].  \nB) Se si desidera addebitare l'eventuale resto\ndello scontrino, all'ultimo Totale utilizzato,\nevitando che l'importo venga detratto dal\npagamento CONTANTI, premere il tasto\n[REPARTO] e [CONTANTI]. Questa\nimpostazione ha effetto solo sui report dei\nFinanziari.  \nIl display torna al menù principale.\nNOTA: eseguire l'operazione solo dopo una chiusura giornaliera.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"30\" -->\n<!-- PageBreak -->",
+    "Pagina": 30,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.22 ASSOCIAZIONE RESTO",
+    "Lista di Figure interne": [
+      "[page30_figure29](figures2/page30_figure29.png)",
+      "[page30_figure30](figures2/page30_figure30.png)"
+    ],
+    "Global_order": 35
+  },
+  {
+    "Testo": "## 3.23 GRUPPI REPARTO  \nIn PRG (4 + CHIAVE) premere [REPARTO] fino a visualizzare GRUPPI REPARTO.\nPremere [CONTANTI] per iniziare la programmazione dei Gruppi reparto;  \n<figure>  \nCOD . GRUPPO REPARTO\n1  \nDESCRIZIONE ?\n<GRUPPO 01 > 01  \n</figure>  \nA) Inserire un valore da 1 a 10 a seconda del\ngruppo da programmare e premere\n[CONTANTI]  \nB) Inserire la descrizione del gruppo (massimo di\n20 caratteri), utilizzando i caratteri della\ntastiera numerica e premere [CONTANTI]  \nIl display si imposta per la successiva programmazione di un altro Gruppo reparto; ripetere\nla sequenza per programmare i gruppi successivi.\nPer uscire dalla programmazione dei GRUPPI REPARTO, premere [STORNO].",
+    "Pagina": 31,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.23 GRUPPI REPARTO",
+    "Lista di Figure interne": [
+      "[page31_figure31](figures2/page31_figure31.png)",
+      "[page31_figure32](figures2/page31_figure32.png)",
+      "[page31_figure33](figures2/page31_figure33.png)"
+    ],
+    "Global_order": 36
+  },
+  {
+    "Testo": "## 3.24 STAMPA VALORE NETTO NELLO SCONTRINO  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare STAMPA\nVALORE NETTO. Premere [CONTANTI] per entrare nella programmazione:  \n<figure>  \n\\- PROGRAMMAZIONE-\nSt. Valore Netto  \nSTAMPA VALORE NETTO?\nSI/ <NO>  \nIl display torna al menù principale.  \n</figure>  \nA) Premere [CONTANTI].  \nB) Premere il tasto [REPARTO] e\n[CONTANTI] per abilitare la stampa nello\nscontrino dell'importo netto di un articolo dopo\nuna variazione a valore o in percentuale\n(disabilitato di default).",
+    "Pagina": 31,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.24 STAMPA VALORE NETTO NELLO SCONTRINO",
+    "Lista di Figure interne": [
+      "[page31_figure31](figures2/page31_figure31.png)",
+      "[page31_figure32](figures2/page31_figure32.png)",
+      "[page31_figure33](figures2/page31_figure33.png)"
+    ],
+    "Global_order": 37
+  },
+  {
+    "Testo": "## 3.25 NOTA DI CREDITO  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] per visualizzare NOTA DI\nCREDITO. Premere il tasto CONTANTI.  \n<figure>  \nNOTA DI CREDITO\n<SI> / NO  \nU  \nNR. PRATICA DI RESO\n0  \nI  \n</figure>  \nA) Premere il tasto [REPARTO] e [CONTANTI] per\nabilitare (default) la gestione delle note di credito.\nPremere il tasto [PREZZO REPARTO] e [CONTANTI]\nper disabilitare la gestione delle note di credito  \nB) Inserire il numero progressivo dell'ultima pratica di\nreso emessa e premere [CONTANTI].  \nIl display ritorna nel menù principale; per uscire dal menù premere [STORNO].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"31\" -->\n<!-- PageBreak -->",
+    "Pagina": 31,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.25 NOTA DI CREDITO",
+    "Lista di Figure interne": [
+      "[page31_figure31](figures2/page31_figure31.png)",
+      "[page31_figure32](figures2/page31_figure32.png)",
+      "[page31_figure33](figures2/page31_figure33.png)"
+    ],
+    "Global_order": 38
+  },
+  {
+    "Testo": "## 3.26 CANCELLA CLIENTE  \nPer cancellare un CLIENTE è necessario entrare in modalità PRG (4 + CHIAVE) e\npremere [PREZZO REPARTO] fino a visualizzare CANCELLA CLIENTE. Premere\n[CONTANTI] per entrare nella funzione.  \n<figure>  \nCODICE CLIENTE ?\n11  \nCLIENTE\nCANCELLATO  \n</figure>  \nInserire il codice CLIENTE digitandolo sulla\ntastiera e premere [CONTANTI].  \nIl display visualizza nuovamente CANCELLA CLIENTE; ripetere la sequenza per altri\nclienti da cancellare. Per uscire premere [STORNO].",
+    "Pagina": 32,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.26 CANCELLA CLIENTE",
+    "Lista di Figure interne": [
+      "[page32_figure34](figures2/page32_figure34.png)"
+    ],
+    "Global_order": 39
+  },
+  {
+    "Testo": "## 3.27 RIEPILOGO PROGRAMMAZIONI  \nIn PRG (4 + CHIAVE) premere [PREZZO REPARTO] fino a visualizzare Riepilogo PRG.\nPremere [CONTANTI] per ottenere la stampa delle programmazioni effettuate.",
+    "Pagina": 32,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.27 RIEPILOGO PROGRAMMAZIONI",
+    "Lista di Figure interne": [
+      "[page32_figure34](figures2/page32_figure34.png)"
+    ],
+    "Global_order": 40
+  },
+  {
+    "Testo": "## 3.28 RIEPILOGO REPARTI  \nIn PRG (4 + CHIAVE) premere [REPARTO] fino a visualizzare Riepilogo REPARTI.\nPremere [CONTANTI] per ottenere la stampa delle attuali impostazioni dei reparti.\nPremere CL per interrompere la stampa.",
+    "Pagina": 32,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.28 RIEPILOGO REPARTI",
+    "Lista di Figure interne": [
+      "[page32_figure34](figures2/page32_figure34.png)"
+    ],
+    "Global_order": 41
+  },
+  {
+    "Testo": "## 3.29 RIEPILOGO CLIENTI  \nIn PRG (4 + CHIAVE) premere [REPARTO] fino a visualizzare Riepilogo CLIENTI.\nPremere [CONTANTI] per ottenere la stampa delle anagrafiche clienti. Premere CL per\ninterrompere la stampa.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"32\" -->\n<!-- PageBreak -->",
+    "Pagina": 32,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.29 RIEPILOGO CLIENTI",
+    "Lista di Figure interne": [
+      "[page32_figure34](figures2/page32_figure34.png)"
+    ],
+    "Global_order": 42
+  },
+  {
+    "Testo": "## 3.30 INVIO PROGRAMMAZIONI A PC  \nSe necessita lo scarico delle programmazioni del sistema (esclusi i clienti), è possibile\neseguirlo tramite la funzione INVIO PROGRAMMAZIONI A PC, in modalità\nProgrammazione (4 + CHIAVE).  \nE' necessario collegare la cassa a un PC e utilizzare il programma HYPERTERMINAL o\nun altro programma che permetta lo scarico dati.  \nNOTA: Per questa operazione si consiglia di contattare il centro assistenza per ulteriori\ndettagli.  \nA) Con il programma Hyperterminal collegato al sistema, operare sul PC per attivare la\nfunzione \"TRASFERIMENTO/Acquisisci testo\"  \nB) Aprire il file PRG.txt.  \nC) Operare sulla tastiera e premere il tasto INVIO PRG A PC per ottenere lo scarico\ndelle programmazioni del sistema, da cassa a PC. Al termine dello scarico il\nsistema ritorna al menù principale.  \nD) Operare sul PC per salvare il file PRG.txt, premendo sulla funzione\nTRASFERIMENTO/Acquisisci testo/termina.",
+    "Pagina": 33,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.30 INVIO PROGRAMMAZIONI A PC",
+    "Lista di Figure interne": [],
+    "Global_order": 43
+  },
+  {
+    "Testo": "## 3.31 INVIO CLIENTI A PC  \nSe necessita lo scarico dell'anagrafica dei clienti presenti in memoria, è possibile eseguirlo\ntramite la funzione INVIO CLIENTI A PC, in modalità Programmazione (4 + CHIAVE).\nE' necessario collegare la cassa a un PC e utilizzare il programma HYPERTERMINAL o\nun altro programma che permetta lo scarico dati.  \nNOTA: Per questa operazione si consiglia di contattare il centro assistenza per ulteriori\ndettagli.  \nA) Con il programma Hyperterminal collegato al sistema, operare sul PC per attivare la\nfunzione \"TRASFERIMENTO/Acquisisci testo\"  \nB) Aprire il file CLIENTS.txt.  \nC) Operare sulla tastiera e premere il tasto INVIO CLIENTI A PC per ottenere lo\nscarico delle anagrafiche cliente da cassa a PC. Al termine dello scarico il sistema\nritorna al menù principale.  \nD) Operare sul PC per salvare il file CLIENTS.txt, premendo sulla funzione\nTRASFERIMENTO/Acquisisci testo/termina.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"33\" -->\n<!-- PageBreak -->  \n<!-- PageHeader=\"(modulo\" -->",
+    "Pagina": 33,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.31 INVIO CLIENTI A PC",
+    "Lista di Figure interne": [],
+    "Global_order": 44
+  },
+  {
+    "Testo": "## 3.32 ABILITA/DISABILITA CONNESSIONE WIFI opzionale)  \nPer attivare o disattivare il modulo WIFi, entrare in modalità PRG (4 + CHIAVE) e premere\n[PREZZO REPARTO] fino a visualizzare \"ABILITAZIONE WIFI\". Premere [CONTANTI]\nper entrare nella funzione.  \n<figure>  \nABILITA WIFI ?\n<SI> / NO  \nATTENDERE ...\n\\>\\>  \nDISABILITA WIFI ?\nSI / <NO>  \nNOME AP ABC\nSEGNALE: - 52DBM CL  \n</figure>  \na) Per attivare il modulo WiFi, premere il tasto\n[REPARTO] e [CONTANTI].  \nb) Attendere che il sistema si colleghi alla rete\n(Access Point)  \nc) premere [CONTANTI] per mantenere la\nconnessione e visualizzare sul display le\ninformazioni relative al segnale.  \nPremendo [CL], Il display visualizza nuovamente ABILITAZIONE WIFI.\nPer uscire dal menù premere [STORNO].  \nSe il WiFi viene attivato, in chiave REG (1 CHIAVE) viene visualizzata a display una\nlettera (w o W):  \n· w = WiFi abilitato ma non collegato; il sistema sta tentando il collegamento con AP.  \n· W = WiFi abilitato e collegato.  \nSe viene disabilitata la connessione WiFi, al successivo riavvio, il sistema comunque\nesegue la connessione automatica. Durante la fase di connessione, possono verificarsi\nrallentamenti nella visualizzazione dei messaggi a display e nell'esecuzione dei comandi.\nQuando è attivo il modulo WiFi, si consiglia quindi di attendere almeno un minuto\ndall'avvio del sistema, prima di inviare comandi alla stampante PRINT! F.  \nVerificare inoltre che l'Access Point sia acceso e collegato alla rete, prima di accendere\nPRINT! F.  \nPRINT! F all'avvio e nel caso di perdita del segnale, tenta la connessione all'Access Point\nper circa 3 minuti. Durante questo periodo possono presentarsi ripetuti rallentamenti del\nsistema, dopodichè viene disabilitato automaticamente il modulo WiFi (scompare dal\ndisplay la lettera w).  \nE' possibile riabilitare la connessione con la procedura sopra descritta o riavviando il\nsistema.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"34\" -->\n<!-- PageBreak -->",
+    "Pagina": 34,
+    "Capitolo #": "3 PROGRAMMAZIONE (PRG)",
+    "Sezione ##": "3.32 ABILITA/DISABILITA CONNESSIONE WIFI opzionale)",
+    "Lista di Figure interne": [
+      "[page34_figure35](figures2/page34_figure35.png)"
+    ],
+    "Global_order": 45
+  },
+  {
+    "Testo": "# 4 REGISTRAZIONI (REG)  \nNel seguente capitolo vengono illustrate una serie di istruzioni e di esempi più comuni per\nl'emissione dello scontrino fiscale.  \nPer svolgere queste operazioni è necessario posizionarsi in modalità REG \"registrazione\"\ncon [1] + [CHIAVE].",
+    "Pagina": [
+      35,
+      36
+    ],
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": null,
+    "Lista di Figure interne": [
+      "[page35_figure36](figures2/page35_figure36.png)",
+      "[page36_figure37](figures2/page36_figure37.png)"
+    ],
+    "Global_order": 46
+  },
+  {
+    "Testo": "## 4.1 SCELTA OPERATORE  \nPrima di iniziare la registrazione degli articoli, se fosse necessario impostare l'operatore,\nprocedere nel seguente modo:  \npremere il tasto [OPERATORE], il display visualizza  \nCOD. OPERATORE'\n?\n1  \nInserire un numero da 1 a 10 e premere nuovamente il tasto [OPERATORE].\nIl display torna in REG visualizzando un riferimento dell'operatore impostato.\nEsempio per operatore 2.  \nREG (OP2)\n0,00",
+    "Pagina": [
+      35,
+      36
+    ],
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.1 SCELTA OPERATORE",
+    "Lista di Figure interne": [
+      "[page35_figure36](figures2/page35_figure36.png)",
+      "[page36_figure37](figures2/page36_figure37.png)"
+    ],
+    "Global_order": 47
+  },
+  {
+    "Testo": "## 4.2 VENDITE SUI REPARTI  \nI reparti sono personalizzabili con la programmazione in modalità PRG (vedi cap. 3.3),\noppure possono essere personalizzati tramite il collegamento al PC con il software\nopzionale.  \nLe vendite da tastiera possono essere eseguite in due modi a seconda del modello\nutilizzato, con prezzo libero o con prezzo preimpostato.  \nPer iniziare la registrazione degli articoli, posizionarsi in modalità REG.  \nPer vendere un articolo si digita dalla tastiera numerica:  \n· l'importo del prodotto e si preme il tasto PREZZO REPARTO  \n· il codice del reparto e il tasto REPARTO  \nEs .: 50,00 € su reparto 2.  \nDigitare:  \noppure digitare:  \n<figure>  \n5  \nD  \n0  \n00  \nPR.\nREP.  \nD  \n2  \nD  \nREP\nARTO  \n5  \nA  \n0  \n00  \nD  \nREPARTO 2  \n</figure>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"35\" -->\n<!-- PageBreak -->  \nSul display:  \nREPARTO 02  \nEURO  \n50,00  \nPer chiudere lo scontrino premere il tasto [CONTANTI].\nVerrà emesso uno scontrino cosi composto:  \n<figure>  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/FAX  \nINTESTAZIONE\n(max 6 righe)  \nDESCRIZIONE\nREPARTO  \nEURO  \nREPARTO 02  \n50,00  \nTOTALE EURO\n50,00  \nCONTANTI\n50,00  \nNº SCONTRINO  \nNR.0001 11/02/12 12:07\nMF U1 72000001  \nDATA & ORA  \n</figure>  \nATTENZIONE!  \nTutti i layout degli scontrini fiscali e non fiscali,\npresenti in questo manuale\n(incluse le stampe dei giornalieri e periodici) e le fatture,\nsono inseriti a titolo dimostrativo.  \nI caratteri e l'aspetto dei documenti stampati sullo scontrino,\npossono essere differenti.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"36\" -->\n<!-- PageBreak -->",
+    "Pagina": [
+      35,
+      36
+    ],
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.2 VENDITE SUI REPARTI",
+    "Lista di Figure interne": [
+      "[page35_figure36](figures2/page35_figure36.png)",
+      "[page36_figure37](figures2/page36_figure37.png)"
+    ],
+    "Global_order": 48
+  },
+  {
+    "Testo": "## 4.3 REGISTRARE QUANTITA' MULTIPLE  \nPer registrare quantità multiple digitare il [X/Ora] dopo aver inserito la quantità da\nmoltiplicare. Es .: 3 articoli da 15,00 € al reparto 1.\nDigitare:  \n<figure>  \n3  \nD  \nX\nOra  \nD  \n1  \nD  \n5  \n00  \nREPARTO 1  \nREG  \n3x  \n15,00  \nREPARTO 01\nEURO\n45,00  \n</figure>  \nIl display visualizza:  \nPer chiudere lo scontrino premere il tasto [CONTANTI].\nVerrà emesso uno scontrino cosi composto:  \n<figure>  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/ FAX  \nEURO\n3 X 15.00  \nREPARTO 01\n45,00  \nNR.0002 11/02/12 12:09\nMF U1 72000001  \n</figure>  \n<table>\n<tr>\n<td>TOTALE EURO</td>\n<td>45,00</td>\n</tr>\n<tr>\n<td>CONTANTI</td>\n<td>45,00</td>\n</tr>\n</table>  \nNota1: le quantità multiple sono composte al\nmassimo da quattro interi e tre decimali  \nNota2: il massimo valore di quantità multiple\ninseribile è 9999.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"37\" -->\n<!-- PageBreak -->",
+    "Pagina": 37,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.3 REGISTRARE QUANTITA' MULTIPLE",
+    "Lista di Figure interne": [
+      "[page37_figure38](figures2/page37_figure38.png)",
+      "[page37_figure39](figures2/page37_figure39.png)"
+    ],
+    "Global_order": 49
+  },
+  {
+    "Testo": "## 4.4 CALCOLO DEL RESTO  \nDopo le varie registrazioni digitare l'importo ricevuto dal cliente e chiudere la transazione\ncon un totale di chiusura.  \nEs .: Prezzo di 89,00 € al reparto 3 , [CONTANTI] 100,00 €.  \n<figure>  \nDigitare:  \n8  \n9  \n00  \nREPARTO 3  \nD  \n1  \nA  \n00  \n00  \n</figure>  \nPremere il tasto [CONTANTI] per chiudere lo scontrino.  \nIl display visualizza il resto.  \nVerrà emesso uno scontrino cosi composto:  \n<figure>  \nRAGIONE SOCIALE  \nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/FAX  \nEURO  \nREPARTO 03  \n89,00  \nTOTALE EURO\n89,00  \nCONTANTI  \nCONTANTI  \n100,00  \nRESTO  \n11,00  \nRESTO  \nNR.0004 11/02/12 12:12\nMF U1 72000001  \n</figure>  \nNel caso in cui si inserisca un valore [CONTANTI] inferiore all'importo del totale, es. 80,00\nEuro, lo scontrino rimarrà aperto e a display sarà visualizzato \"MANCANO € 9,00\".\nChiudere lo scontrino premendo uno dei totali di chiusura in base alla forma del saldo\noperato dal cliente.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"38\" -->\n<!-- PageBreak -->",
+    "Pagina": 38,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.4 CALCOLO DEL RESTO",
+    "Lista di Figure interne": [
+      "[page38_figure40](figures2/page38_figure40.png)",
+      "[page38_figure41](figures2/page38_figure41.png)"
+    ],
+    "Global_order": 50
+  },
+  {
+    "Testo": "## 4.5 SCONTI  \nPer effettuare uno sconto, inserire l'importo da detrarre e premere il tasto [SCONTO].\nEs .: Prezzo di 40,00 € al reparto 1, sconto di 5,00 €  \n<figure>  \nDigitare:  \n4  \nA  \n0  \nA  \n00  \nREPARTO 1  \nD  \n5  \n00  \nSCONT\nMAG  \n</figure>  \nIl display visualizza lo sconto apportato.\nPremere il tasto [CONTANTI] per chiudere lo scontrino.  \nVerrà emesso uno scontrino cosi composto:  \n<figure>  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/FAX  \nEURO  \nSCONTI  \nREPARTO 01  \n40,00  \nSCONTI  \n-5,00  \nTOTALE EURO  \n35,00  \nCONTANTI  \n35,00  \nNR.0005 11/02/12 12:14\nMF U1 72000001  \n</figure>",
+    "Pagina": 39,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.5 SCONTI",
+    "Lista di Figure interne": [
+      "[page39_figure42](figures2/page39_figure42.png)",
+      "[page39_figure43](figures2/page39_figure43.png)",
+      "[page39_figure44](figures2/page39_figure44.png)"
+    ],
+    "Global_order": 51
+  },
+  {
+    "Testo": "## 4.6 MAGGIORAZIONI  \nPer effettuare una maggiorazione, inserire l'importo da aggiungere e premere i tasti\n[SHIFT] e [MAGGIORAZIONI]  \n<figure>  \nSHIFT  \nD  \nSCONTI  \nMAGG.  \n</figure>  \nEs .: Prezzo di 100,00 € al reparto 2, maggiorazione di 20,00 € e chiudo con il tasto\n[CONTANTI].  \nIl display visualizza \"CONTANTI € 120,00\" .  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"39\" -->\n<!-- PageBreak -->",
+    "Pagina": 39,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.6 MAGGIORAZIONI",
+    "Lista di Figure interne": [
+      "[page39_figure42](figures2/page39_figure42.png)",
+      "[page39_figure43](figures2/page39_figure43.png)",
+      "[page39_figure44](figures2/page39_figure44.png)"
+    ],
+    "Global_order": 52
+  },
+  {
+    "Testo": "## 4.7 SCONTO PERCENTUALE  \nCon PRINT! F è possibile effettuare uno sconto in percentuale sul singolo prodotto o\nsull'intero importo dopo il \"SUB-TOTALE\".",
+    "Pagina": 40,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.7 SCONTO PERCENTUALE",
+    "Lista di Figure interne": [
+      "[page40_figure45](figures2/page40_figure45.png)",
+      "[page40_figure46](figures2/page40_figure46.png)"
+    ],
+    "Global_order": 53
+  },
+  {
+    "Testo": "### 4.7.1 SCONTO PERCENTUALE SUL PRODOTTO  \nLo sconto sul prodotto può essere effettuato a reparto.\nEsempio, Vendita con REPARTO 5 applicando lo sconto del 20%.  \nDigitare:  \n<figure>  \n3  \n3  \n00  \nREPARTO 5  \nD  \n2  \n0  \n00  \n% -\n% +  \n</figure>  \nIl display visualizza lo sconto apportato al Reparto.\nPremere il tasto [CONTANTI] per chiudere lo scontrino.\nVerrà emesso uno scontrino cosi composto:  \n<table>\n<tr>\n<th></th>\n<th>EURO</th>\n</tr>\n<tr>\n<td>REPARTO 05</td>\n<td>33,00</td>\n</tr>\n<tr>\n<td>SCONTO 20%</td>\n<td>-6,60</td>\n</tr>\n</table>  \n<table>\n<tr>\n<td>TOTALE EURO</td>\n<td>26,40</td>\n</tr>\n<tr>\n<td>CONTANTI</td>\n<td>26,40</td>\n</tr>\n</table>  \n<figure>  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/FAX  \nNR.0006 11/02/12 12:16\nMF U1 72000001  \n</figure>",
+    "Pagina": 40,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.7 SCONTO PERCENTUALE",
+    "Lista di Figure interne": [
+      "[page40_figure45](figures2/page40_figure45.png)",
+      "[page40_figure46](figures2/page40_figure46.png)"
+    ],
+    "Global_order": 54
+  },
+  {
+    "Testo": "### 4.7.2 SCONTO PERCENTUALE SUL SUBTOTALE  \nLo sconto percentuale sul Sub-totale si effettua terminate le registrazioni degli articoli\npremendo il tasto [SUBTOTALE] e digitando lo sconto (es. 10%= 10,00), e premendo i\ntasti [SHIFT] e [%-] seguito da [CONTANTI] per chiudere lo scontrino.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"40\" -->\n<!-- PageBreak -->",
+    "Pagina": 40,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.7 SCONTO PERCENTUALE",
+    "Lista di Figure interne": [
+      "[page40_figure45](figures2/page40_figure45.png)",
+      "[page40_figure46](figures2/page40_figure46.png)"
+    ],
+    "Global_order": 55
+  },
+  {
+    "Testo": "## 4.8 MAGGIORAZIONE IN PERCENTUALE  \nCon PRINT! F è possibile effettuare una maggiorazione in percentuale sul singolo prodotto\no sull'intero importo dopo il \"SUB-TOTALE\".",
+    "Pagina": 41,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.8 MAGGIORAZIONE IN PERCENTUALE",
+    "Lista di Figure interne": [
+      "[page41_figure47](figures2/page41_figure47.png)"
+    ],
+    "Global_order": 56
+  },
+  {
+    "Testo": "### 4.8.1 MAGGIORAZIONE PERCENTUALE SUL PRODOTTO  \nLa maggiorazione sul prodotto può essere effettuata a reparto.  \nEsempio: Vendita con Reparto 2 applicando la maggiorazione del 10%.  \nDigitare:  \n<figure>  \n1  \n6  \n00  \nREPARTO 2  \nD  \n1  \nD  \n0  \nD  \n00  \nSHI\nFT  \nD  \n%+  \n</figure>  \nIl display visualizza la maggiorazione apportata al Reparto.\nPremere il tasto [CONTANTI] per chiudere lo scontrino.\nSarà emesso uno scontrino cosi composto:  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/ FAX  \n<table>\n<tr>\n<th></th>\n<th>EURO</th>\n</tr>\n<tr>\n<td>REPARTO 02</td>\n<td>16,00</td>\n</tr>\n<tr>\n<td>MAGG. 10%</td>\n<td>1,60</td>\n</tr>\n</table>  \n<table>\n<tr>\n<td>TOTALE EURO</td>\n<td>17,60</td>\n</tr>\n<tr>\n<td>CONTANTI</td>\n<td>17,60</td>\n</tr>\n</table>  \nNR.0007 11/02/12 12:18\nMF U1 72000001",
+    "Pagina": 41,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.8 MAGGIORAZIONE IN PERCENTUALE",
+    "Lista di Figure interne": [
+      "[page41_figure47](figures2/page41_figure47.png)"
+    ],
+    "Global_order": 57
+  },
+  {
+    "Testo": "### 4.8.2 MAGGIORAZIONE PERCENTUALE SUL SUBTOTALE  \nLa maggiorazione percentuale sul Sub-totale si effettua terminate le registrazioni degli\narticoli premendo il tasto [SUBTOTALE], digitando la maggiorazione (es. 10%= 10,00) e\npremendo il tasto [SHIFT] e [%+] seguito dal tasto [CONTANTI] per chiudere lo scontrino.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"41\" -->\n<!-- PageBreak -->",
+    "Pagina": 41,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.8 MAGGIORAZIONE IN PERCENTUALE",
+    "Lista di Figure interne": [
+      "[page41_figure47](figures2/page41_figure47.png)"
+    ],
+    "Global_order": 58
+  },
+  {
+    "Testo": "## 4.9 RESO MERCE  \nE' possibile effettuare un reso merce nel reparto desiderato premendo il tasto\n[RESO MERCE].\nEs .: Registrazione 10,00 Euro sul reparto 5 , reso merce di 5,00 Euro al reparto 4.  \n**Digitare:**  \n<figure>  \n1  \nD  \n0  \n00  \nREPARTO 5  \nD  \nSHIFT  \nSTOR.\nRESO  \nD  \nD  \n5  \n4  \n00  \nREPARTO 4  \n</figure>  \nSul display:  \nREPARTO 04\nEURO\n-5,00  \nPremere il tasto [CONTANTI] per chiudere lo scontrino.  \nSarà emesso uno scontrino cosi composto:  \n<figure>  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/FAX  \nEURO  \nREPARTO 05  \n10,00  \nRESO\nMERCE  \n-- RESO --\nREPARTO 04\n-5,00  \nTOTALE EURO  \n5,00  \nCONTANTI  \n5,00  \nNR.0008 11/02/12 12:20\nMF U1 72000001  \n</figure>  \nNota: Se il Reso Merce supera il valore dell'importo totale degli articoli venduti (Subtotale),\nnon è possibile chiudere lo scontrino; annullare l'operazione di RESO, oppure eseguire\naltre registrazioni che portino il Totale vendite in positivo.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"42\" -->\n<!-- PageBreak -->",
+    "Pagina": 42,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.9 RESO MERCE",
+    "Lista di Figure interne": [
+      "[page42_figure48](figures2/page42_figure48.png)",
+      "[page42_figure49](figures2/page42_figure49.png)"
+    ],
+    "Global_order": 59
+  },
+  {
+    "Testo": "## 4.10 STORNI E ANNULLI  \nSono possibili diversi modi di correzione dopo la vendita di uno o più articoli su Reparto. I\ntasti utilizzabili sono i seguenti:  \nTasto [CL] - [ANNULLO] - [ANNULLO SCONTRINO] - [STORNO] - [RESO MERCE]",
+    "Pagina": 43,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.10 STORNI E ANNULLI",
+    "Lista di Figure interne": [
+      "[page43_figure50](figures2/page43_figure50.png)",
+      "[page43_figure51](figures2/page43_figure51.png)"
+    ],
+    "Global_order": 60
+  },
+  {
+    "Testo": "### 4.10.1 TASTO CL  \nCon il tasto [CL] è possibile:  \n1\\) Azzerare il display  \n2\\) Cancellare l'importo appena impostato  \n3\\) Rimuovere una condizione di errore a display  \nNel caso si verificasse un errore di procedura la macchina emette un breve segnale\nacustico e visualizza a display il tipo di errore.  \nPremere il tasto [CL] per rimuovere l'errore.",
+    "Pagina": 43,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.10 STORNI E ANNULLI",
+    "Lista di Figure interne": [
+      "[page43_figure50](figures2/page43_figure50.png)",
+      "[page43_figure51](figures2/page43_figure51.png)"
+    ],
+    "Global_order": 61
+  },
+  {
+    "Testo": "### 4.10.2 TASTO ANNULLO  \nCon il tasto [ANNULLO] è possibile annullare l'ultima vendita registrata su Reparto.\nEsempi: vendita Reparto 5, Reparto 3 e successiva annullo del Reparto 3  \nDigitare:  \n<figure>  \n2  \n0  \nD  \n00  \nD  \nREPARTO 5  \n4  \n1  \nD  \n1  \nD  \n0  \n00  \nA  \nREPARTO 3  \nD  \nANNUL  \nAN-SC.  \nSul display:  \nREPARTO 03\nEURO\n-110,00  \n</figure>  \nPremere il tasto [CONTANTI] per chiudere lo scontrino.\nVerrà emesso uno scontrino cosi composto:  \n<figure>  \nANNULLATA\nULTIMA\nOPERAZIONE  \n</figure>  \n<table>\n<tr>\n<th colspan=\"2\">RAGIONE SOCIALE</th>\n</tr>\n<tr>\n<th colspan=\"2\">UBICAZIONE INDIRIZZO PARTITA IVA</th>\n</tr>\n<tr>\n<th colspan=\"2\">TELEFONO/FAX</th>\n</tr>\n<tr>\n<th></th>\n<th>EURO</th>\n</tr>\n<tr>\n<td>REPARTO 05</td>\n<td>20,00</td>\n</tr>\n<tr>\n<td>REPARTO 03</td>\n<td>110,00</td>\n</tr>\n<tr>\n<td colspan=\"2\">-- ANNULLO --</td>\n</tr>\n<tr>\n<td>REPARTO 03</td>\n<td>-110,00</td>\n</tr>\n<tr>\n<td>TOTALE EURO</td>\n<td>30,00</td>\n</tr>\n<tr>\n<td>CONTANTI</td>\n<td>30,00</td>\n</tr>\n<tr>\n<td colspan=\"2\">NR.0009 11/02/12 12:30 MF U1 72000001</td>\n</tr>\n</table>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"43\" -->\n<!-- PageBreak -->",
+    "Pagina": 43,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.10 STORNI E ANNULLI",
+    "Lista di Figure interne": [
+      "[page43_figure50](figures2/page43_figure50.png)",
+      "[page43_figure51](figures2/page43_figure51.png)"
+    ],
+    "Global_order": 62
+  },
+  {
+    "Testo": "### 4.10.3 OPERAZIONE DI STORNO  \nIl tasto [STORNO] è usato per stornare un importo da un reparto precedentemente\nregistrato all'interno dello stesso scontrino.  \nEsempio, vendita 20,00 Euro sul Reparto 5, 110,00 Euro sul Reparto 2 e storno del\nReparto 5.  \nDigitare:  \n<figure>  \n2  \nD  \n0  \nD  \n00  \nD  \nREPARTO 5  \n4  \n1  \n1  \n0  \nD  \n00  \nD  \nREPARTO 2  \nD  \nSTOR.  \nRESO  \nD  \n2  \n0  \nD  \n00  \nREPARTO 5  \nD  \nA display:  \nREPARTO 05\nEURO  \n-20,00  \n</figure>  \nPremere il tasto [CONTANTI] per chiudere lo scontrino.  \nVerrà emesso uno scontrino cosi composto:  \n<figure>  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/FAX  \nEURO  \nREPARTO 05  \n20,00  \nREPARTO 02  \nSTORNO  \n110,00  \n-- STORNO --  \nIMPORTO\nREPARTO  \nREPARTO 05  \n-20,00  \nTOTALE EURO  \n5,00  \nCONTANTI  \n5,00  \nNR.0010 11/02/12 12:35\nMF U1 72000001  \n</figure>  \nIl tasto [STORNO] ha inoltre la funzione di \"uscita\" dalle procedure di Programmazione\n(modalità PRG).  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"44\" -->\n<!-- PageBreak -->",
+    "Pagina": 44,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.10 STORNI E ANNULLI",
+    "Lista di Figure interne": [
+      "[page44_figure52](figures2/page44_figure52.png)",
+      "[page44_figure53](figures2/page44_figure53.png)"
+    ],
+    "Global_order": 63
+  },
+  {
+    "Testo": "### 4.10.4 OPERAZIONE DI STORNO SCONTRINO  \nIl tasto [ANNULLO SCONTRINO] è usato per annullare completamente lo scontrino in\ncorso, quindi annulla tutti gli importi precedentemente registrati.  \nEsempio: registrazione di 20,00 Euro sul Reparto 9, registrazione di 5,00 Euro sul Reparto\n8 e annullo totale delle registrazioni.  \nDigitare:  \n<figure>  \n2  \nD  \n0  \nD  \n00  \nPR.\nREP.  \nD  \n9  \nD  \nREP\nARTO  \nD  \n5  \n00  \nPR.\nREP.  \nD  \n8  \nD  \nREP\nARTO  \nD  \nSHIFT  \nD  \nANNUL\nAN-SC.  \n</figure>  \nA display:  \nANNULLO SCONTRINO?\nSI / <NO>  \nViene richiesto di confermare la scelta selezionando SI o NO con i tasti [REPARTO] e\n[PREZZO REPARTO]. Selezionare SI e premere [CONTANTI]. Viene chiuso lo scontrino a\nvalore zero e il display visualizza il messaggio SCONTRINO ANNULLATO.  \nVerrà emesso uno scontrino cosi composto:  \n<figure>  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/ FAX  \nEURO  \nREPARTO 09  \n20,00  \nREPARTO 08  \n5,00  \nSUB-TOTALE  \n25,00  \nSTORNO\nSCONTRINO  \nSCONTRINO ANNULLATO  \nNR.0011 11/02/12 12:40\nMF U1 72000001  \n</figure>  \n<table>\n<tr>\n<th></th>\n<th>-25,00</th>\n</tr>\n<tr>\n<td>TOTALE EURO</td>\n<td>0,00</td>\n</tr>\n</table>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"45\" -->\n<!-- PageBreak -->",
+    "Pagina": 45,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.10 STORNI E ANNULLI",
+    "Lista di Figure interne": [
+      "[page45_figure54](figures2/page45_figure54.png)",
+      "[page45_figure55](figures2/page45_figure55.png)"
+    ],
+    "Global_order": 64
+  },
+  {
+    "Testo": "## 4.11 FORME DI PAGAMENTO  \nCon PRINT! F sono possibili diverse forme di pagamento in Euro:  \n· Pagamento in CONTANTI  \n· Pagamento con corrispettivo non riscosso  \n· Pagamento in assegni  \n· Pagamenti con carta di credito e bancomat  \n· Pagamenti diversi (dal Totale 5 al 10)  \nI totalizzatori dei totali di pagamento vengono gestiti nel report FINANZIARI\n(modalità X e Z).  \n· Pagamenti misti (utilizzando più Totali di Pagamento).  \nIl pagamento con CONTANTI è la forma di pagamento più usata che permette di chiudere\ndelle transazioni con denaro contante.  \nEseguire le varie registrazioni e premere il tasto [CONTANTI].  \nSul display appare la scritta \"CONTANTI\" con l'importo da incassare.  \nIl pagamento con Corrispettivo non riscosso è la forma di pagamento che permette la\nchiusura con corrispettivo non riscosso dello scontrino fiscale e per il quale non è\nincrementato il totalizzatore CASSA. Premere il tasto [Corr. non risc.] dopo le varie\nregistrazioni.  \nSul display appare la scritta \"CORR.NON RISC.\" (scritta di default, per la programmazione\nvedi cap. 3.5) con il totale dello scontrino.  \nGli altri tre totali, liberamente riprogrammabili, permettono di chiudere uno scontrino con\nAssegni, carta di credito, bancomat o con altre forme secondo le singole necessità.",
+    "Pagina": 46,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.11 FORME DI PAGAMENTO",
+    "Lista di Figure interne": [
+      "[page46_figure56](figures2/page46_figure56.png)",
+      "[page46_figure57](figures2/page46_figure57.png)"
+    ],
+    "Global_order": 65
+  },
+  {
+    "Testo": "### 4.11.1 PAGAMENTI MISTI  \nCon PRINT! F sono possibili pagamenti misti, (ad esempio, un pagamento parziale in\nASSEGNI e il rimanente in contanti).  \nPer effettuare un pagamento misto, al termine delle registrazioni degli articoli, digitare\nl'importo ricevuto in assegni dal cliente e premere il tasto [ASSEGNI], seguito dalla\ndigitazione dell'importo in contanti e dalla pressione del tasto [CONTANTI].  \nEs .: importo di 90,00 € al reparto 6, di cui 50,00 € sono incassati con un assegno e il resto\nè pagato in contanti. Digitare:  \n<figure>  \n9  \nD  \n0  \n00  \nPR.\nREP.  \nD  \n6  \nD  \nREP\nARTO  \nD  \nSUBTOTALE  \n</figure>  \nDigitare l'importo ricevuto:  \n<figure>  \n5  \n0  \nD  \n00  \nASSE\nGNI  \nD  \nCONTANTI  \n</figure>  \nDopo aver premuto il tasto [ASSEGNI] il display visualizza la scritta \"MANCANO €40,00\"\nper indicare un incasso incompleto; premere quindi il tasto [CONTANTI] .  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"46\" -->\n<!-- PageBreak -->  \n<!-- PageHeader=\"Verrà emesso uno scontrino cosi composto:\" -->  \n<figure>  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/ FAX  \nEURO\n90,00  \nREPARTO 01  \nTOTALE DA\nPAGARE  \nSUB-TOTALE  \n90,00  \nTOTALE EURO  \n90,00  \nASSEGNI\n50,00  \nIMPORTO IN\nCONTANTI  \nIMPORTO\nIN ASSEGNI  \nCONTANTI  \n40,00  \nNR.0012 11/02/12 12:45\nMF U1 72000001  \n</figure>",
+    "Pagina": 46,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.11 FORME DI PAGAMENTO",
+    "Lista di Figure interne": [
+      "[page46_figure56](figures2/page46_figure56.png)",
+      "[page46_figure57](figures2/page46_figure57.png)"
+    ],
+    "Global_order": 66
+  },
+  {
+    "Testo": "### 4.11.2 VISUALIZZAZIONE ULTIMA VENDITA  \nE' possibile, a scontrino chiuso, richiamare sul display l'importo dell'ultima vendita\npremendo semplicemente il tasto [CONTANTI].  \nSempre a scontrino chiuso è inoltre possibile conoscere a display il resto da rendere al\ncliente, digitando il valore dell'importo datomi dal cliente e premendo il tasto [CONTANTI].",
+    "Pagina": 47,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.11 FORME DI PAGAMENTO",
+    "Lista di Figure interne": [
+      "[page47_figure58](figures2/page47_figure58.png)"
+    ],
+    "Global_order": 67
+  },
+  {
+    "Testo": "### 4.11.3 VISUALIZZAZIONE SOMMA DELLE ULTIME DUE VENDITE  \nE' possibile, a scontrino chiuso, richiamare sul display l'importo della somma delle ultime\ndue vendite, premendo semplicemente il tasto [SUBTOTALE].  \nSempre a scontrino chiuso è possibile inoltre conoscere a display il resto da rendere al\ncliente, digitando il valore dell'importo datomi dal cliente e premendo il tasto\n[SUBTOTALE].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"47\" -->\n<!-- PageBreak -->",
+    "Pagina": 47,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.11 FORME DI PAGAMENTO",
+    "Lista di Figure interne": [
+      "[page47_figure58](figures2/page47_figure58.png)"
+    ],
+    "Global_order": 68
+  },
+  {
+    "Testo": "## 4.12 STAMPA CODICE FISCALE E STRINGA ALFANUMERICA  \nPer la stampa nello scontrino di una stringa alfanumerica o del codice fiscale del cliente,\nprocedere nel seguente modo in modalità REG (1 + CHIAVE).",
+    "Pagina": 48,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.12 STAMPA CODICE FISCALE E STRINGA ALFANUMERICA",
+    "Lista di Figure interne": [
+      "[page48_figure59](figures2/page48_figure59.png)"
+    ],
+    "Global_order": 69
+  },
+  {
+    "Testo": "### 4.12.1 STAMPA CODICE FISCALE  \nIniziare la registrazione degli articoli e prima di chiudere lo scontrino, procedere\nall'inserimento del codice fiscale premendo il tasto [COD. FISC./STAMPA ALFA].  \nIl display visualizza:  \nCODICE FISCALE ?\n<\n\\>01  \nInserire il codice fiscale utilizzando i caratteri a tastiera; terminata l'operazione di\ninserimento caratteri, premere il tasto [CONTANTI]. Il programma verificherà la correttezza\ndei dati immessi, in caso contrario chiederà di reinserire il codice.  \nSe il codice CF. o P.IVA è stato inserito correttamente, questo sarà stampato sullo\nscontrino.  \nChiudere lo scontrino fiscale premendo un Totale.  \n<table>\n<tr>\n<td>SUB-TOTALE</td>\n<td>50,00</td>\n</tr>\n<tr>\n<td>TOTALE EURO</td>\n<td>50,00</td>\n</tr>\n<tr>\n<td>CONTANTI</td>\n<td>50,00</td>\n</tr>\n</table>  \n<figure>  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/FAX  \nEURO\n50,00  \nREPARTO 01  \nC.F. 01033470251  \nSTAMPA\nCODICE FISCALE  \nNR.0013 11/02/12 12:49\nMF U1 72000001  \nNOTA: il codice fiscale può essere inserito prima o\ndurante uno scontrino in corso; la stampa verrà\neseguita in testa agli articoli o al termine delle\nregistrazioni.  \n</figure>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"48\" -->\n<!-- PageBreak -->",
+    "Pagina": 48,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.12 STAMPA CODICE FISCALE E STRINGA ALFANUMERICA",
+    "Lista di Figure interne": [
+      "[page48_figure59](figures2/page48_figure59.png)"
+    ],
+    "Global_order": 70
+  },
+  {
+    "Testo": "### 4.12.2 STAMPA STRINGA ALFANUMERICA  \nE' possibile stampare all'interno dello scontrino una o più righe alfanumeriche, durante la\nregistrazione degli articoli; per l'inserimento, premere il tasto [SHIFT] e\n[COD.FISC./STAMPA ALFA].  \nIl display visualizza:  \nTESTO?  \n\\>01  \nInserire i CARATTERI (massimo 35) utilizzando i tasti della tastiera numerica; terminata\nl'operazione di inserimento caratteri, premere il tasto [CONTANTI].  \nViene stampata la stringa sullo scontrino fiscale.  \n<figure>  \nRAGIONE SOCIALE  \nUBICAZIONE\nINDIRIZZO  \nPARTITA IVA\nTELEFONO/FAX  \nEURO  \n#12345ABCDEFG  \nSTAMPA\nSTRINGA ALFANUMERICA  \nREPARTO 01  \n50,00  \n\\# 56789LMNOPQR  \nREPARTO 02\n30,00  \nNR.0014 11/02/12 12:50\nMF U1 72000001  \n</figure>  \n<table>\n<tr>\n<td>SUB-TOTALE</td>\n<td>80,00</td>\n</tr>\n<tr>\n<td>TOTALE EURO</td>\n<td>80,00</td>\n</tr>\n<tr>\n<td>CONTANTI</td>\n<td>80,00</td>\n</tr>\n</table>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"49\" -->\n<!-- PageBreak -->",
+    "Pagina": 49,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.12 STAMPA CODICE FISCALE E STRINGA ALFANUMERICA",
+    "Lista di Figure interne": [
+      "[page49_figure60](figures2/page49_figure60.png)"
+    ],
+    "Global_order": 71
+  },
+  {
+    "Testo": "## 4.13 PRATICA DI RESO (NOTA DI CREDITO)  \nCon PRINT! F è possibile gestire, nel caso di un cliente insoddisfatto, la restituzione di\nmerce ritenuta non conforme alle aspettative, tramite il rimborso del prezzo di acquisto.\nQuesti scontrini chiamati \"Nota di Credito\", vengono utilizzati nei casi di corrispettivi\nconcernenti beni resi dal cliente al rivenditore per vari motivi, ai sensi della Risoluzione\n219/E (5 dicembre 2003 della Direzione Centrale Normativa e Contenzioso).\nPer eseguire tale operazione eseguire le seguenti istruzioni;  \nA) Aprire uno scontrino fiscale premendo il tasto RESO MERCE  \nB) digitare l'importo integrale della merce e il reparto associato  \nC eseguire i punti A e B per ogni articolo da rimborsare  \nD) chiudere con il Totale CONTANTI  \nNello scontrino deve essere presente la scritta NOTA DI CREDITO con il relativo importo;\nlo scontrino riporta inoltre la dicitura RIMBORSO PER RESTITUZIONE MERCE\nVENDUTA e il contatore della \"Pratica di Reso\" giornaliero.  \nNOTA: Quando uno scontrino viene aperto con\nla funzione reso merce, non è possibile eseguire\nvendite di articoli (registrazione a reparto), ma\nsolo chiuderlo con Totale CONTANTI o\nAnnullarlo con il tasto ANNULLO SCONTRINO.\nI contatori e totalizzatori delle NOTE DI\nCREDITO vengono stampati nella chiusura\ngiornaliera.  \nI dati relativi a detti scontrini (vedi figura a lato),\noltre ad essere registrati nel giornale di fondo\nDGFE (supporto MMC), vengono memorizzati\nnelle memorie di lavoro e nella Memoria Fiscale,\nin aree dedicate.  \nL'operatore commerciale avrà cura, in ogni caso,\ndi acquisire anche in copia fotostatica, lo\nscontrino emesso per la merce oggetto di\nrestituzione.  \nRAGIONE SOCIALE  \nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/FAX  \n<table>\n<tr>\n<th></th>\n<th>EURO</th>\n</tr>\n<tr>\n<td>RESO MERCE</td>\n<td></td>\n</tr>\n<tr>\n<td>REPARTO1</td>\n<td>10,00</td>\n</tr>\n<tr>\n<td>RESO MERCE</td>\n<td></td>\n</tr>\n<tr>\n<td>REPARTO 2</td>\n<td>20,00</td>\n</tr>\n<tr>\n<td>NOTA DI CREDITO EURO</td>\n<td>30,00</td>\n</tr>\n</table>  \nNOTA DI CREDITO N. 0001\nPRATICA DI RESO N. 8/2012  \nRIMBORSO PER RESTITUZIONE  \n<table>\n<tr>\n<th></th>\n<th colspan=\"2\">MERCE VENDUTA</th>\n</tr>\n<tr>\n<td>NR.0015</td>\n<td>11/02/12</td>\n<td>12:50</td>\n</tr>\n<tr>\n<td></td>\n<td>MF U1 72000001</td>\n<td></td>\n</tr>\n</table>  \nQuest'ultimo va conservato con lo scontrino di chiusura giornaliera del giorno nel quale\nviene eseguita la sostituzione dei beni resi, in modo da documentare l'operazione in sede\ndi controllo da parte dell'Amministrazione finanziaria.  \n**LA DOCUMENTAZIONE DA TENERE PER OPERARE CORRETTAMENTE**  \n1\\. Apertura da parte del negozio di una \"Pratica di reso\", ovvero un modulo con i dati\ncompleti del negozio e del cliente (generalità di entrambi i soggetti), dove inserire la\nqualità e la quantità dei beni resi, seguiti dall'ammontare dell'imponibile,\ndell'imposta e l'aliquota applicata.  \n2\\. L'emissione con la cassa di uno scontrino \"Nota di credito\" pari al valore della\nmerce resa ( in riferimento all'art. 12 del DM 18 marzo 1983).  \n3\\. Registrazione nel registro dei corrispettivi, del valore dello scontrino \"Nota di\nCredito\" in diminuzione dei corrispettivi del giorno (per il calcolo dell'IVA).  \n4\\. La ripresa della merce in magazzino (contabilità civile e fiscale).  \n5\\. Restituzione del prezzo pagato dall'utente finale che ha reso la merce.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"50\" -->\n<!-- PageBreak -->",
+    "Pagina": 50,
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.13 PRATICA DI RESO (NOTA DI CREDITO)",
+    "Lista di Figure interne": [],
+    "Global_order": 72
+  },
+  {
+    "Testo": "## 4.14 FATTURA INTERNA  \nPRINT! F permette di eseguire la stampa della fattura interna, scegliendo preventivamente\nun cliente. La stampa emessa con carta termica, viene riprodotta in duplice copia (copia\nEMITTENTE e copia CLIENTE).  \nPer stampare correttamente una FATTURA INTERNA è necessario:  \nA) richiamare il CODICE del cliente* e premere\nil tasto CLIENTE  \n\\* inserire l'anagrafica cliente con i seguenti campi\nobbligatori per l'emissione della fattura interna:  \n· CODICE CLIENTE  \n· NOME/COGNOME CLIENTE (stessa\nriga)  \n· INDIRIZZO 1  \n· INDIRIZZO 2  \n· PARTITA IVA  \n· Ulteriori DATI CLIENTE  \nB) premere il tasto FATTURA INTERNA  \nC) registrare gli articoli  \nD) Premere SUBTOTALE (facoltativo)  \nE) Chiudere la fattura interna con il Totale\nrelativo alla forma di pagamento utilizzata dal\ncliente.  \nF) La cassa stampa la COPIA EMITTENTE,\nseguita dalla stampa della COPIA CLIENTE  \n**NOTE**  \nNella stampa compare sempre il numero\nprogressivo di fatture emesse e il relativo numero\ndi matricola della cassa.  \nNella fattura interna non è presente il logotipo\nfiscale.  \nRAGIONE SOCIALE  \nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/FAX  \nFATTURA  \nCOPIA EMITTENTE  \nMARIO ROSSI.\nVIA ROMA N.3\n30174 MESTRE VE\nP.IVA 12345678910  \nQ. TA/DESCRIZIONE/IVA/IMPORTO\nEURO  \n1X 10.00\nPRIMO ARTICOLO\n10%\n10,00  \n2X\n20.00\nSECONDO ARTIC.\n20%\n40,00  \n3X\n30.00  \nTERZO ARTICOLO\n0%\n90,00  \n\\-\n\\-  \n\\-\n\\-\n\\-\n\\-\n\\-\n\\-  \n\\-\n\\-\n\\-  \n\\-  \n\\-\n\\-  \n<table>\n<tr>\n<td>SUBTOTALE</td>\n<td>140,00</td>\n</tr>\n<tr>\n<td>TOTALE EURO</td>\n<td>140,00</td>\n</tr>\n<tr>\n<td>CONTANTE</td>\n<td>140,00</td>\n</tr>\n<tr>\n<td>IMPONIBILE 1</td>\n<td>9,09</td>\n</tr>\n<tr>\n<td>IVA 10.00%</td>\n<td>0.91</td>\n</tr>\n<tr>\n<td>IMPONIBILE 2</td>\n<td>33,33</td>\n</tr>\n<tr>\n<td>IVA 20.00%</td>\n<td>6.67</td>\n</tr>\n<tr>\n<td>IMPONIBILE 3</td>\n<td>90,00</td>\n</tr>\n<tr>\n<td>IVA ES. ART.10 633/72</td>\n<td>0.00</td>\n</tr>\n</table>  \nFATTURA N. 74/ U1 72000002\n11/02/12 16:27  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"51\" -->\n<!-- PageBreak -->  \nLe Fatture interne vengono scritte nel DGFE\n(copia emittente e copia cliente).  \nNel caso di annullo completo della fattura interna\ntramite il tasto ANNULLO SCONTRINO, la cassa\nprocede all'annullo automatico della fattura,\nincrementando comunque il progressivo del\nnumero Fatture. In questo caso viene stampata\nsolo la copia EMITTENTE.  \nSe finisce il rotolo di carta durante la stampa di\nuna delle due copie (EMITTENTE o CLIENTE),\ninserendo un nuovo rotolo, la cassa ristampa\ncompletamente la COPIA interrotta.  \nL'iva calcolata nella fattura interna è legata all'iva\ndegli articoli.  \nPer ogni articolo viene stampato anche il\nriferimento IVA (es. 10%= iva al 10%)  \nLo scorporo delle differenti aliquote IVA viene\nstampato sotto il TOTALE (pagamenti)  \nNel caso di aliquota ESENTE; viene stampata la\nstringa IVA ES. ART.10 633/72  \nNel caso di aliquota NON IMPONIBILE (iva6 per\ndefault) ; viene stampata la stringa IVA N.IMP.\nART.3 633/72.  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/ FAX  \n**FATTURA**  \nCOPIA CLIENTE  \nMARIO ROSSI.\nVIA ROMA N.3\n30174 MESTRE VE\nP.IVA 12345678910  \nQ. TA/DESCRIZIONE/IVA/IMPORTO  \nEURO  \n1X 10.00\nPRIMO ARTICOLO\n10%\n10,00\n2X\n20.00\nSECONDO ARTIC.\n20%\n40,00  \n3X\n30.00\nTERZO ARTICOLO\n0%\n90,00  \n\\-\n\\-\n\\-\n\\-\n\\-\n\\-  \n\\-\n\\-  \n\\-  \n\\-\n\\-  \n\\-  \n\\-\n\\-  \n<table>\n<tr>\n<td>SUBTOTALE</td>\n<td>140,00</td>\n</tr>\n<tr>\n<td>TOTALE EURO</td>\n<td>140,00</td>\n</tr>\n<tr>\n<td>CONTANTE</td>\n<td>140,00</td>\n</tr>\n<tr>\n<td>IMPONIBILE 1</td>\n<td>9,09</td>\n</tr>\n<tr>\n<td>IVA 10.00%</td>\n<td>0.91</td>\n</tr>\n<tr>\n<td>IMPONIBILE 2</td>\n<td>33,33</td>\n</tr>\n<tr>\n<td>IVA 20.00%</td>\n<td>6.67</td>\n</tr>\n<tr>\n<td>IMPONIBILE 3</td>\n<td>90,00</td>\n</tr>\n<tr>\n<td>IVA ES. ART.10 633/72</td>\n<td>0.00</td>\n</tr>\n</table>  \nFATTURA N. 74/ U1 72000002\n11/02/12 16:27  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"52\" -->\n<!-- PageBreak -->",
+    "Pagina": [
+      51,
+      52
+    ],
+    "Capitolo #": "4 REGISTRAZIONI (REG)",
+    "Sezione ##": "4.14 FATTURA INTERNA",
+    "Lista di Figure interne": [],
+    "Global_order": 73
+  },
+  {
+    "Testo": "# 5 LETTURE - MODALITA' X  \nPer eseguire le letture statistiche del venduto giornaliero e periodico, posizionarsi in\nmodalità X digitando 2 e [CHIAVE].  \nSono disponibili le seguenti letture :  \n<table>\n<tr>\n<td>Giornaliera</td>\n<td>COMPLETA</td>\n<td rowspan=\"3\">Periodica REPARTI</td>\n</tr>\n<tr>\n<td>Giornaliera</td>\n<td rowspan=\"2\">REPARTI OPERATORI</td>\n</tr>\n<tr>\n<td>Giornaliera</td>\n</tr>\n<tr>\n<td>Giornaliera</td>\n<td>IVA</td>\n<td>Periodica IVA</td>\n</tr>\n<tr>\n<td>Giornaliera</td>\n<td>FASCE ORARIE</td>\n<td></td>\n</tr>\n<tr>\n<td>Giornaliera</td>\n<td>FINANZIARI</td>\n<td>Periodica FINANZIARI</td>\n</tr>\n<tr>\n<td>Giornaliera</td>\n<td>GRUPPI REPARTO</td>\n<td>Periodica GRUPPI REPARTO</td>\n</tr>\n<tr>\n<td>Giornaliera</td>\n<td>TOTALE GRUPPI REP.</td>\n<td>Periodica TOTALE GRUPPI REP.</td>\n</tr>\n<tr>\n<td>Giornaliera</td>\n<td colspan=\"2\">Totali Vendite (solo visualizzazione a display)</td>\n</tr>\n</table>  \nIn modalità X, premere il tasto [PREZZO REPARTO] per entrare nel menù circolare e per\nscorrere una alla volta le voci sopraindicate. Visualizzata la voce che interessa, premere\n[CONTANTI] per stampare il report.  \nTutti gli scontrini emessi in modalità lettura \"X\" sono non fiscali.\nPer uscire dal menù, premere il tasto [STORNO].",
+    "Pagina": 53,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": null,
+    "Lista di Figure interne": [],
+    "Global_order": 74
+  },
+  {
+    "Testo": "## 5.1 LETTURA GIORNALIERA  \nIn modalità lettura \"X\" scorrere il menù con il tasto [REPARTO] fino a visualizzare \"Lettura\ngiornaliera\" e premere [CONTANTI].  \nPRINT! F stampa i seguenti dati nello stesso formato (layout) della chiusura Giornaliera:  \n· Lettura del venduto giornaliero e dei corrispettivi non riscossi  \n· Lettura sconti e maggiorazioni a valore e in percentuale (se presenti nella giornata)  \n· Lettura Annulli, Storni e Resi (se presenti nella giornata)  \n· Lettura dati fiscali (numero chiusure e scontrini fiscali)  \nNota: E' possibile far stampare automaticamente alcuni report statistici prima di questi dati;\nper abilitarne la stampa, vedi cap. 3.10.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"53\" -->\n<!-- PageBreak -->",
+    "Pagina": 53,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.1 LETTURA GIORNALIERA",
+    "Lista di Figure interne": [],
+    "Global_order": 75
+  },
+  {
+    "Testo": "## 5.2 LETTURA GIORNALIERA REPARTI  \n<figure>  \nNON FISCALE  \nTOTALI GIORN.REPARTI  \nEURO  \nREPARTO 1  \n1,00  \nQ.1  \nREPARTO 2  \n2,00  \nQ.1  \nREPARTO 3  \n3,00  \nQ.1  \nTOT.  \n6,00  \nQ. 3  \nNR.0001 12/02/12 12:50  \nNON FISCALE  \n</figure>  \nNella lettura giornaliera dei reparti, viene stampato il\nnumero di pezzi e il valore del venduto giornaliero per\nogni singolo reparto.  \nEsempio di lettura giornaliera reparti",
+    "Pagina": 54,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.2 LETTURA GIORNALIERA REPARTI",
+    "Lista di Figure interne": [
+      "[page54_figure61](figures2/page54_figure61.png)",
+      "[page54_figure62](figures2/page54_figure62.png)"
+    ],
+    "Global_order": 76
+  },
+  {
+    "Testo": "## 5.3 LETTURA PERIODICA REPARTI  \nNella lettura periodica dei reparti, viene stampato il numero di pezzi e il valore del venduto\naccumulato per ogni singolo reparto. I dati sono azzerabili solo stampando lo stesso report\nin chiave Z (3 [CHIAVE]).",
+    "Pagina": 54,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.3 LETTURA PERIODICA REPARTI",
+    "Lista di Figure interne": [
+      "[page54_figure61](figures2/page54_figure61.png)",
+      "[page54_figure62](figures2/page54_figure62.png)"
+    ],
+    "Global_order": 77
+  },
+  {
+    "Testo": "## 5.4 LETTURA GIORNALIERA OPERATORI  \n<figure>  \nNON FISCALE  \nTOTALI OPERATORI  \nMARIO\nQ.2  \nEURO\n36,00  \nTOT.  \n36,00  \nQ. 2  \nNR.0003 12/02/12 12:52  \n** NON FISCALE  \n</figure>  \nNella lettura giornaliera degli operatori, viene\nstampato il numero di scontrini emessi e il valore\ndel venduto giornaliero per ogni singolo operatore.  \nEsempio di lettura giornaliera operatori  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"54\" -->\n<!-- PageBreak -->",
+    "Pagina": 54,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.4 LETTURA GIORNALIERA OPERATORI",
+    "Lista di Figure interne": [
+      "[page54_figure61](figures2/page54_figure61.png)",
+      "[page54_figure62](figures2/page54_figure62.png)"
+    ],
+    "Global_order": 78
+  },
+  {
+    "Testo": "## 5.5 LETTURA GIORNALIERA IVA  \n<figure>  \n** NON FISCALE **  \nTOTALI GIORN. IVA  \nEURO  \nESENTE  \n0,00  \nCORRISP. 10%  \n10,00  \nIMPON .  \n9,09  \nIVA  \n0,91  \nCORRISP. 20%  \n26,00  \nIMPON .  \n21,67  \nIVA  \n4,33  \nNR.0004 12/02/12 12:54  \nNON FISCALE  \n</figure>  \nNella lettura giornaliera IVA, viene stampato il\nvenduto giornaliero suddiviso nelle diverse\naliquote IVA programmate, con relativo scorporo\ndella parte imponibile.  \nEsempio di lettura giornaliera IVA",
+    "Pagina": 55,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.5 LETTURA GIORNALIERA IVA",
+    "Lista di Figure interne": [
+      "[page55_figure63](figures2/page55_figure63.png)",
+      "[page55_figure64](figures2/page55_figure64.png)"
+    ],
+    "Global_order": 79
+  },
+  {
+    "Testo": "## 5.6 LETTURA PERIODICA IVA  \nNella lettura periodica IVA, viene stampato l'imponibile IVA suddiviso nelle diverse aliquote\nIVA programmate, con relativo scorporo della parte imponibile. I dati sono azzerabili solo\nstampando lo stesso report in chiave Z (3 [CHIAVE]).",
+    "Pagina": 55,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.6 LETTURA PERIODICA IVA",
+    "Lista di Figure interne": [
+      "[page55_figure63](figures2/page55_figure63.png)",
+      "[page55_figure64](figures2/page55_figure64.png)"
+    ],
+    "Global_order": 80
+  },
+  {
+    "Testo": "## 5.7 LETTURA GIORNALIERA FASCE ORARIE  \n<figure>  \nNON FISCALE  \nTOTALI ORARI  \n10:00-10:59\nQ. 1  \nEURO\n6,00  \n11:00-11:59\nQ. 1  \n30,00  \nTOT.  \n36,00  \nQ. 2  \nNR.0005 12/02/12 12:55  \n** NON FISCALE  \n</figure>  \nNella lettura giornaliera delle fasce orarie,\nvengono stampate solo le fasce dove sono stati\nemessi gli scontrini fiscali giornalieri. Ogni fascia\noraria riporta stampato il numero di scontrini\nemessi e il valore del venduto giornaliero.  \nEsempio di lettura giornaliera fasce orarie  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"55\" -->\n<!-- PageBreak -->",
+    "Pagina": 55,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.7 LETTURA GIORNALIERA FASCE ORARIE",
+    "Lista di Figure interne": [
+      "[page55_figure63](figures2/page55_figure63.png)",
+      "[page55_figure64](figures2/page55_figure64.png)"
+    ],
+    "Global_order": 81
+  },
+  {
+    "Testo": "## 5.8 LETTURA TOTALI FINANZIARI GIORNALIERI  \n<figure>\n</figure>  \n<table>\n<tr>\n<th colspan=\"2\">** NON FISCALE</th>\n</tr>\n<tr>\n<th colspan=\"2\">TOTALI FINANZIARI</th>\n</tr>\n<tr>\n<th></th>\n<th>EURO</th>\n</tr>\n<tr>\n<td>CONTANTI</td>\n<td>20,00</td>\n</tr>\n<tr>\n<td>Q.2</td>\n<td></td>\n</tr>\n<tr>\n<td>CORR. NON RISC.</td>\n<td>10,00</td>\n</tr>\n<tr>\n<td>Q.1</td>\n<td></td>\n</tr>\n<tr>\n<td>ASSEGNI</td>\n<td>6,00</td>\n</tr>\n<tr>\n<td>Q.1</td>\n<td></td>\n</tr>\n<tr>\n<td>TOT.</td>\n<td>36,00</td>\n</tr>\n<tr>\n<td>Q. 4</td>\n<td></td>\n</tr>\n<tr>\n<td>IN CASSA</td>\n<td>26,00</td>\n</tr>\n<tr>\n<td>NR.0006 12/02/12</td>\n<td>12:57</td>\n</tr>\n<tr>\n<td colspan=\"2\">** NON FISCALE</td>\n</tr>\n</table>  \nNella lettura giornaliera dei Totali finanziari, gli\nincassi del giorno vengono suddivisi per le forme\ndi pagamento utilizzate. PRINT! F stampa i singoli\nimporti e il relativo numero di scontrini emessi.  \nEsempio di lettura giornaliera finanziari",
+    "Pagina": 56,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.8 LETTURA TOTALI FINANZIARI GIORNALIERI",
+    "Lista di Figure interne": [
+      "[page56_figure65](figures2/page56_figure65.png)",
+      "[page56_figure66](figures2/page56_figure66.png)"
+    ],
+    "Global_order": 82
+  },
+  {
+    "Testo": "## 5.9 LETTURA PERIODICA FINANZIARI  \nNella lettura periodica FINANZIARI, vengono stampati gli incassi periodici suddivisi per le\nforme di pagamento utilizzate. I dati sono azzerabili solo stampando lo stesso report in\nchiave Z (3 [CHIAVE]).",
+    "Pagina": 56,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.9 LETTURA PERIODICA FINANZIARI",
+    "Lista di Figure interne": [
+      "[page56_figure65](figures2/page56_figure65.png)",
+      "[page56_figure66](figures2/page56_figure66.png)"
+    ],
+    "Global_order": 83
+  },
+  {
+    "Testo": "## 5.10 LETTURA GIORNALIERA DETTAGLIO GRUPPI REPARTO  \n<figure>  \n\\* NON FISCALE **  \nGI. DETTAGLIO GRUPPI  \nEURO  \nBIBITE  \nCOCA  \n1,00  \nQ. 1  \nARANCIATA  \n2,00  \nQ. 1  \nTOT.  \n3,00  \n30.00% Q.  \n2  \nPANINI  \nCLASSICO  \n3,00  \nQ. 1  \nVEGETARIANO  \n4,00  \nQ. 1  \nTOT.  \n7,00  \n70.00% Q.  \n2  \nNR.0001 12/02/12 10:50  \nNON FISCALE  \n</figure>  \nNella lettura giornaliera del dettaglio per gruppi\nreparto, viene stampato il numero di pezzi e il\nvalore del venduto giornaliero per ogni singolo\nreparto associato al gruppo programmato .  \nEsempio di lettura giornaliera del dettaglio dei\ngruppi reparto.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"56\" -->\n<!-- PageBreak -->",
+    "Pagina": 56,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.10 LETTURA GIORNALIERA DETTAGLIO GRUPPI REPARTO",
+    "Lista di Figure interne": [
+      "[page56_figure65](figures2/page56_figure65.png)",
+      "[page56_figure66](figures2/page56_figure66.png)"
+    ],
+    "Global_order": 84
+  },
+  {
+    "Testo": "## 5.11 LETTURA PERIODICA DETTAGLIO GRUPPI REPARTO  \nNella lettura periodica del dettaglio per gruppi reparto, viene stampato il numero di pezzi e\nil valore del venduto periodico per ogni singolo reparto associato al gruppo programmato .\nI dati vengono azzerati solo stampando il report PERIODICO REPARTI in chiave Z\n(3 [CHIAVE]). Vedi cap. 5.3.",
+    "Pagina": 57,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.11 LETTURA PERIODICA DETTAGLIO GRUPPI REPARTO",
+    "Lista di Figure interne": [
+      "[page57_figure67](figures2/page57_figure67.png)"
+    ],
+    "Global_order": 85
+  },
+  {
+    "Testo": "## 5.12 LETTURA GIORNALIERA GRUPPI REPARTO  \n<figure>  \nNON FISCALE  \nGIOR. TOTALE GRUPPI  \nEURO  \nBIBITE  \nTOT.  \n30.00% Q.  \n3,00  \n2  \nPANINI  \nTOT.  \n7,00  \n70.00%  \nQ.  \n2  \nNR.0002 12/02/12 10:51  \nNON FISCALE  \n</figure>  \nNella lettura giornaliera per gruppi reparto,\nviene stampato il numero di pezzi e il valore del\nvenduto giornaliero per gruppo programmato .  \nEsempio di lettura giornaliera dei gruppi\nreparto.",
+    "Pagina": 57,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.12 LETTURA GIORNALIERA GRUPPI REPARTO",
+    "Lista di Figure interne": [
+      "[page57_figure67](figures2/page57_figure67.png)"
+    ],
+    "Global_order": 86
+  },
+  {
+    "Testo": "## 5.13 LETTURA PERIODICA GRUPPI REPARTO  \nNella lettura periodica dei gruppi reparto, viene stampato il numero di pezzi e il valore del\nvenduto periodico per gruppo programmato .  \nI dati vengono azzerati solo stampando il report PERIODICO REPARTI in chiave Z\n(3 [CHIAVE]). Vedi cap. 5.3.",
+    "Pagina": 57,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.13 LETTURA PERIODICA GRUPPI REPARTO",
+    "Lista di Figure interne": [
+      "[page57_figure67](figures2/page57_figure67.png)"
+    ],
+    "Global_order": 87
+  },
+  {
+    "Testo": "## 5.14 LETTURE SUL DISPLAY OPERATORE  \nPRINT! F permette la visualizzazione sul display operatore dei dati di vendita giornalieri.\nPer conoscere la situazione aggiornata degli incassi, procedere nel seguente modo;\nposizionarsi in modalità X digitando 2 e [CHIAVE], premere due volte il tasto [REPARTO]\nper visualizzare \"Letture a video\".  \nPremendo il tasto [CONTANTI] seguito dalla pressione ripetuta del tasto  \n[REPARTO] o [PREZZO REPARTO] per visualizzare uno alla volta le seguenti letture\ngiornaliere:  \nPAGAMENTO N. 1 (Contanti)  \nPAGAMENTO N. 2 (Corr. non riscosso)  \nPAGAMENTO N. 3 (Assegni)  \nPAGAMENTO N. 4, PAGAMENTO N. 5, ..... , PAGAMENTO 10.  \nTOTALE VENDITE  \nI dati vengono azzerati automaticamente con la chiusura fiscale serale.\nPer uscire dal menù, premere ripetutamente il tasto [STORNO].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"57\" -->\n<!-- PageBreak -->",
+    "Pagina": 57,
+    "Capitolo #": "5 LETTURE - MODALITA' X",
+    "Sezione ##": "5.14 LETTURE SUL DISPLAY OPERATORE",
+    "Lista di Figure interne": [
+      "[page57_figure67](figures2/page57_figure67.png)"
+    ],
+    "Global_order": 88
+  },
+  {
+    "Testo": "# 6 CHIUSURA FISCALE, LETTURA MEMORIA FISCALE E GIORNALE ELETTRONICO (DGFE)  \nPer azzerare i dati del venduto giornaliero e periodico, entrare in modalità Z digitando i\ntasti 3 e [CHIAVE]. L'operazione di chiusura giornaliera azzera i dati di tutti gli altri report\ngiornalieri, mentre è possibile azzerare i contatori periodici del singolo report a seconda\ndelle personali esigenze.  \nPer entrare nel menù circolare premere il tasto [PREZZO REPARTO].\nScorrendo il menù coi tasti [PREZZO REPARTO] e [REPARTO] è possibile:  \neseguire i seguenti azzeramenti  \n· CHIUSURA FISCALE GIORNALIERA  \n· Giornaliera REPARTI  \n· Periodico REPARTI  \n· Giornaliera OPERATORI  \n· Giornaliera IVA  \n· Periodico IVA  \n· Giornaliera FASCE ORARIE  \n· Periodico FINANZIARI  \neseguire le seguenti letture della memoria fiscale  \n· Memoria fiscale Integrale  \n· Memoria fiscale fra data e data  \n· Memoria fiscale con somma fra data e data  \n· Memoria fiscale da progressivo a progressivo  \neseguire le seguenti stampe del giornale elettronico (DGFE):  \n· DFGE Integrale  \n· DFGE fra data e data  \n· DFGE da numero a numero di scontrino fiscale  \n· DGFE Fatture interne fra date  \n· DGFE tra numero di Fatture interne  \neseguire delle specifiche funzioni sul DFGE  \n· Invio dati DFGE al PC  \n· Inizializzare un nuovo DFGE\n(vedi cap. 2.2)  \n· Spazio libero nel DGFE (%)\n(vedi cap. 2.2)  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"58\" -->\n<!-- PageBreak -->",
+    "Pagina": 58,
+    "Capitolo #": "6 CHIUSURA FISCALE, LETTURA MEMORIA FISCALE E GIORNALE ELETTRONICO (DGFE)",
+    "Sezione ##": null,
+    "Lista di Figure interne": [],
+    "Global_order": 89
+  },
+  {
+    "Testo": "## 6.1 CHIUSURA FISCALE GIORNALIERA  \nPer eseguire la chiusura giornaliera e azzerare i dati degli articoli venduti, entrare in\nmodalità Z (3 [CHIAVE]) e premere il tasto [PREZZO REPARTO]\nIl display visualizza:  \n<figure>  \n-STAMPE/AZZER. -\nChiusura Fiscale  \nA) Premere [CONTANTI].  \nConfermi ?\n<SI > / NO  \nB) Scegliere SI o NO (tasto [REPARTO] o\n[PREZZO REPARTO] ) e premere\n[CONTANTI].  \n</figure>  \nIl sistema stampa i dati relativi agli articoli giornalieri venduti, incrementando il\ncontatore degli azzeramenti e aggiornando i Totalizzatori.  \nAbilitando la stampa dei report non fiscali (vedi cap. 3.10) è possibile stampare prima della\nchiusura fiscale, i dati statistici che interessano (es. giornaliero REPARTI).  \nNB: lo scontrino di azzeramento giornaliero va conservato secondo i termini di\nlegge.  \nL'operazione di chiusura giornaliera azzera i dati dei report Giornaliero REPARTI (e\nGRUPPI), PLU, OPERATORI, IVA e FASCE ORARIE.  \nSe si dovesse azzerare precedentemente un singolo report, in assetto Z (3 [CHIAVE]),\npremere il tasto [PREZZO REPARTO] fino alla visualizzazione a display del report voluto e\npremere [CONTANTI].  \nPer azzerare i report Periodici (Reparti e IVA), visualizzare a display il report desiderato,\n(utilizzando i tasti [REPARTO] e [PREZZO REPARTO]) e premere [CONTANTI].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"59\" -->\n<!-- PageBreak -->",
+    "Pagina": 59,
+    "Capitolo #": "6 CHIUSURA FISCALE, LETTURA MEMORIA FISCALE E GIORNALE ELETTRONICO (DGFE)",
+    "Sezione ##": "6.1 CHIUSURA FISCALE GIORNALIERA",
+    "Lista di Figure interne": [
+      "[page59_figure68](figures2/page59_figure68.png)"
+    ],
+    "Global_order": 90
+  },
+  {
+    "Testo": "### 6.1.1 CHIUSURA FISCALE GIORNALIERA: ESEMPIO DI STAMPA  \n<table>\n<tr>\n<th></th>\n<th>EURO</th>\n</tr>\n<tr>\n<td rowspan=\"2\">VENDITE</td>\n<td></td>\n</tr>\n<tr>\n<td>110,00</td>\n</tr>\n<tr>\n<td rowspan=\"2\">GRAN TOTALE</td>\n<td></td>\n</tr>\n<tr>\n<td>549,46</td>\n</tr>\n<tr>\n<td>RESI</td>\n<td>10,00</td>\n</tr>\n<tr>\n<td>STORNI /ANN</td>\n<td>25,00</td>\n</tr>\n<tr>\n<td>ANN. SCONTR.</td>\n<td>29,97</td>\n</tr>\n<tr>\n<td>SCONTI</td>\n<td>2,00</td>\n</tr>\n<tr>\n<td>SCONTI %</td>\n<td>3,00</td>\n</tr>\n<tr>\n<td>CORR.NON RISC.</td>\n<td>5,00</td>\n</tr>\n<tr>\n<td>NOTE DI CREDITO</td>\n<td>1</td>\n</tr>\n<tr>\n<td>TOT.N. DI CREDITO</td>\n<td>10,00</td>\n</tr>\n<tr>\n<td>PR.N.DI CREDITO</td>\n<td>5</td>\n</tr>\n<tr>\n<td>GT N. DI CREDITO</td>\n<td>150,00</td>\n</tr>\n<tr>\n<td>FATTURE N.</td>\n<td>2</td>\n</tr>\n<tr>\n<td>TOTALE FATTURE</td>\n<td>120,00</td>\n</tr>\n<tr>\n<td>CHIUSURA FISCALE</td>\n<td>0014</td>\n</tr>\n<tr>\n<td>SCONTRINI FISCALI</td>\n<td>0007</td>\n</tr>\n<tr>\n<td>DOCUMENTI NON FISC.</td>\n<td>0002</td>\n</tr>\n<tr>\n<td>LETTURE MEM. FISC.</td>\n<td>0000</td>\n</tr>\n<tr>\n<td>N.0007 13/02/12</td>\n<td>19:35</td>\n</tr>\n<tr>\n<td>RIPRISTINI</td>\n<td>0001</td>\n</tr>\n<tr>\n<td colspan=\"2\">DFGE: 01 SIGIL. FISC. : ABCD</td>\n</tr>\n</table>  \n<figure>  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/FAX  \nNota: Prima di procedere nella stampa della chiusura\ngiornaliera, verificare lo stato del rotolo carta e se\nnecessario procedere alla sostituzione (presenza della\nfascia rossa o prossimo esaurimento).  \nAZZERAM. GIORNALIERO  \nTotale dei corrispettivi fiscali  \nGT (Totale progressivo)  \nAnnulli, Resi, Storni  \nSconti e Maggiorazioni  \nTotale dei corrispettivi non riscossi  \nNOTE DI CREDITO  \nFATTURE INTERNE  \nAzzeramenti eseguiti\nScontrini fiscali emessi\nScontrini non fiscali emessi\nLetture della memoria fiscale  \nNumero scontrino fiscale,\ndata e ora della chiusura  \nNumero di reset eseguiti dal\ntecnico (max. 200)  \nMF U1 72000001  \nNumero progressivo del giornale\nelettronico e sigillo fiscale della\nchiusura  \n</figure>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"60\" -->\n<!-- PageBreak -->",
+    "Pagina": 60,
+    "Capitolo #": "6 CHIUSURA FISCALE, LETTURA MEMORIA FISCALE E GIORNALE ELETTRONICO (DGFE)",
+    "Sezione ##": "6.1 CHIUSURA FISCALE GIORNALIERA",
+    "Lista di Figure interne": [
+      "[page60_figure69](figures2/page60_figure69.png)"
+    ],
+    "Global_order": 91
+  },
+  {
+    "Testo": "## 6.2 LETTURE MEMORIA FISCALE  \nPer eseguire la lettura della memoria fiscale, entrare in modalità Z (3 [CHIAVE]) e premere\nripetutamente il tasto [PREZZO REPARTO] fino alla seguente visualizzazione a display  \nPremere [CONTANTI].  \n<figure>  \n-STAMPE/AZZER. -\nMF\nintegrale  \nRAGIONE SOCIALE\nUBICAZIONE\nINDIRIZZO\nPARTITA IVA\nTELEFONO/FAX  \nLETT. INTEGR. MEM. FISC.\nEURO  \nDGFE N. 01INIZIALIZZATO\nIL 01/12/11 ALLE 08:55  \nAZZ.N.0001DEL 01/12/11\nCORRISPETTIVO\n10,00\nDGFE : 01SIGIL. FISC : XYXY\nNOTE DI CREDITO\n0\nTOT.N. DI CREDITO\n0,00\nAZZ.N.0002DEL 02/12/11  \nCORRISPETTIVO\n35,00\nDGFE : 01SIGIL. FISC: XZYZ  \nNOTE DI CREDITO\n0\nTOT.N.DI CREDITO\n0,00  \nFATTURE\n2  \nTOT. FATTURE\n125,00\nAZZ.N.0003DEL 03/12/11  \nCORRISPETTIVO\n78,00\nDGFE : 01SIGIL. FISC: XYZZ  \nNOTE DI CREDITO\n0\nTOT.N. DI CREDITO\n0,00  \nTOTALE CORRISPETTIVI\nEURO\n123,00  \nNR.0001 04/12/11 09:01\nMF U1 72000001  \n</figure>  \nPRINT! F inizia la stampa della memoria fiscale\ncompleta. Se necessario, utilizzare il tasto [CL]\nper interrompere la stampa in corso.  \nPer utilizzare invece altre procedure di lettura\ndella memoria fiscale, premere il tasto [PREZZO\nREPARTO] fino alla visualizzazione della\nfunzione desiderata.  \nPer le letture del tipo \"da data a data\" PRINT! F\nchiede l'inserimento separato delle due date,\nvisualizzando singolarmente a display la richiesta\ndi inserimento del giorno, il mese, l'anno e\nconfermando ogni volta il dato con il tasto\n[CONTANTI].  \nPer le letture \"da numero azzeramento a\nnumero azzeramento\" PRINT! F chiede\nl'inserimento separato delle due chiusure di inizio\ne fine lettura. Confermare ogni dato con il tasto\n[CONTANTI].  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"61\" -->\n<!-- PageBreak -->",
+    "Pagina": 61,
+    "Capitolo #": "6 CHIUSURA FISCALE, LETTURA MEMORIA FISCALE E GIORNALE ELETTRONICO (DGFE)",
+    "Sezione ##": "6.2 LETTURE MEMORIA FISCALE",
+    "Lista di Figure interne": [
+      "[page61_figure70](figures2/page61_figure70.png)"
+    ],
+    "Global_order": 92
+  },
+  {
+    "Testo": "## 6.3 LETTURE GIORNALE ELETTRONICO DGFE  \nPer eseguire la lettura completa del giornale elettronico, entrare in modalità Z\n(3 [CHIAVE]) e premere il tasto [REPARTO] fino a visualizzare;  \n<figure>  \n-- STAMPE/AZZERERAM. --\nDGFE integrale  \n</figure>  \nPremere [CONTANTI].  \nInizia la stampa completa del Giornale elettronico.  \nSe necessario, utilizzare il tasto [CL] per interrompere la stampa in corso.  \nPer utilizzare le altre procedure di lettura del giornale elettronico, premere il tasto\n[REPARTO] fino alla visualizzazione della funzione desiderata.  \n1\\. Per la lettura \"DGFE fra date\" il sistema chiede l'inserimento separato delle due\ndate, visualizzando singolarmente a display la richiesta di inserimento del giorno, il\nmese, l'anno e confermando ogni volta il dato con il tasto [CONTANTI].  \n2\\. Per la lettura \"DGFE fra numero scontrini\" il sistema chiede l'inserimento\nseparato dei due numeri scontrino (di inizio e fine lettura), del giorno, mese e anno.\nConfermare ogni dato con il tasto [CONTANTI].  \n3\\. Per la lettura \"DGFE invio a PC\" è un'operazione possibile solo tramite l'utilizzo\ndel PC, per la copia dei dati dal giornale elettronico DGFE sul PC. Vedi cap. 6.3.1  \n4\\. (SOLO PER FATTURE INTERNE) Per la lettura \"DGFE Fatture fra date\" il sistema\nchiede l'inserimento separato delle due date, visualizzando singolarmente a display\nla richiesta di inserimento del giorno, il mese, l'anno e confermando ogni volta il\ndato con il tasto [CONTANTI].  \n5\\. (SOLO PER FATTURE INTERNE) Per la lettura \"DGFE Fatture fra numero\" il\nsistema chiede l'inserimento separato dei progressivi (di inizio e fine lettura), del\ngiorno, mese e anno. Confermare ogni dato con il tasto [CONTANTI].  \n6\\. Per la lettura a video \"DGFE Spazio libero\" il display visualizza la percentuale di\nspazio ancora disponibile nella MMC per la registrazione delle transazioni fiscali.  \nNota: per leggere un DGFE vecchio è possibile utilizzare le stesse procedure, rimovendo il\nDGFE corrente e inserendo quello da leggere mentre il sistema è spento. Terminate le\nletture, reinserire il DGFE corrente a sistema spento e dopo il riavvio, procedere con le\nregistrazioni.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"62\" -->\n<!-- PageBreak -->",
+    "Pagina": 62,
+    "Capitolo #": "6 CHIUSURA FISCALE, LETTURA MEMORIA FISCALE E GIORNALE ELETTRONICO (DGFE)",
+    "Sezione ##": "6.3 LETTURE GIORNALE ELETTRONICO DGFE",
+    "Lista di Figure interne": [
+      "[page62_figure71](figures2/page62_figure71.png)"
+    ],
+    "Global_order": 93
+  },
+  {
+    "Testo": "### 6.3.1 SCARICO DEL GIORNALE ELETTRONICO (DGFE) A PC  \nPer lo scarico del giornale elettronico a PC, è necessario collegare il misuratore fiscale ad\nun personal computer tramite il cavo seriale (codice CABA0056).  \nUtilizzare il programma Hyperterminal (o equivalente), distribuito per il sistema operativo\nWindows, utilizzando i seguenti parametri;  \nVelocità : 9600  \nBit di dati : 8  \nParità : NO  \nBit di stop : 1  \nAttivare la funzione Trasferimento > Acquisisci Testo e salvare il giornale elettronico in\nun file di testo (.txt).  \nDal misuratore fiscale inviare il comando per lo scarico del giornale elettronico (funzione\nDGFE A PC , cap. 6.3).  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"63\" -->\n<!-- PageBreak -->",
+    "Pagina": 63,
+    "Capitolo #": "6 CHIUSURA FISCALE, LETTURA MEMORIA FISCALE E GIORNALE ELETTRONICO (DGFE)",
+    "Sezione ##": "6.3 LETTURE GIORNALE ELETTRONICO DGFE",
+    "Lista di Figure interne": [],
+    "Global_order": 94
+  },
+  {
+    "Testo": "# 7 LISTA MESSAGGI DI ERRORE  \n<table>\n<tr>\n<th>CODICE</th>\n<th>DESCRIZIONE</th>\n</tr>\n<tr>\n<td>E01</td>\n<td>\"VALORE NON VALIDO [CL]\" Indica che l'ultimo tasto premuto non è nella sequenza corretta con la procedura in corso.</td>\n</tr>\n<tr>\n<td>E02</td>\n<td>\"FUNZIONE ERR Premere [CL]\" Indica un errore nella procedura in corso. Premere [CL] e riverificare l'inserimento dati.</td>\n</tr>\n<tr>\n<td>E03</td>\n<td>\"DATA ERRATA Premere [CL]\" Il formato della data inserita non è corretto (vedi cap. 3.11 del manuale operativo).</td>\n</tr>\n<tr>\n<td>E04</td>\n<td>\"ORA ERRATA Premere [CL]\" Il formato dell'ora inserita non è corretto (vedi cap. 3.11 del manuale operativo).</td>\n</tr>\n<tr>\n<td>E05</td>\n<td>\"Voce TOTALE non ammessa [CL]\" Non è possibile programmare una parola che contenga la scritta TOTALE.</td>\n</tr>\n<tr>\n<td>E06</td>\n<td>\"CODICE ARTICOLO ERRATO [CL]\" Indica che il codice a barre o il codice numerico dell'articolo inserito non è corretto; premere [CL] e riverificare il codice.</td>\n</tr>\n<tr>\n<td>E07</td>\n<td>\"COD. FISCALE ERRATO [CL]\" Indica che il codice fiscale inserito non è corretto; premere [CL] e riprovare.</td>\n</tr>\n<tr>\n<td>E10</td>\n<td>\"FORMATO MMC NON VALIDO! [CL]\" Indica che la MMC inserita non è del tipo fornito dal produttore del misuratore fiscale. Inserire solo MMC originali.</td>\n</tr>\n<tr>\n<td>E11</td>\n<td>\"MMC GIA' UTILIZZATA [CL]\" Indica che la MMC (giornale elettronico) inserita non è vergine. Inserire un'altra MMC vergine.</td>\n</tr>\n<tr>\n<td>E12</td>\n<td>\"DGFE ASSENTE O ERRATO [CL]\" Indica che manca la MMC (giornale elettronico), oppure che il numero di progressivo DGFE è errato. Inserire una nuova MMC, oppure inserire il DGFE corretto.</td>\n</tr>\n<tr>\n<td>E14</td>\n<td>\"ERR IN SCRITTURA MMC\" Indica che si è verificato un errore durante la scrittura dei dati nel giornale elettronico (DGFE); spegnere e riaccendere la cassa, annullando completamente lo scontrino in corso (Annullo Scontrino). Se il problema si ripresenta più volte, contattare il centro assistenza.</td>\n</tr>\n<tr>\n<td>E15</td>\n<td>\"ERR. RTC\" Indica che in apertura di scontrino o chiusura fiscale, la data del sistema è differente di oltre un anno, rispetto alla data dell'ultima chiusura fiscale effettuata. Contattare il centro assistenza per la verifica hardware e il ripristino del sistema.</td>\n</tr>\n<tr>\n<td>E20</td>\n<td>\"SEQUENZA ERR Premere [CL]\" indica che la pressione dell'ultimo tasto premuto non è corretta nella sequenza di comandi in corso.</td>\n</tr>\n<tr>\n<td>E21</td>\n<td>\"OPERAZIONE NON AMMESSA![CL]\" Indica che l'ultima operazione eseguita non è permessa nella procedura in corso.</td>\n</tr>\n<tr>\n<td>E23</td>\n<td>\"MANCA TASTO\" \"DI CONTROLLO[CL]\" Significa che in tastiera mancano uno o più tasti obbligatori. I tasti obbligatori (o di controllo) [CONTANTI], [SUBTOT.], [X/ORA], [REPARTO], [PREZZO REPARTO] e [CL], [STORNO] sono : ,[RESO M.]. Questi tasti devono sempre essere presenti.</td>\n</tr>\n<tr>\n<td>E24</td>\n<td>\"IMPORTO OBBLIGATORIO [CL]\" Indica che è necessario inserire l'importo fornito dal cliente, prima di premere il tasto Totale relativo alla forma di pagamento effettuata dal cliente (es. CONTANTI).</td>\n</tr>\n<tr>\n<td>E25</td>\n<td>\"SUBTOTALE OBBLIGATORIO ! [CL]\" Prima di chiudere lo scontrino è necessario premere il tasto SUBTOTALE per visualizzare l'importo raggiunto dallo scontrino.</td>\n</tr>\n<tr>\n<td>E26</td>\n<td>\"CLIENTE NON TROVATO [CL]\" Indica che non è stato correttamente inserito il codice numerico riferito al cliente. Il codice non è presente in memoria.</td>\n</tr>\n<tr>\n<td>E27</td>\n<td>\"CLIENTE MOVIMENTATO [CL]\" Indica che in memoria del sistema sono presenti dei documenti con corrispettivo non riscosso, relativi al cliente che si sta cercando di cancellare. Prima di procedere alla eliminazione dalla anagrafica, è necessario emettere la fattura riepilogativa.</td>\n</tr>\n<tr>\n<td>E30</td>\n<td>\"DGFE ESAURITO Premere [CL]\" Indica che il giornale elettronico (MMC) è esaurito. Sostituire la MMC (vedi cap. 2.2 del manuale operativo).</td>\n</tr>\n</table>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"64\" -->\n<!-- PageBreak -->  \n<table>\n<tr>\n<td>E31</td>\n<td>\"DGFE IN ESAURIMENTO![CL]\" Indica che il giornale elettronico (MMC) è quasi saturo e che bisogna cambiarlo al più presto.(vedi cap. 2.2 del manuale operativo).</td>\n</tr>\n<tr>\n<td>E40</td>\n<td>\"SCONTRINO NEGATIVO [CL]\" La cassa accetta che il subtotale possa essere negativo, ma impedisce la chiusura dello scontrino; vendere altri articoli per chiudere lo scontrino a zero o in positivo.</td>\n</tr>\n<tr>\n<td>E41</td>\n<td>\"SUPER.LIMITE\" \" SCONTRINO [CL]\" L'importo dello scontrino in corso ha superato il limite consentito; annullare lo scontrino o chiuderlo e aprirne uno nuovo per gli articoli non registrati.</td>\n</tr>\n<tr>\n<td>E42</td>\n<td>\"SUPER. LIMITE NETTO GIORNO[CL]\" Il totalizzatore giornaliero VENDITE ha raggiunto il limite; chiudere o annullare lo scontrino in corso ed operare una chiusura fiscale.</td>\n</tr>\n<tr>\n<td>E43</td>\n<td>\"SUPER. LIMITE NETTO PROGR.[CL]\" La cassa ha raggiunto il massimo valore totalizzabile per il Gran Totale; chiudere o annullare lo scontrino in corso e chiamare l'assistenza.</td>\n</tr>\n<tr>\n<td>E44</td>\n<td>\"RAGG. LIMITE VOCI SCONTR.[CL]\" Indica il raggiungimento massimo degli articoli registrabili per lo scontrino in corso. Chiudere lo scontrino e aprirne uno nuovo per registrare gli articoli mancanti.</td>\n</tr>\n<tr>\n<td>E45</td>\n<td>\"RESTO NON AMMESSO [CL]\" Il totale di chiusura utilizzato è programmato per non accettare il resto. Utilizzare un altro Totale o riprogrammare quello utilizzato.</td>\n</tr>\n<tr>\n<td>E47</td>\n<td>\"LIMITE NUM. CLIENTI [CL]\" Indica che la memoria dedicata ai clienti è satura. Cancellare se possibile alcuni clienti non più utilizzati, prima di programmarne altri.</td>\n</tr>\n<tr>\n<td>E51</td>\n<td>\"MEM. FISCALE GIA' SERIAL.[CL]\" Non è possibile eseguire la procedura di serializzazione (già operata dal costruttore).</td>\n</tr>\n<tr>\n<td>E52</td>\n<td>\"DATI NON AZZERATI [CL]\" Indica che prima di procedere, è obbligatorio eseguire una chiusura fiscale.</td>\n</tr>\n<tr>\n<td>E53</td>\n<td>\"DATA PRECED. ULTIMA CHIUS[CL]\" Indica che durante il ripristino della cassa, è stata inserita una data antecedente l'ultima chiusura fiscale.</td>\n</tr>\n<tr>\n<td>E55</td>\n<td>\"ERRORE DATA! Chiama assistenza\". Questo controllo impedisce l'esecuzione della chiusura giornaliera. Verificare la data presente nella cassa e chiamare il centro assistenza.</td>\n</tr>\n<tr>\n<td>E56</td>\n<td>\"DICHIARAZ. DA ESEGUIRE [CL]\" Indica che è necessario eseguire la dichiarazione di cassa prima di procedere con la chiusura fiscale (controllo abilitato).</td>\n</tr>\n<tr>\n<td>E60</td>\n<td>\"FINE CARTA Premere [CL]\" Indica che il rotolo di carta è terminato; sostituire il rotolo di carta come spiegato nel cap. 2.1 del manuale operativo.</td>\n</tr>\n<tr>\n<td>E61</td>\n<td>\"ERR. TESTINA Premere [CL]\" Indica un surriscaldamento della testina di stampa, oppure che il connettore della testina termica (stampante) non è collegato alla scheda logica della stampante. Spegnere il sistema per alcuni minuti e riavviare; se il problema persiste, contattare il centro assistenza per la verifica del sistema.</td>\n</tr>\n<tr>\n<td>E62</td>\n<td>\"ERR. ALIMENT. Premere [CL]\" Indica che la cassa non è correttamente alimentata; contattare il centro assistenza per la verifica della stampante.</td>\n</tr>\n<tr>\n<td>E63</td>\n<td>\"ERR. STAMPANTE Premere [CL]\" Indica una anomalia sul funzionamento della stampante;può indicare la non corretta chiusura della parte superiore del coperchio carta. Se il problema persiste, contattare il centro assistenza per la verifica; può indicare anche la mancata connessione del connettore sulla scheda logica.</td>\n</tr>\n<tr>\n<td>E64</td>\n<td>\"TESTINA SOLLEVATA [CL]\" Indica che la sostituzione del rotolo carta non è avvenuta correttamente;rileggere il cap. 2.1 del manuale operativo. Se il problema persiste contattare il centro assistenza.</td>\n</tr>\n<tr>\n<td>E65</td>\n<td>\"TAGLIERINA INCEPPATA [CL]\" Indica la presenza di carta incastrata nella taglierina; rimuovere la carta e premere [CL]. Se il coperchio non si apre, spegnere e riavviare il sistema. Se al riavvio la taglierina non torna nella posizione iniziale, contattare il centro assistenza per il riallineamento.</td>\n</tr>\n<tr>\n<td>E80</td>\n<td>\"MEM. FISCALE NON CONNESSA\" Indica che la memoria fiscale non è collegata; contattare il centro assistenza per il ripristino del funzionamento.</td>\n</tr>\n</table>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"65\" -->\n<!-- PageBreak -->  \n<table>\n<tr>\n<td>E81</td>\n<td>\"ERR. LETTURA MEMORIA FISCALE\" Indica un problema di accesso alla memoria fiscale; spegnere e riaccendere la cassa. Se il problema persiste, contattare il centro di assistenza.</td>\n</tr>\n<tr>\n<td>E82</td>\n<td>\"ERR. SCRITT. MEMORIA FISCALE\" Indica un problema di scrittura nella memoria fiscale; contattare il centro di assistenza.</td>\n</tr>\n<tr>\n<td>E83</td>\n<td>\"MEM. FISCALE ESAURITA\" Indica che sono stati eseguiti tutti gli azzeramenti disponibili. Chiamare il centro di assistenza.</td>\n</tr>\n<tr>\n<td>E84</td>\n<td>\"MEM. FISCALE NON SERIALIZZATA\" Indica che non è possibile fiscalizzare la cassa, poiché la memoria fiscale non ha il numero di serie.</td>\n</tr>\n<tr>\n<td>E85</td>\n<td>\"DISPLAY LCD NON CONNESSO\" Indica che il display non è collegato; contattare il centro assistenza per verificare il display.</td>\n</tr>\n<tr>\n<td>E86</td>\n<td>\"ERRORE MEMORIA RAM\" (-RAM2 e - RAM3) Si è verificato un malfunzionamento nella memoria RAM della cassa. Contattare il centro assistenza per il ripristino del sistema. \"MEMORIA VERSIONE\"; dopo un aggiornamento del sistema, non è stato eseguito correttamente il ripristino. Procedere al ripristino verificando la corretta procedura nel manuale tecnico.</td>\n</tr>\n<tr>\n<td>E87</td>\n<td>\"ERRORE RAM / MEM. FISC\" Si è verificato un malfunzionamento tra la memoria RAM e la memoria fiscale della cassa. Contattare il centro assistenza per il ripristino del sistema.</td>\n</tr>\n<tr>\n<td>E88</td>\n<td>\"ERR. DATA/ORA\" Indica che durante l'avvio del sistema, si è verificata un'anomalia su formato data/ora (circuito RTC). Contattare l'assistenza tecnica per il controllo dell'hardware e il ripristino del sistema.</td>\n</tr>\n<tr>\n<td>E90</td>\n<td>\"ERRORE COMUNICAZIONE [CL]\" Indica la mancata comunicazione tra la stampante fiscale e il PC. Controllare i cavi di collegamento.</td>\n</tr>\n<tr>\n<td>E91</td>\n<td>\"ERRORE ETHERNET [CL]\" Indica la mancata comunicazione LAN tra la stampante fiscale e il PC. Controllare il collegamento e la rete (router, ecc).</td>\n</tr>\n<tr>\n<td>E92</td>\n<td>\"ERRORE BLUETOOTH [CL]\" Può indicare che il modulo Bluetooth non è collegato, non è funzionante o è già collegato a un dispositivo. In quest'ultimo caso disconnettere la connessione bluetooth del dispositivo.</td>\n</tr>\n<tr>\n<td>Warning</td>\n<td>\"NUMERO REPARTO NON VALIDO [CL]\" Indica che l'ultimo reparto scelto non rispetta la corretta numerazione dei reparti.</td>\n</tr>\n</table>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"66\" -->\n<!-- PageBreak -->",
+    "Pagina": [
+      64,
+      65,
+      66
+    ],
+    "Capitolo #": "7 LISTA MESSAGGI DI ERRORE",
+    "Sezione ##": null,
+    "Lista di Figure interne": [],
+    "Global_order": 95
+  },
+  {
+    "Testo": "# 8 LOGO GRAFICO  \nIn testa e in coda allo scontrino fiscale è possibile abilitare\nla stampa di un logo grafico monocromatico; questi loghi\npossono essere personalizzati per il vostro punto vendita e\ncaricati tramite PC (massimo 4 loghi).  \nPer il caricamento di loghi personalizzati in testa e/o in\ncoda allo scontrino, contattare il centro assistenza.  \nPRINT! F prevede la possibilità di attivare in coda allo\nscontrino, alcuni loghi già presenti nella memoria interna;\nvedi cap.3.13 .PIEDINO, per abilitarne la stampa.  \nE' possibile inoltre, sempre in coda allo scontrino,\nstampare un QR code (vedi cap.3.13).  \nEsempio di scontrino con stampa in testa e in coda di loghi\ngrafici.  \n<table>\n<tr>\n<th></th>\n<th>EURO</th>\n</tr>\n<tr>\n<td>CAFFE'</td>\n<td>0,80</td>\n</tr>\n<tr>\n<td>BRIOCHES</td>\n<td>1,20</td>\n</tr>\n</table>  \n<table>\n<tr>\n<td>SUB-TOTALE</td>\n<td>2,00</td>\n</tr>\n<tr>\n<td>TOTALE EURO</td>\n<td>2,00</td>\n</tr>\n<tr>\n<td>CONTANTI</td>\n<td>2,00</td>\n</tr>\n</table>  \n<figure>  \nTERRAZZA\nBAR  \nTERRAZZA BAR\nDI EUGENIO ROSSI\nVIA G. LEOPARDI, 31\n55110 LUCCA  \nNR.0021 09/01/12 07:49\nMF U1 72000001  \nGrazie\ne\nArrivederci  \n</figure>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"67\" -->\n<!-- PageBreak -->",
+    "Pagina": 67,
+    "Capitolo #": "8 LOGO GRAFICO",
+    "Sezione ##": null,
+    "Lista di Figure interne": [
+      "[page67_figure72](figures2/page67_figure72.png)"
+    ],
+    "Global_order": 96
+  },
+  {
+    "Testo": "# 9 VISUALIZZAZIONE ORA/DATA  \nPer visualizzare l'ora e la data a display, in modalità REG (1+[CHIAVE]) premere il tasto\n[X/ORA]. PRINT! F visualizza su entrambi i display la data e l'ora correnti. La presenza\ndell'asterisco a fianco dell'ora, indica che l'ora è solare; viceversa l'assenza dell'asterisco\nindica l'ora legale.  \n29-01-2012 09:18 *  \nEsempio di visualizzazione data e ora sul display.  \nNota: PRINT! F visualizza la data e l'ora solo se non ci sono registrazioni in corso e la\nvisualizzazione sul display parte automaticamente in base alle programmazioni della\nfunzione Messaggi Cliente (vedi cap. 3.14).",
+    "Pagina": 68,
+    "Capitolo #": "9 VISUALIZZAZIONE ORA/DATA",
+    "Sezione ##": null,
+    "Lista di Figure interne": [],
+    "Global_order": 97
+  },
+  {
+    "Testo": "## 9.1 ORA LEGALE E ORA SOLARE  \nCon PRINT! F non è necessario passare manualmente da ora solare a ora legale o\nviceversa; gestisce infatti la funzione di cambio automatico dell'ora alla riaccensione della\ncassa, previa condizione che i dati fiscali vengano azzerati con una chiusura giornaliera.\nAlla successiva accensione della cassa il display operatore visualizzerà uno dei due\nseguenti messaggi:  \nPASSAGG. AUTOM.\nORA LEGALE\n[CL]  \nPASSAGG. AUTOM.\nORA SOLARE\n[CL]  \nper procedere, premere il tasto [CL] e continuare le registrazioni.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"68\" -->\n<!-- PageBreak -->",
+    "Pagina": 68,
+    "Capitolo #": "9 VISUALIZZAZIONE ORA/DATA",
+    "Sezione ##": "9.1 ORA LEGALE E ORA SOLARE",
+    "Lista di Figure interne": [],
+    "Global_order": 98
+  },
+  {
+    "Testo": "# 10 APPENDICE  \n## 10.1 OBBLIGHI FISCALI  \nIntestazione dello scontrino  \nL'intestazione dello scontrino deve contenere, a cura dell'utilizzatore, l'esatta ragione\nsociale, completa di indirizzo e partita IVA.  \n**Dichiarazione di installazione**  \nVengono riportate di seguito alcune indicazioni per la compilazione dell'apposita\ndichiarazione:  \nL'avvenuta installazione dell'apparecchio deve essere comunicata dall'utente al\ncompetente Ufficio IVA; l'obbligo riguarda sia gli apparecchi acquisiti ed installati a titolo\ndefinitivo, sia quelli installati temporaneamente o a titolo precario, come ad esempio nei\ncasi di prova, prestito, sostituzione temporanea per guasto (cfr. art. 4 dei D.M. 4.4.90 -\nParte 1 Par. 9.4).  \nLa dichiarazione deve essere sottoscritta anche dal tecnico autorizzato e deve essere\npresentata in duplice esemplare all'Ufficio IVA, nello stesso giorno dell'avvenuta\ninstallazione o, al massimo, entro il primo giorno successivo non festivo.  \n**Il libretto fiscale**  \nLa dotazione di PRINT! F include il cosiddetto \"Libretto di accompagnamento di\napparecchio Misuratore Fiscale\". Al suo interno vengono annotati gli estremi della Vostra\napparecchiatura insieme ai dati identificativi Vostri e dei tecnici incaricati dell'assistenza.\nTra i Vostri dati identificativi, Vi raccomandiamo di trascrivere la P. IVA. Inoltre, qualora si\nrendesse necessario intervenire sul Vostro Misuratore Fiscale, dovrete annotare sullo\nspazio appositamente previsto, la data e l'ora della richiesta. Il tecnico completerà in\nseguito l'annotazione riportando la descrizione della soluzione adottata. Vi\nraccomandiamo di custodire opportunamente il libretto, avendolo comunque disponibile\nper l'eventualità sopra descritta. In caso di furto o smarrimento, è necessario presentare\nuna formale denuncia all'Autorità Giudiziaria (Carabinieri o Polizia) nonché al proprio\nUfficio IVA.  \n**La carta termica**  \nPRINT! F è equipaggiato con una stampante termica, la quale utilizza una particolare\ntecnica di stampa che richiede l'utilizzo di una carta speciale. Tale carta deve essere\nconforme a precise caratteristiche stabilite dalla Legge. Per l'identificazione della carta, la\nDitta produttrice stamperà sul retro la sigla della Ditta ed il codice della carta stessa.  \nSul margine e per tutta la lunghezza del rotolo, troverete stampati gli estremi della\ncertificazione di conformità e la data di scadenza (dopo la quale la carta non è più idonea).\nLa normativa definisce inoltre le norme di conservazione della carta termica recante dati\nfiscalmente rilevanti (giornale di fondo, scontrino di chiusura, scontrino di lettura della\nmemoria fiscale). In sintesi, tale norma stabilisce di utilizzare, per la conservazione dei\nrotoli già stampati, un contenitore opaco, diverso da polivinilcloruro (PVC), al cui interno la\ntemperatura non sia superiore ai 35℃ e l'umidità relativa sia inferiore all'80%.  \n**Stampa dell'ora sullo scontrino fiscale**  \nSi ricorda che al punto 2.13 dell'art. 4 dei D.M. 30 Marzo 92 la legge stabilisce che non è\npossibile modificare l'ora se è già stato emesso uno scontrino fiscale. Per una corretta\nprogrammazione dell'ora (e della data) da riportare sullo scontrino, consultare il presente\nmanuale.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"69\" -->\n<!-- PageBreak -->",
+    "Pagina": 69,
+    "Capitolo #": "10 APPENDICE",
+    "Sezione ##": "10.1 OBBLIGHI FISCALI",
+    "Lista di Figure interne": [],
+    "Global_order": 99
+  },
+  {
+    "Testo": "## 10.2 GLOSSARIO  \nassetto (operativo) : stato attuale del registratore di cassa  \nchiusura fiscale : operazione compiuta, a norma di legge, una volta al giorno\ndall'operatore, mediante la quale si ottiene un rapporto sintetico dell'attività registrata nel\ncorso della giornata, e contemporaneamente si azzerano tali dati e si registrano in\nmemoria fiscale per un eventuale richiamo successivo  \ndisplay LCD : unità per la rappresentazione visiva di numeri e simboli basata sulla\ntecnologia dei cristalli liquidi  \nfiscalizzazione : operazione irreversibile eseguibile una ed una sola volta dal tecnico di\nassistenza, dopo la quale il misuratore fiscale è in grado di emettere scontrini fiscalmente\nvalidi e di totalizzarli in memoria fiscale  \nfondo cassa : dotazione iniziale di denaro in cassa, o successivi versamenti in cassa;\nviene registrata a scopo di controllo del denaro giacente nel cassetto  \nintestazione : fino a 6 righe di descrizione libera che vengono stampate in testa ad ogni\nscontrino fiscale; sono programmate a cura dell'utilizzatore e devono contenere per legge\nla denominazione o ragione sociale, partita IVA e ubicazione dell'esercizio  \nlibretto fiscale : libro in dotazione al misuratore fiscale sul quale il tecnico di assistenza\ndeve annotare vari dati quali la data di installazione e di fiscalizzazione, nonché gli\neventuali interventi tecnici effettuati; deve essere conservato dal proprietario del\nmisuratore fiscale  \nlogotipo fiscale : rappresentazione stilizzata delle lettere MF, realizzata mediante uno\nstile grafico caratteristico; deve comparire come ultima riga su ogni scontrino fiscalmente\nvalido; la sua presenza caratterizza gli scontrini fiscali  \nmatricola : è il numero di serie dell'apparecchio; compare insieme al logotipo su ogni\nscontrino fiscale  \nmemoria fiscale : speciale dispositivo elettronico, sigillato e bloccato all'incastellatura\ndell'apparecchio, atto a raccogliere giornalmente, all'atto della chiusura fiscale, tutti i\nprincipali dati di rilevanza fiscale  \nparametrizzazione : operazione mediante la quale si inseriscono nella memoria del\nmisuratore fiscale, tutti quei dati (parametri) necessari a caratterizzarne il funzionamento\nper ricalcare le specifiche esigenze dell'utilizzatore  \nrapporto : stampa, a scopo di controllo gestionale, di una selezione dei totalizzatori\nmantenuti o elaborati dal misuratore fiscale  \nreparto (merceologico) : raggruppamento, a scopo statistico, di merci omogenee;\ndurante le fasi di vendita, l'operatore indica a quale reparto appartiene la merce in corso di\nregistrazione; in questo modo ottiene sullo scontrino una descrizione idonea, ottenendo a\nfine giornata un rapporto di utilità gestionale che ripartisce le vendite tra i vari reparti\nreso : ritorno di merce precedentemente venduta  \nscontrino fiscale : documento emesso a norma di legge in occasione della vendita di\nbeni; viene prodotto tramite speciali registratori di cassa (detti misuratori fiscali) approvati\ndal ministero delle finanze; deve contenere almeno i seguenti dati: ragione sociale\ndell'esercizio completa di partita IVA, natura dei beni e prezzo, importo totale, data, ora,\nnumerazione progressiva, matricola e logotipo fiscale  \nsigillo fiscale : sigillo in piombo mediante il quale si assicura la non manomissione da\nparte di alcuno della stampante fiscale; viene apposto inizialmente dall'UTIF o dall'UTE e\npuò essere rimosso solo dal tecnico di assistenza autorizzato, che alla fine dell'intervento\nlo sostituisce con altro recante il proprio numero identificativo  \nstampante termica : unità di stampa che sfrutta la caratteristica propria di speciali tipi di\ncarta, di cambiare colore quando sottoposti a temperatura elevata; non richiede l'utilizzo di\nnastri inchiostratori, ma funziona solo con carta cosiddetta \"termica\"; è particolarmente\nveloce e silenziosa.  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"70\" -->\n<!-- PageBreak -->  \nstorno : correzione di un'operazione effettuata  \ntotalizzatore : unità di memoria nella quale vengono di volta in volta sommati, a cura del\nsoftware del misuratore fiscale, dati omogenei (es. gli importi di tutti i pagamenti effettuati\nin contanti); ogni totalizzatore viene azzerato automaticamente ad ogni azzeramento\nfiscale, oppure su richiesta dell'operatore nel momento voluto; si hanno così\nrispettivamente totalizzatori giornalieri o periodici  \nMMC (Multi media card) WOCF: Supporto MMC non riscrivibile (sostituisce il giornale di\nfondo cartaceo).",
+    "Pagina": 70,
+    "Capitolo #": "10 APPENDICE",
+    "Sezione ##": "10.2 GLOSSARIO",
+    "Lista di Figure interne": [],
+    "Global_order": 100
+  },
+  {
+    "Testo": "# 11 INFORMAZIONI AGLI UTENTI  \n## 11.1 RIMOZIONE DELLA BATTERIA INTERNA  \n**BATTERIA RICARICABILE AL LITIO**  \nSeguire le istruzioni per rimuovere la batteria dalla scheda (Fig.1):  \n1\\. scollegare la scheda dall'alimentazione  \n2\\. individuare sul retro della scheda le due piazzole su cui la batteria è saldata  \n3\\. avvicinare la punta del saldatore allo stagno in corrispondenza delle due piazzole\ndove è saldata la batteria (Fig.2)  \n4\\. quando lo stagno diventa liquido è possibile rimuovere la batteria, sfilandone i\nreofori dai due fori nella scheda.  \n<figure>\n<figcaption>FIG.1</figcaption>  \nR37  \nM  \nLOC  \nDL  \nRJ3  \nC44  \nTP1  \nBT1  \n0  \n$2.500  \nE22  \nPRN  \nBØR121  \nBUZ1  \nJUF  \n</figure>  \n<figure>\n<figcaption>FIG. 2</figcaption>\n</figure>  \n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"71\" -->\n<!-- PageBreak -->",
+    "Pagina": 71,
+    "Capitolo #": "11 INFORMAZIONI AGLI UTENTI",
+    "Sezione ##": "11.1 RIMOZIONE DELLA BATTERIA INTERNA",
+    "Lista di Figure interne": [
+      "[page71_figure73](figures2/page71_figure73.png)",
+      "[page71_figure74](figures2/page71_figure74.png)"
+    ],
+    "Global_order": 101
+  },
+  {
+    "Testo": "## 11.2 SMALTIMENTO DEL PRODOTTO  \n<figure>\n</figure>  \n**INFORMAZIONE AGLI UTENTI**  \nai sensi dell'art. 13 del Decreto Legislativo 25 Luglio 2005, n.151 \"Attuazione delle Direttive\n2002/95/CE, 2002/96/CE e 2003/108/CE, relative alla riduzione dell'uso di sostanze pericolose\nnelle apparecchiature elettriche ed elettroniche, nonché allo smaltimento dei rifiuti\"  \nIl simbolo del cassonetto barrato riportato sull'apparecchiatura o sulla confezione indica che il\nprodotto alla fine della propria vita utile deve essere raccolto separatamente dagli altri rifiuti.  \nLa raccolta differenziata della presente apparecchiatura giunta a fine vita è organizzata e gestita dal\nproduttore. L'utente che vorrà disfarsi della presente apparecchiatura dovrà quindi contattare il\nproduttore e seguire il sistema che questo ha adottato per consentire la raccolta separata\ndell'apparecchiatura giunta a fine vita.  \nL'adeguata raccolta differenziata per l'avvio successivo dell'apparecchiatura dimessa al riciclaggio,\nal trattamento e allo smaltimento ambientalmente compatibile contribuisce ad evitare possibile effetti\nnegativi sull'ambiente e sulla salute e favorisce il reimpiego e/o riciclo dei materiali di cui è composta\nl'apparecchiatura.  \nLo smaltimento abusivo del prodotto da parte del detentore comporta l'applicazione delle sanzioni\namministrative di cui al D.Lgs. n.22/1997\" (articolo 50 e seguenti del D.Lgs. n.22/1997).  \nRev.00  \n<!-- PageFooter=\"Rel. 10/12 v.03\" -->\n<!-- PageFooter=\"RCH GROUP si riserva di modificare il presente manuale per futuri aggiornamenti. Vietata la copia o riproduzione anche parziale.\" -->\n<!-- PageNumber=\"72\" -->",
+    "Pagina": 72,
+    "Capitolo #": "11 INFORMAZIONI AGLI UTENTI",
+    "Sezione ##": "11.2 SMALTIMENTO DEL PRODOTTO",
+    "Lista di Figure interne": [
+      "[page72_figure75](figures2/page72_figure75.png)"
+    ],
+    "Global_order": 102
+  }
+]

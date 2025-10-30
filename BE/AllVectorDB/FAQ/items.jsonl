@@ -1,0 +1,20 @@
+{"id": 1, "question": "Quali materiali sono inclusi nell'imballo del sistema PRINT! F?", "answer": "L’imballo contiene PRINT! F, alimentatore e cavo di rete, manuale operativo e libretto fiscale. Opzionalmente può includere display, tastiera, MMC (giornale elettronico) e cassetto."}
+{"id": 2, "question": "Qual è la velocità di stampa della stampante PRINT! F?", "answer": "La stampante termica di PRINT! F ha una velocità di stampa di 300 mm al secondo."}
+{"id": 3, "question": "Che tipo di carta utilizza la stampante PRINT! F?", "answer": "PRINT! F utilizza carta termica omologata per misuratori fiscali con larghezza 80 mm e diametro massimo 83 mm."}
+{"id": 4, "question": "Chi può installare PRINT! F?", "answer": "PRINT! F deve essere installato esclusivamente da personale tecnico autorizzato."}
+{"id": 5, "question": "Come si sostituisce il rotolo di scontrino?", "answer": "Premere il tasto apertura coperchio, rimuovere il vecchio rotolo, inserire quello nuovo, chiudere il coperchio e premere [CL] o il tasto Feed per avanzare la carta."}
+{"id": 6, "question": "Che cosa è il DGFE?", "answer": "Il DGFE (Giornale di Fondo Elettronico) è una memoria MMC che registra tutti gli scontrini fiscali emessi e sostituisce il vecchio giornale cartaceo."}
+{"id": 7, "question": "Come si verifica lo spazio libero sul DGFE?", "answer": "Entrare in modalità Z (3 + [CHIAVE]), premere due volte [REPARTO], visualizzare 'DGFE spazio libero' e premere [CONTANTI]."}
+{"id": 8, "question": "Come si sostituisce la MMC del DGFE?", "answer": "Spegnere la cassa, estrarre la MMC, compilare l’etichetta, inserire la nuova MMC con etichetta verso l’alto e inizializzarla da modalità Z."}
+{"id": 9, "question": "Come si accede alla modalità Programmazione (PRG)?", "answer": "Digitare 4 seguito dal tasto [CHIAVE] per entrare nel menù di programmazione."}
+{"id": 10, "question": "Come si blocca la tastiera di PRINT! F?", "answer": "Digitare 0 seguito da [CHIAVE], quindi premere [CONTANTI] per confermare il blocco della tastiera."}
+{"id": 11, "question": "Come si programma un reparto?", "answer": "Entrare in PRG (4 + [CHIAVE]), selezionare REPARTI, inserire numero reparto, prezzo, descrizione, limiti, codice IVA e gruppo reparto."}
+{"id": 12, "question": "Come si imposta la data e l’ora?", "answer": "Da PRG selezionare 'Data/Ora', inserire giorno, mese, anno, ora e minuti, quindi confermare con [CONTANTI]."}
+{"id": 13, "question": "Cosa succede se la data impostata è avanti di oltre tre giorni?", "answer": "Il display mostra 'DATA AVANTI – OK / ANNULLA'. È possibile confermare o annullare la modifica."}
+{"id": 14, "question": "Come si programma l’intestazione dello scontrino?", "answer": "In PRG selezionare 'Intestazione', scegliere la riga da modificare (1-6), inserire il testo e decidere se centrare il testo."}
+{"id": 15, "question": "Come si aggiunge un messaggio di cortesia sullo scontrino?", "answer": "In PRG selezionare 'Messaggi cliente', digitare fino a due righe di cortesia e un messaggio scorrevole per il display."}
+{"id": 16, "question": "Come si imposta la percentuale di sconto?", "answer": "Da PRG selezionare 'Percentuale sconto', inserire la percentuale desiderata e confermare con [CONTANTI]."}
+{"id": 17, "question": "Come si imposta la percentuale di maggiorazione?", "answer": "Da PRG selezionare 'Percentuale maggiorazione', inserire la percentuale desiderata e confermare con [CONTANTI]."}
+{"id": 18, "question": "Come si programma un cliente?", "answer": "In PRG selezionare 'Clienti', inserire codice cliente, nome, indirizzo, partita IVA e abilitare il cliente con [REPARTO] + [CONTANTI]."}
+{"id": 19, "question": "Come si abilita il controllo di mezzanotte?", "answer": "Da PRG selezionare 'Avviso Mezzanotte', abilitare con [PREZZO REPARTO] e confermare con [CONTANTI]."}
+{"id": 20, "question": "Qual è la procedura per cancellare un cliente?", "answer": "In PRG selezionare 'Cancella Cliente', inserire il codice del cliente e premere [CONTANTI]."}

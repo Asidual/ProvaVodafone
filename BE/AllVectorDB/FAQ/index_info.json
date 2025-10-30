@@ -1,0 +1,16 @@
+{
+  "index_name": "FAQ",
+  "model": "text-embedding-3-small",
+  "count": 20,
+  "dim": 1536,
+  "created_at": 1761645582,
+  "source_file": "BE\\Ingestion\\Documents\\FAQs\\FAQ.json",
+  "faiss_index_path": "BE\\AllVectorDB\\FAQ\\FAQ.index",
+  "similarity": "cosine (normalized vectors with inner product)",
+  "fields": [
+    "id",
+    "question",
+    "answer",
+    "vector"
+  ]
+}

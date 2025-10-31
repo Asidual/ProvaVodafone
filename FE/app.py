@@ -257,7 +257,7 @@ def render_citation(sid: str, smap: Dict[str, Dict[str, Any]]) -> str:
 
 
 def render_suggerimenti(fb: Dict[str, Any]):
-    st.subheader("🧭 SUGGERIMENTI")
+    st.subheader("SUGGERIMENTI")
     msg = fb.get("message") or "Prova con una di queste domande correlate:"
     st.caption(msg)
 
@@ -271,7 +271,7 @@ def render_suggerimenti(fb: Dict[str, Any]):
 
 # Modelli disponibili
 AVAILABLE_MODELS = ["gpt-4o", "gpt-4o-mini", "gpt-4.1", "gpt-4.1-mini", "gpt-4.1-nano"]
-DEFAULT_CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4o-mini")
+DEFAULT_CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4o")
 if DEFAULT_CHAT_MODEL not in AVAILABLE_MODELS:
     DEFAULT_CHAT_MODEL = AVAILABLE_MODELS[0]
 
@@ -392,7 +392,7 @@ if submitted and question and question.strip():
                             for u in item["images"]:
                                 st.markdown(f"- {u}")
 
-            st.stop()  # <-- mostra solo fallback + history
+            st.stop()  
 
         if streaming_mode:
             # st.subheader("💬 Risposta (streaming)")
@@ -432,6 +432,7 @@ if submitted and question and question.strip():
 
                 elif chunk["type"] == "done":
                     break
+            # TODO implementazione nel caso il testo o status fosse stato KO
             # controllo KO su testo completo (oltre alla meta)
             # if "KO" in answer_accum.upper(): # SI può migliorare
             #     fb = ask_fallback(question.strip())
@@ -489,7 +490,8 @@ if submitted and question and question.strip():
                 model_choice,
                 question_id=qid
             )
-            answer = data.get("answer") or ""
+            answer = data.get("answer") or "" 
+            # TODO implementazione nel caso il testo o status fosse stato KO
             # Se KO (status o testo), attiva FALLBACK e mostra SOLO SUGGERIMENTI + History
             # if "KO" in answer.upper():
             #     fb = ask_fallback(question.strip())
@@ -616,14 +618,6 @@ if submitted and question and question.strip():
             st.subheader("Avvertenze / conformità")
             for w in warnings:
                 st.warning(w)
-
-        # # ---- FALLBACK ----
-        # fb = data.get("fallback")
-        # if fb:
-        #     st.subheader("Suggerimenti")
-        #     faqs = fb.get("faqs") or []
-        #     for q in faqs: st.markdown(f"- {q}")
-        #     if fb.get("ask_clarification"): st.info(fb["ask_clarification"])
 
         # ---- HISTORY ----
         st.session_state["history"].append(

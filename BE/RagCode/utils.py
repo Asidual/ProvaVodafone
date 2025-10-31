@@ -13,7 +13,7 @@ logger = logging.getLogger("rag.utils")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 EMBED_MODEL = os.getenv("OPENAI_EMBED_MODEL", "text-embedding-3-large")
 EMBED_MODEL_FAQ = os.getenv("OPENAI_EMBED_MODEL", "text-embedding-3-small")
-CHAT_MODEL  = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
+CHAT_MODEL  = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o")
 
 # Per le immagini
 STATIC_MOUNT = "/static".rstrip("/")

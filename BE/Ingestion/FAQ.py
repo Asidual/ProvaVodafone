@@ -15,8 +15,8 @@ load_dotenv()
 INDEX_NAME = "FAQ"
 STORE_DIR = Path("BE") / "AllVectorDB" /INDEX_NAME
 INDEX_PATH = STORE_DIR / f"{INDEX_NAME}.index"  # FAISS index
-META_PATH = STORE_DIR / "meta.json"             # id -> {question, answer}
-INFO_PATH = STORE_DIR / "index_info.json"       # info indice (modello, dim, ts, count)
+META_PATH = STORE_DIR / "meta.json" # id -> {question, answer}
+INFO_PATH = STORE_DIR / "index_info.json" # info indice (modello, dim, ts, count)
 
 EMBED_MODEL = "text-embedding-3-small"  # 1536-dim
 BATCH_SIZE = 128

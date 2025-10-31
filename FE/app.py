@@ -256,17 +256,74 @@ def render_citation(sid: str, smap: Dict[str, Dict[str, Any]]) -> str:
     return f"[{sid} — {label}]({link})"
 
 
+def fuori_scope(msg: str) -> bool:
+    if not msg:
+        return False
+    m = msg.lower()
+    triggers = [
+        "non è inerente", "non rientra", "fuori perimetro", "non pertinente",
+        "non ha abbastanza contesto", "non ho trovato una fonte precisa ma"
+    ]
+    return any(t in m for t in triggers)
+
+def troncamento_veloce(s: str, n: int = 160) -> str:
+    s = (s or "").strip()
+    return (s[:n-1] + "…") if len(s) > n else s
+
+
+def _use_suggested_question(q: str):
+    st.session_state["question_input"] = q
+
 def render_suggerimenti(fb: Dict[str, Any]):
     st.subheader("SUGGERIMENTI")
-    msg = fb.get("message") or "Prova con una di queste domande correlate:"
-    st.caption(msg)
+
+    msg = fb.get("message") or "Prova con una di queste domande per orientare meglio la ricerca:"
+    if fuori_scope(msg):
+        st.warning(msg)
+    else:
+        st.caption(msg)
 
     sugs = fb.get("suggerimenti") or []
+
+    # de-dup per testo domanda
+    seen = set()
+    clean_sugs = []
     for s in sugs:
-        q = s.get("question", "")
-        mot = s.get("motivazione", "")
-        # mostra solo domanda + motivazione breve
-        st.markdown(f"- **{q}**  \n  _{mot}_")
+        q = (s.get("question") or "").strip()
+        if not q or q.lower() in seen:
+            continue
+        seen.add(q.lower())
+        clean_sugs.append(s)
+
+    if not clean_sugs:
+        st.info("Nessun suggerimento disponibile al momento.")
+        return
+
+    # layout a card con azioni
+    for i, s in enumerate(clean_sugs, 1):
+        q = (s.get("question") or "").strip()
+        mot = troncamento_veloce(s.get("motivazione") or "", 160)
+        score = s.get("score")
+
+        with st.container(border=True):
+            st.markdown(f"**Q{i}. {q}**")
+            if mot:
+                st.markdown(f"_Motivo:_ {mot}")
+
+            c1, c2 = st.columns([1, 3])
+            with c1:
+                st.button(
+                    "Usa questa domanda",
+                    key=f"use_q_{i}",
+                    on_click=_use_suggested_question,
+                    args=(q,),              # <-- imposta la textarea
+                )
+            with c2:
+                if isinstance(score, (int, float)):
+                    st.caption(f"score: {score:.3f}")
+
+
+
 
 
 # Modelli disponibili
@@ -337,18 +394,23 @@ if "history" not in st.session_state:
     st.session_state["history"] = []
 if "current_qid" not in st.session_state:
     st.session_state["current_qid"] = None
+if "question_input" not in st.session_state:
+    st.session_state["question_input"] = ""    
 
 # FORM
 st.divider()
 with st.form("qa_form", clear_on_submit=False):
     question = st.text_area(
         "Domanda",
+        key="question_input",  # <-- controllata da session_state
         placeholder='Es. Dove sono le spie "Fine Carta", "Anomalia Stampante" e "Power"?',
     )
     submitted = st.form_submit_button("Chiedi")
 
+
 # ACTION
 if submitted and question and question.strip():
+    
     qid = new_question_id()
     st.session_state["current_qid"] = qid
     t0 = time.time()
@@ -588,7 +650,7 @@ if submitted and question and question.strip():
             if public in seen:
                 continue
             seen.add(public)
-            link_url = public if public.startswith("http") else f"{PUBLIC_API_ROOT }{public}"
+            link_url = public if public.startswith("http") else f"{PUBLIC_API_ROOT}{public}"
             dedup_imgs.append({**im, "url": public, "link_url": link_url})
 
         if dedup_imgs:

@@ -516,58 +516,79 @@ def load_metadata(meta_path_faq:str) -> dict:
     with open(meta_path_faq, "r", encoding="utf-8") as f:
         return json.load(f)
     
-def genera_motivazioni_llm(original_q: str,
-                              candidates: List[Dict[str, str]]) -> List[str]:
+def genera_motivazioni_llm_with_msg(original_q: str, candidates: List[Dict[str, str]]) -> tuple[list[str], Optional[str]]:
     """
-    Genera una motivazione concisa (<= 1 frase, <= 160 caratteri) per ciascun candidato.
-    Ritorna una lista di stringhe della stessa lunghezza di candidates.
-    In caso di errore o mismatch, restituisce stringhe vuote per quelle posizioni.
+    Genera:
+    - spiegazioni concise (<=160 char) per ciascuna domanda candidata
+    - un messaggio generale opzionale (es. 'La domanda non è inerente al tema trattato...')
+    Ritorna (lista_spiegazioni, messaggio)
     """
     if not candidates:
-        return []
+        return [], None
 
-    # Prompt strutturato: chiediamo un JSON array di stringhe per robustezza.
-    sys = (
-        "Sei un assistente che aiuta l'utente a riformulare la domanda quando la ricerca non ha fonti precise. "
-        "Per ogni domanda candidata, genera UNA sola frase molto breve (<=160 caratteri) che spieghi "
-        "perché quella domanda aiuta ad approfondire il tema dell'utente. "
-        "Rispondi SOLO con un JSON array di stringhe nell'ordine dato, senza testo extra."
+    system_prompt = (
+        "Sei un assistente che aiuta un utente quando la domanda non è pertinente con il dominio. "
+        "Riceverai una 'domanda_utente' e una lista di 'domande_candidati' (con le rispettive risposte). "
+        "Devi restituire SOLO un oggetto JSON con due campi obbligatori:\n\n"
+        "{\n"
+        "  \"spiegazione\": [\"spiegazione1\", \"spiegazione2\", ...],\n"
+        "  \"messaggio\": \"Testo breve (max 200 caratteri) che spiega che la domanda originale non è pertinente.\"\n"
+        "}\n\n"
+        "- Ogni spiegazione deve descrivere in modo conciso (<=160 caratteri) il contenuto o il tema della domanda candidata.\n"
+        "- NON citare o commentare la domanda_utente.\n"
+        "- Il messaggio serve SOLO per dire che la domanda non è pertinente e che proponi alternative.\n"
+        "- Nessun testo o commento fuori dal JSON."
     )
-    # Costruiamo un contenuto minimale e serializzabile
-    user_payload = {
+
+    payload = {
         "domanda_utente": original_q,
-        "candidate_domande_e_risposte": [
-            {"question": c.get("question", ""), "answer": c.get("answer", "")[:500]}  #per avere il contesto
+        "domande_candidati": [
+            {"question": c.get("question", ""), "answer": (c.get("answer", "") or "")[:400]}
             for c in candidates
         ],
-        "format": "JSON array di stringhe, una motivazione per ciascun candidato, stesso ordine."
     }
 
     try:
         resp = chat_client.chat.completions.create(
             model=CHAT_MODEL,
             messages=[
-                {"role": "system", "content": sys},
-                {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)}
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}
             ],
             temperature=0.2,
         )
-        content = resp.choices[0].message.content.strip()
-        # Proviamo a parsare come JSON array di stringhe
-        motivazioni = json.loads(content)
-        if not isinstance(motivazioni, list):
-            return [""] * len(candidates)
-        # allinea la lunghezza
-        if len(motivazioni) < len(candidates):
-            motivazioni += [""] * (len(candidates) - len(motivazioni))
-        elif len(motivazioni) > len(candidates):
-            motivazioni = motivazioni[:len(candidates)]
-        # troncature di sicurezza
-        motivazioni = [str(m)[:160] if isinstance(m, str) else "" for m in motivazioni]
-        return motivazioni
-    except Exception:
-        # In caso di fallimento LLM, ritorna stringhe vuote (frontend può gestire fallback)
-        return [""] * len(candidates)
+
+        raw = (resp.choices[0].message.content or "").strip()
+
+        # 💡 fallback in caso di testo libero
+        if not raw.startswith("{"):
+            logger.warning(f"LLM output non JSON: {raw[:200]}")
+            return [""] * len(candidates), None
+
+        data = json.loads(raw)
+
+        spiegazioni = []
+        msg = None
+
+        if isinstance(data, dict):
+            spiegazioni = data.get("spiegazione") or data.get("motivazioni") or []
+            msg = data.get("messaggio") or data.get("nota") or data.get("risposta_fall")
+
+        # Normalizza lunghezze
+        spiegazioni = [str(s)[:160] if isinstance(s, str) else "" for s in spiegazioni]
+        if len(spiegazioni) < len(candidates):
+            spiegazioni += [""] * (len(candidates) - len(spiegazioni))
+        else:
+            spiegazioni = spiegazioni[:len(candidates)]
+
+        return spiegazioni, (str(msg).strip() if msg else None)
+
+    except Exception as e:
+        logger.exception(f"Errore in genera_motivazioni_llm_with_msg: {e}")
+        return [""] * len(candidates), None
+
+
+
 
 
 

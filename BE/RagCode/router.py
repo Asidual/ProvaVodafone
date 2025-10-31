@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field
 
 from utils import (
     embed_question,
-    genera_motivazioni_llm,
+    genera_motivazioni_llm_with_msg,
     load_index_faq,
     load_metadata,
     search_by_text,
@@ -330,6 +330,8 @@ def search_doc(payload: SearchDoc, request: Request) -> SearchDocOutput:
 # ---------------------------------------------------------------------
 # /fallback
 # ---------------------------------------------------------------------
+from itertools import zip_longest
+
 @rag_router.post("/fallback")
 def fallback_question(request: Request, question: str, question_id: Optional[str] = None) -> FallbackOutput:
     t0 = time.time()
@@ -339,20 +341,22 @@ def fallback_question(request: Request, question: str, question_id: Optional[str
     audit_id = start_event(
         route="/fallback",
         question=question,
-        model="text-embedding-3-large",   # modello embedding FAQ della query
+        model="text-embedding-3-small",   # modello embedding FAQ della query
         question_id=qid,
     )
 
     try:
+        # 1) Embed + search su indice FAQ
         q_vec = embed_question(question)
         index_faq = load_index_faq(str(FAQ_INDEX))
 
         D, I = index_faq.search(q_vec, 3)
-        scores = D[0].tolist()
-        ids    = [int(x) for x in I[0].tolist() if x != -1]
+        scores = D[0].tolist() if D is not None else []
+        ids    = [int(x) for x in I[0].tolist() if x != -1] if I is not None else []
 
         metadata_faq = load_metadata(str(FAQ_META))
 
+        # 2) Costruisci lista suggerimenti (id, question, answer, score)
         suggerimenti: List[Dict[str, Any]] = []
         for idx, score in zip(ids, scores):
             if idx == -1:
@@ -367,17 +371,42 @@ def fallback_question(request: Request, question: str, question_id: Optional[str
                 "score": round(float(score), 3),
             })
 
-        motivazioni = genera_motivazioni_llm(question, suggerimenti)
-        for sugg, mot in zip(suggerimenti, motivazioni):
-            sugg["motivazione"] = mot
+        # Se non ho suggerimenti: messaggio chiaro e ritorno early
+        if not suggerimenti:
+            finish_event(
+                audit_id,
+                answer_status="OK",
+                latency_ms=int((time.time()-t0)*1000),
+                meta_update={"count": 0, "reason": "no_candidates"}
+            )
+            return FallbackOutput(
+                original_question=question,
+                message=("La domanda non rientra nel perimetro del progetto o non ha abbastanza contesto. "
+                         "Ecco alcune richieste che puoi provare a formulare in modo più specifico."),
+                suggerimenti=[]
+            )
 
-        if suggerimenti and suggerimenti[0]["score"] >= 0.5:
-            message = "Non ho trovato una fonte precisa. Prova una di queste domande correlate:"
+        # 3) Chiedi all’LLM motivazioni + eventuale messaggio generale
+        motivazioni, msg = genera_motivazioni_llm_with_msg(question, suggerimenti)
+
+        # 4) Unisci motivazioni ai suggerimenti (allineamento sicuro)
+        for sugg, mot in zip_longest(suggerimenti, motivazioni, fillvalue=""):
+            if isinstance(sugg, dict):
+                sugg["motivazione"] = (mot or "")[:160]
+
+        # 5) Scegli il messaggio da mostrare
+        #    Priorità: messaggio LLM -> soglia score -> default
+        max_score = max((s["score"] for s in suggerimenti if isinstance(s.get("score"), (int, float))), default=0.0)
+
+        if msg and isinstance(msg, str) and msg.strip():
+            message = msg.strip()
+        elif max_score >= 0.5:
+            message = "Non ho trovato una fonte precisa. Prova una di queste domande utili per proseguire:"
         else:
-            message = ("Nessuna corrispondenza forte trovata. Ecco alcune domande vicine che "
-                       "possono aiutare a circoscrivere l’argomento:")
+            message = ("Nessuna corrispondenza forte trovata. Ecco alcune richieste vicine che "
+                       "possono aiutarti a circoscrivere l’argomento:")
 
-        # --- AUDIT: logga i suggerimenti come risorse (namespace 'faq:')
+        # 6) AUDIT: registra suggerimenti come risorse
         add_resources(audit_id, [
             {
                 "id": f"faq:{s['id']}",
@@ -392,7 +421,7 @@ def fallback_question(request: Request, question: str, question_id: Optional[str
             audit_id,
             answer_status="OK",
             latency_ms=int((time.time()-t0)*1000),
-            meta_update={"count": len(suggerimenti)}
+            meta_update={"count": len(suggerimenti), "max_score": max_score, "llm_msg": bool(msg)}
         )
 
         return FallbackOutput(
@@ -400,6 +429,7 @@ def fallback_question(request: Request, question: str, question_id: Optional[str
             message=message,
             suggerimenti=suggerimenti
         )
+
     except Exception as e:
         logger.exception(" Errore in /fallback")
         finish_event(
@@ -409,6 +439,7 @@ def fallback_question(request: Request, question: str, question_id: Optional[str
             meta_update={"error": str(e)}
         )
         raise
+
 
 
 @rag_router.post("/warning")

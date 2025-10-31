@@ -1,58 +1,13 @@
+
 # RAG Vodafone
 
-Sistema RAG (Retrieval‑Augmented Generation) per manuali tecnici e FAQ, con pipeline di ingestion multimodale (testo + immagini), indicizzazione FAISS, API Backend (FastAPI) e Frontend separato.
+Sistema **RAG (Retrieval-Augmented Generation)** per consultare **manuali tecnici e FAQ**, con:
 
----
-
-## Contenuti
-
-* [Panoramica](#panoramica)
-* [Architettura](#architettura)
-* [Struttura del repository](#struttura-del-repository)
-* [Prerequisiti](#prerequisiti)
-* [Configurazione `.env`](#configurazione-env)
-* [Avvio rapido](#avvio-rapido)
-* [Ingestion: manuali e immagini](#ingestion-manuali-e-immagini)
-* [Ingestion: indice FAQ](#ingestion-indice-faq)
-* [Vector DB (FAISS)](#vector-db-faiss)
-* [API Backend](#api-backend)
-* [Audit e logging](#audit-e-logging)
-* [Sviluppo locale (senza Docker)](#sviluppo-locale-senza-docker)
-* [Troubleshooting](#troubleshooting)
-
----
-
-## Panoramica
-
-**RAG Vodafone** indicizza contenuti di manualistica tecnica e relative figure estratte dal PDF. La risposta del modello viene “ancorata” alle evidenze recuperate dal Vector DB, con:
-
-* Normalizzazione dei titoli markdown e split per capitolo/sezione
-* Estrazione immagini con coordinate da Azure **Document Intelligence**
-* Descrizione immagini via **VLM** (es. `gpt-4o`) e embedding testuale (OpenAI)
-* Indicizzazione FAISS separata per: **contenuti del manuale** e **FAQ**
-* API per `ask`, `fallback`, `warning` e modulo **audit**
-
----
-
-## Architettura
-
-```
-PDF ──► Document Intelligence (markdown + figures json)
-        │
-        ├─► Normalizzazione headings
-        ├─► Estrazione figure (PNG) + associazione a capitoli/sezioni
-        ├─► Descrizioni immagini (VLM) ➜ embedding
-        ├─► Testo dei blocchi ➜ embedding
-        └─► Merge record (testo+immagini) + chunk ID
-                         │
-                         └─► FAISS (vectordb2)
-
-FAQ.json ─► Validazione schema (Pydantic) ─► embedding (question)
-                                      │
-                                      └─► FAISS (FAQ)
-
-FAISS + meta.json ─► Backend API (FastAPI) ─► FE
-```
+* ingestion multimodale (testo + immagini)
+* indicizzazione **FAISS**
+* **Backend** FastAPI (con SSE per streaming token)
+* **Frontend** Streamlit
+* **Audit** locale su SQLite
 
 ---
 
@@ -61,226 +16,275 @@ FAISS + meta.json ─► Backend API (FastAPI) ─► FE
 ```
 BE/
 ├─ AllVectorDB/
-│  ├─ vectordb2/           # index.faiss + meta.json del manuale
-│  └─ FAQ/                 # FAQ.index + meta.json + index_info.json
+│  ├─ FAQ/                     # indice FAISS delle FAQ + metadati
+│  └─ vectordb2/               # indice FAISS del manuale + metadati
 │
 ├─ Ingestion/
-│  ├─ Documents/           # sorgenti (PDF, json DI, md, debug_runs)
-│  ├─ FAQ.py               # build indice FAISS per le FAQ [Sono state generate]
-│  ├─ Ingestion.py         # Per ottenere il FAISS della documentazione del pdf
-│  └─ utils.py             # funzioni DI/markdown/figures/embedding/FAISS
-│  
-├─ RagCode/
-│  ├─ audit/               # audit.db, script ispezione
-│  ├─ main.py              # entrypoint FastAPI
-│  ├─ router.py            # endpoint API
-│  └─ utils.py             # utilità backend
+│  ├─ Documents/               # PDF, json/markdown DI, debug
+│  │  ├─ debug_runs/           # Ci sono tutti i documenti tra Json e MD per i passaggi intermedi per la fase di ingestion
+│  │  ├─ FAQs/                 # FAQ.json (input)
+│  │  └─ old_json/             # output Azure Document Intelligence (facoltativo)
+│  ├─ figures2/                # immagini PNG estratte
+│  ├─ FAQ.py                   # builder indice FAQ (FAISS)
+│  ├─ ingestion.py             # builder indice manuale (FAISS)
+│  └─ utils.py                 # funzioni supporto ingestion
 │
-├─ Dockerfile              # backend
-└─ Document/printf-manuale.pdf
+├─ RagCode/
+│  ├─ audit/                   # audit.db + helper (salvato anche come volume)
+│  ├─ Document/                # pdf manuale (servito come /staticdoc)
+│  ├─ main.py                  # app FastAPI (mount static, VDB loader)
+│  ├─ router.py                # API: /search, /ask, /ask/stream, /fallback, /warning
+│  └─ utils.py                 # utilità backend (embed, ricerca, prompt, ecc.)
+│
+├─ Dockerfile                  # backend
+└─ requirements.txt            # backend
 
 FE/
-├─ app.py                  # frontend
-└─ Dockerfile
+├─ app.py                      # Streamlit app
+├─ Dockerfile                  # frontend
+└─ requirements.txt            # frontend
 
-docker-compose.yml         # compose FE+BE
-.env                        # variabili ambiente (non committare)
+docker-compose.yml
+.env
+command_docker.md
+README.md
 ```
 
----
-
-## Prerequisiti
-
-* **Python 3.10+**
-* **Docker** e **Docker Compose** (opzionale ma consigliato)
-* Account e chiavi API:
-
-  * **OpenAI** per embedding (es. `text-embedding-3-small/large`) e VLM (`gpt-4o`)
-  * **Azure Document Intelligence** (endpoint + key) per conversione PDF→Markdown e coordinate immagini
+E' presente anche una cartella chiamata **Notebook** che ho utilizzato per gli esperimenti e per le varie prove nella fase di ingestion
 
 ---
 
-## Configurazione `.env`
+## Variabili d’ambiente (.env)
 
-Crea un file `.env` nella root del progetto:
+Crea un file **`.env`** nella root (stesso livello del `docker-compose.yml`):
 
 ```ini
-# OpenAI
+# ==== OPENAI ====
 OPENAI_API_KEY=sk-...
-OPENAI_CHAT_MODEL=gpt-4o-mini
+OPENAI_CHAT_MODEL=gpt-4o
 OPENAI_EMBED_MODEL=text-embedding-3-large
-OPENAI_VLM_MODEL=gpt-4o
 
-# Azure Document Intelligence (per pdf_to_markdown)
-AZURE_DI_ENDPOINT=https://<nome-risorsa>.cognitiveservices.azure.com/
-AZURE_DI_KEY=<chiave>
+# ==== BACKEND ====
+APP_NAME=RAG BE
+APP_VERSION=0.2.0
+HOST=0.0.0.0
+PORT=8000
+LOG_LEVEL=INFO
+RELOAD=false
+
+# Windows-safe: accetta anche backslash; vengono normalizzati in runtime
+VDB_DIR=BE/AllVectorDB/vectordb2
+STATIC_DIR=BE/Ingestion/figures2
+STATIC_DIR_DOC=BE/RagCode/Document
+
+# Audit
+AUDIT_ENABLED=true
+
+# ==== FRONTEND ====
+# lato container FE -> come il FE chiama il BE (via rete docker)
+API_BASE_URL=http://backend:8000/api
+
+# lato browser -> come l'utente vede il BE (fuori da docker)
+PUBLIC_API_BASE_URL=http://localhost:8000/api
 ```
 
-> Nota: la pipeline può anche partire da file già generati (markdown + json DI) senza chiamare DI a runtime.
+> `API_BASE_URL` è usato **dal container FE** per chiamare il BE (`backend:8000`).
+> `PUBLIC_API_BASE_URL` è usato **dal browser** per aprire link alle immagini/PDF (`http://localhost:8000/...`).
+> Se non coincidono, le immagini non si aprono dal browser.
 
 ---
 
-## Avvio rapido
-
-**Con Docker Compose (consigliato):**
+## Avvio con Docker (consigliato)
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
-* BE in ascolto su `http://localhost:8000`
-* FE in ascolto su `http://localhost:3000` (o porta configurata nel compose)
+* **Backend** → [http://localhost:8000](http://localhost:8000)
 
-**Oppure solo Backend (uvicorn):**
+  * docs: [http://localhost:8000/docs](http://localhost:8000/docs)
+  * static immagini: [http://localhost:8000/static/](http://localhost:8000/static/)<file.png>
+  * static documenti: [http://localhost:8000/staticdoc/printf-manuale.pdf](http://localhost:8000/staticdoc/printf-manuale.pdf)
+  * debug immagini: [http://localhost:8000/debug/static-list](http://localhost:8000/debug/static-list)
+* **Frontend** → [http://localhost:8501](http://localhost:8501)
+
+Comandi utili:
 
 ```bash
-# da root repo (con venv attivo e requirements installati)
-python -m uvicorn BE.RagCode.main:app --reload --host 0.0.0.0 --port 8000
+# ricostruzione completa dopo modifiche a requirements/Dockerfile
+docker compose build --no-cache
+
+# log live di un servizio
+docker compose logs -f backend
+docker compose logs -f frontend
+
+# riavvio "pulito"
+docker compose down
+docker compose up -d --build
 ```
 
----
+### Volumi mappati (persistenza e hot-reload)
 
-## Ingestion: manuali e immagini
+Nel `docker-compose.yml`:
 
-La pipeline completa con logging esteso è in `BE/Ingestion/pipeline_debug.py`.
-
-**Percorsi di default usati nello script:**
-
-* PDF: `BE/Ingestion/Documents/printf-manuale.pdf`
-* Markdown: `BE/Ingestion/Documents/old_json/1_print_page4.md`
-* Result DI json: `BE/Ingestion/Documents/old_json/1_result_info.json`
-* Figure estratte: `BE\Ingestion\figures2`
-* Output Vector DB: `BE/AllVectorDB/vectordb2/`
-
-**Esecuzione:**
-
-```bash
-python BE/Ingestion/pipeline_debug.py
-```
-
-Crea/aggiorna `vectordb2` (FAISS + meta.json) e salva figure in `figures2/`.
-
-Passi principali (funzioni in `utils.py`):
-
-* `pdf_to_markdown(...)` (opzionale) – converte PDF→Markdown via Azure DI
-* `normalize_numeric_headings`, `demote_unnumbered_headers_to_bold` – normalizza heading
-* `extract_figures_png_robust_from_dict` – estrae PNG con bounding box DI
-* `split_markdown_build_records_by_page_markers_no_recursive` – crea record per blocchi
-* `correct_fig_assigment` – fix manuale dell’associazione immagine→sezione
-* `add_embedding` / `add_embedding_image` – embedding testo/descrizioni (OpenAI)
-* `merge_text_and_image_records` + `add_chunk_ids` – unificazione + ID stabili
-* `build_vectordb` – scrive `index.faiss` + `meta.json`
+* `./BE:/app` → codice BE “montato” (modifiche visibili senza rebuild)
+* `./BE/RagCode/audit:/app/RagCode/audit` → **audit.db** persistente
+* `./BE/AllVectorDB:/app/AllVectorDB` → indici FAISS persistenti
+* `./BE/RagCode/.logs:/app/RagCode/.logs` → log su host
 
 ---
 
-## Ingestion: indice FAQ
+## Avvio locale (senza Docker)
 
-`BE/Ingestion/FAQ.py` costruisce un indice FAISS dedicato alle FAQ, embeddando **solo la question** e salvando i metadati (question/answer/id).
-
-**Input atteso:** `BE/Ingestion/Documents/FAQs/FAQ.json` (lista di oggetti con `{id, question, answer, source?}`)
-
-**Esecuzione:**
-
-```bash
-python BE/Ingestion/FAQ.py
-```
-
-Scrive in `BE/AllVectorDB/FAQ/`:
-
-* `FAQ.index` (FAISS)
-* `meta.json` (mappa id → {question, answer})
-* `index_info.json` (modello, dim, count, timestamp)
-
-Parametri principali:
-
-* `EMBED_MODEL = "text-embedding-3-large"` (1536‑dim)
-* Similarità: **cosine** (vettori normalizzati; IndexFlatIP)
-
----
-
-## Vector DB (FAISS)
-
-* **Manuale**: `BE/AllVectorDB/vectordb2/`
-
-  * `index.faiss` – vettori normalizzati (cosine via inner product)
-  * `meta.json` – lista completa dei chunk (testo/immagini + metadati)
-* **FAQ**: `BE/AllVectorDB/FAQ/`
-
-  * `FAQ.index`, `meta.json`, `index_info.json`
-
-Utility di ricerca disponibile in `utils.py`:
-
-```python
-from BE.Ingestion.utils import search_by_vector
-
-results = search_by_vector(
-    db_dir="BE/AllVectorDB/vectordb2",
-    query_vector=<embedding della query>,
-    top_k=5,
-)
-```
-
----
-
-## API Backend
-
-Entrypoint FastAPI in `BE/RagCode/main.py` e router in `BE/RagCode/router.py`.
-
-Endpoint principali (nomenclature indicative):
-
-* `POST /ask` o `/ask/stream` – risposta con contesto da Vector DB
-* `POST /fallback` – proposte di FAQ correlate quando il match è scarso
-* `POST /warning` – validazioni/flag tecnici su domanda/risposta
-
-> Vedi `router.py` e i docstring per i parametri esatti. Il BE salva eventi su **audit.db**.
-
-Esempio (curl generico):
-
-```bash
-curl -X POST "http://localhost:8000/ask" \
-     -H "Content-Type: application/json" \
-     -d '{"question": "Come cambio il rotolo?", "top_k": 5}'
-```
-
----
-
-## Audit e logging
-
-* DB: `BE/RagCode/audit/audit.db`
-* Script utili: `audit_inspect.py`, `audit.py`
-* Log pipeline: `pipeline_debug.py` → livello `DEBUG` (console) + salvataggi intermedi in `BE/Ingestion/Documents/debug_runs/`
-
----
-
-## Sviluppo locale (senza Docker)
+Backend:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate   # (Windows: .venv\Scripts\activate)
-pip install -r requirements.txt
+.venv\Scripts\activate          # Windows
+# source .venv/bin/activate     # macOS/Linux
 
-# 1) Costruisci indice FAQ (opzionale)
-python BE/Ingestion/FAQ.py
-
-# 2) Esegui ingestion del manuale
-python BE/Ingestion/pipeline_debug.py
-
-# 3) Avvia Backend
+pip install -r BE/requirements.txt
 python -m uvicorn BE.RagCode.main:app --reload --port 8000
 ```
+
+Frontend:
+
+```bash
+pip install -r FE/requirements.txt
+# Sovrascrivi per l’avvio locale:
+set API_BASE_URL=http://localhost:8000/api
+set PUBLIC_API_BASE_URL=http://localhost:8000/api
+streamlit run FE/app.py --server.port=8501
+```
+
+---
+
+## Pipeline di ingestion
+
+### Manuale + immagini → `vectordb2/`
+
+```bash
+python BE/Ingestion/ingestion.py
+```
+
+Output atteso:
+
+```
+BE/AllVectorDB/vectordb2/
+├─ index.faiss
+└─ meta.json
+```
+
+### FAQ → `FAQ/`
+
+Assicurati di avere `BE/Ingestion/Documents/FAQs/FAQ.json` (lista di oggetti con `{id, question, answer, ...}`):
+
+```bash
+python BE/Ingestion/FAQ.py
+```
+
+Output atteso:
+
+```
+BE/AllVectorDB/FAQ/
+├─ FAQ.index
+├─ meta.json
+└─ index_info.json
+```
+
+---
+
+## API principali (router FastAPI)
+
+| Metodo | Endpoint          | Descrizione                                                                         |
+| -----: | ----------------- | ------------------------------------------------------------------------------------|
+|   POST | `/api/search`     | Ricerca semantica nei chunk FAISS e spiegabilità dei documenti selezionati          |
+|   POST | `/api/ask`        | Generazione risposta (sincrona)                                                     |
+|   POST | `/api/ask/stream` | Generazione **streaming** (SSE token-by-token)                                      |
+|   POST | `/api/fallback`   | FAQ correlate se retrieval scarso                                                   |
+|   POST | `/api/warning`    | Analisi e flag di warning tecnico                                                   |
+
+Endpoint utilità:
+
+* `GET /` → stato app + config statici
+* `GET /debug/static-list` → anteprima file immagini montati
+
+> **SSE (Server-Sent Events)**: nel backend usi `StreamingResponse(..., media_type="text/event-stream")` e nel FE leggi riga per riga con `requests.iter_lines()`.
+
+---
+
+## Audit & Logging
+
+* DB: `BE/RagCode/audit/audit.db` (montato come volume)
+* Tabelle: `audit_event`, `audit_resource`
+* Log file: `BE/RagCode/.logs/app.log` (+ `rag_stream.log` dal router)
+
+Ispezione rapida (se hai `sqlite3`):
+
+```bash
+sqlite3 BE/RagCode/audit/audit.db ".tables"
+sqlite3 BE/RagCode/audit/audit.db "SELECT id, ts_utc, route, question_id, answer_status, latency_ms FROM audit_event ORDER BY id DESC LIMIT 10;"
+```
+
+---
+
+## Settaggi consigliati
+
+**Backend (.env)**
+
+* `HOST=0.0.0.0` (in Docker) / `HOST=127.0.0.1` (locale)
+* `RELOAD=false` in produzione
+* `LOG_LEVEL=INFO` (passa a `DEBUG` solo in dev)
+* `VDB_DIR=BE/AllVectorDB/vectordb2`
+* `STATIC_DIR=BE/Ingestion/figures2`
+* `STATIC_DIR_DOC=BE/RagCode/Document`
+* `AUDIT_ENABLED=true`
+
+**Frontend (.env)**
+
+* `API_BASE_URL=http://backend:8000/api` (FE → BE via rete Docker)
+* `PUBLIC_API_BASE_URL=http://localhost:8000/api` (browser → BE)
+
+**Modelli**
+
+* `OPENAI_CHAT_MODEL=gpt-4o` (veloce/economico)
+* `OPENAI_EMBED_MODEL=text-embedding-3-large` (1536-d, qualità buona)
+* FE default: `Top-K = 5`, `temperature = 0.2`, `max_tokens = 700`
+
+---
+
+## Check rapido (smoke test)
+
+1. BE su: [http://localhost:8000](http://localhost:8000)
+
+   * verifica `/`, `/docs`, `/debug/static-list`
+
+2. Immagini: prendi un file elencato da `/debug/static-list`
+
+   * esempio: `http://localhost:8000/static/page7_figure4.png`
+
+3. FE su: [http://localhost:8501](http://localhost:8501)
+
+   * in **sidebar** verifica:
+
+     ```
+     API_BASE_URL = http://backend:8000/api
+     PUBLIC_API_BASE_URL = http://localhost:8000/api
+     ```
+   * fai una query: dovresti vedere i link alle fonti e le immagini aprirsi nel browser.
 
 ---
 
 ## Troubleshooting
 
-* **`OPENAI_API_KEY non impostata`** → verifica `.env` e variabili d’ambiente
-* **Mancano file DI (markdown/json)** → lancia `pdf_to_markdown` o allinea i percorsi in `pipeline_debug.py`
-* **Immagini non trovate** in `describe_figure` → controlla path relativi/assoluti e cartella `figures2/`
-* **Dimensioni embedding** → `text-embedding-3-small` (1536‑d). Se cambi modello, ricrea l’indice.
-* **FAISS non trovato** → su alcune piattaforme serve `faiss-cpu` compatibile con la tua Python/OS
+| Problema                                                          | Possibile causa                                   | Soluzione                                                                                               |
+| ----------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Le immagini aprono su `backend:8000/...` e il browser non risolve | `PUBLIC_API_BASE_URL` non impostata correttamente | Metti `PUBLIC_API_BASE_URL=http://localhost:8000/api` (o l’hostname pubblico)                           |
+| 404 o vuoto su `/static/...`                                      | Cartella figure non montata o path errato         | Verifica `STATIC_DIR` e `docker compose logs -f backend` → vedi “Mount statico immagini: …”             |
+| FE dice “Connection refused” su `/api/search`                     | Backend giù o porta non esposta                   | `docker compose ps`, controlla che `8000:8000` sia in LISTEN, guarda i log                              |
+| Audit non scrive                                                  | Volume non montato o permessi                     | Verifica mapping `./BE/RagCode/audit:/app/RagCode/audit` e che il container possa scrivere              |
+| `ModuleNotFoundError: BE` in locale                               | pacchetto non inizializzabile                     | Assicurati che ci siano `__init__.py` (ci sono già) e lanci con `python -m uvicorn BE.RagCode.main:app` |
+| VDB “0 chunk”                                                     | Indice non generato                               | Esegui `BE/Ingestion/ingestion.py` (manuale) e/o `FAQ.py`                                               |
 
 ---
 
-## Licenza
-
-Proprietario. Uso interno a progetto Vodafone.

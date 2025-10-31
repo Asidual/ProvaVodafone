@@ -9,6 +9,9 @@ from typing import List, Dict, Any, Optional
 import streamlit as st
 from PIL import Image
 import uuid
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 def new_question_id() -> str:
@@ -18,17 +21,21 @@ def new_question_id() -> str:
 # CONFIG
 st.set_page_config(page_title="RAG QA Vod", page_icon="💬", layout="wide")
 
-# Base API (con /api) e ROOT (senza /api)
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000/api").rstrip("/")
 
-API_ROOT = (
-    API_BASE_URL[:-4] if API_BASE_URL.endswith("/api") else API_BASE_URL
-)  # togli api
+API_BASE_URL = os.environ.get("API_BASE_URL", "http://backend:8000/api").rstrip("/") #in docker diventa backend
 
-STATIC_BASE_URL = f"{API_ROOT}/static".rstrip("/")  # finisce in static per le immagini
-STATIC_BASE_URL_DOC = f"{API_ROOT}/staticdoc".rstrip(
-    "/"
-)  # finisce in static per il doc
+# NEW: base pubblica per il browser (se non messa, fallback a API_BASE_URL)
+# Per immagini 
+PUBLIC_API_BASE_URL = os.getenv("PUBLIC_API_BASE_URL", "http://localhost:8000/api").rstrip("/") #
+
+# root = senza /api
+API_ROOT = API_BASE_URL[:-4] if API_BASE_URL.endswith("/api") else API_BASE_URL
+PUBLIC_API_ROOT = PUBLIC_API_BASE_URL[:-4] if PUBLIC_API_BASE_URL.endswith("/api") else PUBLIC_API_BASE_URL
+
+
+# Static pubblici (devono essere raggiungibili dal browser)
+STATIC_BASE_URL = f"{PUBLIC_API_ROOT}/static".rstrip("/")
+STATIC_BASE_URL_DOC = f"{PUBLIC_API_ROOT}/staticdoc".rstrip("/")
 
 DEFAULT_TOP_K = int(os.getenv("TOP_K", "5"))
 
@@ -204,7 +211,7 @@ def fetch_thumbnail(
     try:
         full = public_path_or_url
         if full.startswith("/static/"):
-            full = f"{API_ROOT}{full}"
+            full = f"{PUBLIC_API_ROOT}{full}"
         r = requests.get(full, timeout=10)
         r.raise_for_status()
         img = Image.open(io.BytesIO(r.content))
@@ -233,7 +240,7 @@ def render_citation(sid: str, smap: Dict[str, Dict[str, Any]]) -> str:
 
     # Path al documento PDF statico
     doc_url = (
-        f"{STATIC_BASE_URL_DOC}/printf-manuale.pdf"  # creo il path per il documento
+        f"{PUBLIC_API_ROOT}/printf-manuale.pdf"  # creo il path per il documento
     )
 
     # Se la pagina esiste, aggiungila come anchor per il PDF viewer
@@ -272,19 +279,29 @@ if DEFAULT_CHAT_MODEL not in AVAILABLE_MODELS:
 # SIDEBAR
 with st.sidebar:
     st.header("⚙️ Impostazioni")
-    api_base_in = st.text_input("API base URL", API_BASE_URL)
+    api_base_in = st.text_input("API base URL (server-side)", API_BASE_URL)
+    pub_api_base_in = st.text_input("Public API base URL (browser)", PUBLIC_API_BASE_URL)
 
     if api_base_in and api_base_in != API_BASE_URL:
         API_BASE_URL = api_base_in.rstrip("/")
         API_ROOT = API_BASE_URL[:-4] if API_BASE_URL.endswith("/api") else API_BASE_URL
 
-        STATIC_BASE_URL = f"{API_ROOT}/static"
+    if pub_api_base_in and pub_api_base_in != PUBLIC_API_BASE_URL:
+        PUBLIC_API_BASE_URL = pub_api_base_in.rstrip("/")
+        PUBLIC_API_ROOT = PUBLIC_API_BASE_URL[:-4] if PUBLIC_API_BASE_URL.endswith("/api") else PUBLIC_API_BASE_URL
+        STATIC_BASE_URL = f"{PUBLIC_API_ROOT}/static".rstrip("/")
+        STATIC_BASE_URL_DOC = f"{PUBLIC_API_ROOT}/staticdoc".rstrip("/")
 
     st.code(
-        f"""API_BASE_URL = {API_BASE_URL}\nAPI_ROOT = {API_ROOT}\nSTATIC_BASE_URL = {STATIC_BASE_URL}\nSTATIC_BASE_URL_DOC = {STATIC_BASE_URL_DOC}""",
-        language="bash",
-    )
-
+f"""API_BASE_URL = {API_BASE_URL}
+PUBLIC_API_BASE_URL = {PUBLIC_API_BASE_URL}
+API_ROOT = {API_ROOT}
+PUBLIC_API_ROOT = {PUBLIC_API_ROOT}
+STATIC_BASE_URL = {STATIC_BASE_URL}
+STATIC_BASE_URL_DOC = {STATIC_BASE_URL_DOC}""",
+                    language="bash",
+                )
+    
     top_k = st.number_input(
         "Top-K", min_value=1, max_value=20, value=DEFAULT_TOP_K, step=1
     )
@@ -526,7 +543,7 @@ if submitted and question and question.strip():
             st.subheader("Links")
             for link in links:
                 st.markdown(
-                    f"[[{link[0]}  -  Pag.{link[2]}  -  '{link[1]}']]({API_ROOT+link[3]})",
+                    f"[[{link[0]}  -  Pag.{link[2]}  -  '{link[1]}']]({PUBLIC_API_ROOT+link[3]})",
                     unsafe_allow_html=True,
                 )
         # ---- SOURCES MAP ----
@@ -569,7 +586,7 @@ if submitted and question and question.strip():
             if public in seen:
                 continue
             seen.add(public)
-            link_url = public if public.startswith("http") else f"{API_ROOT}{public}"
+            link_url = public if public.startswith("http") else f"{PUBLIC_API_ROOT }{public}"
             dedup_imgs.append({**im, "url": public, "link_url": link_url})
 
         if dedup_imgs:

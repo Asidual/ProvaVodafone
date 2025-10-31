@@ -63,7 +63,8 @@ VDB_DIR   = _normalize_path(os.getenv("VDB_DIR"), "AllVectorDB", "vectordb2")
 
 # Static (immagini)
 STATIC_MOUNT     = (os.getenv("STATIC_MOUNT", "/static") or "/static").rstrip("/") or "/static"
-STATIC_BASE_URL  = os.getenv("STATIC_BASE_URL", "").rstrip("/")
+STATIC_BASE_URL  = "http://localhost:8000/api"
+PUBLIC_BASE_URL = os.getenv("PUBLIC_BASE_URL", "").rstrip("/")
 STATIC_DIR       = _normalize_path(os.getenv("STATIC_DIR"), "Ingestion", "figures2")
 
 # Static (documenti)
@@ -166,21 +167,28 @@ else:
 def static_list():
     if not STATIC_DIR.is_dir():
         return {"dir_exists": False, "dir": str(STATIC_DIR), "files": []}
+
     try:
-        files = sorted([f for f in os.listdir(STATIC_DIR)
-                        if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp", ".gif"))])
+        files = sorted([
+            f for f in os.listdir(STATIC_DIR)
+            if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp", ".gif"))
+        ])
     except Exception:
         logger.exception("Errore lettura cartella static")
-        return {"dir_exists": True, "dir": str(STATIC_DIR), "count": 0, "files": [], "urls": [], "urls_alt": []}
+        return {"dir_exists": True, "dir": str(STATIC_DIR), "count": 0, "files": [], "urls": []}
+
+    urls_rel = [f"{STATIC_MOUNT}/{f}" for f in files[:10]]
+    urls_full = [f"{PUBLIC_BASE_URL}{u}" if PUBLIC_BASE_URL else u for u in urls_rel]
 
     return {
         "dir_exists": True,
         "dir": str(STATIC_DIR),
         "count": len(files),
         "files": files[:50],
-        "urls": [f"{STATIC_MOUNT}/{f}" for f in files[:10]],
-        "urls_alt": [f"{STATIC_MOUNT}/figures2/{f}" for f in files[:10]],
+        "urls": urls_full,
+        "urls_rel": urls_rel,
     }
+
 
 
 # ---- Router API ----
@@ -199,7 +207,7 @@ def root():
             "dir": str(STATIC_DIR),
             "doc_mount": STATIC_MOUNT_DOC,
             "doc_dir": str(STATIC_DIR_DOC),
-            "base_url": STATIC_BASE_URL or None,
+            "public_base_url": PUBLIC_BASE_URL or None,
         },
         "audit": {
             "enabled": AUDIT_ENABLED,

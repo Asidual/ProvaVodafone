@@ -13,6 +13,8 @@ services:
       - ./BE/RagCode/audit:/app/RagCode/audit
       - ./BE/AllVectorDB:/app/AllVectorDB
       - ./BE/RagCode/.logs:/app/RagCode/.logs
+    environment:
+      - PUBLIC_BASE_URL=http://localhost:8000   # 🔥 AGGIUNTO: base pubblica per immagini e PDF
     working_dir: /app/RagCode
     command: uvicorn main:app --host 0.0.0.0 --port 8000
     networks:
@@ -31,7 +33,8 @@ services:
     volumes:
       - ./FE:/app
     environment:
-      - API_BASE_URL=http://backend:8000/api
+      - API_BASE_URL=http://backend:8000/api       
+      - PUBLIC_API_BASE_URL=http://localhost:8000/api   
     depends_on:
       - backend
     working_dir: /app

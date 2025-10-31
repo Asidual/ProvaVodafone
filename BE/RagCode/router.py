@@ -63,10 +63,6 @@ logger.propagate = True   # passa i log al root configurato in main.py
 logger.setLevel(logging.INFO)
 
 
-
-# ---------------------------------------------------------------------
-# Router
-# ---------------------------------------------------------------------
 rag_router = APIRouter()
 
 
@@ -78,14 +74,14 @@ class AskQuestion(BaseModel):
     documents: List = Field(..., description="Sono la lista dei documenti selezionati")
     temperature: float = Field(0.2)
     max_tokens: int = Field(500)
-    chat_model: str = Field("gpt-4o-mini", description="esplicitare il modello")
+    chat_model: str = Field("gpt-4o", description="esplicitare il modello")
     question_id: Optional[str] = Field(None, description="ID logico della domanda (thread)")
 
 
 class SearchDoc(BaseModel):
     question: str = Field(...)
     top_k: int = Field(5)
-    chat_model: str = Field("gpt-4o-mini", description="esplicitare il modello")
+    chat_model: str = Field("gpt-4o", description="esplicitare il modello")
     question_id: Optional[str] = Field(None, description="ID logico della domanda (thread)")
 
 
@@ -107,12 +103,12 @@ class FallbackOutput(BaseModel):
 @rag_router.post("/ask")
 def ask(payload: AskQuestion, request: Request):
     t0 = time.time()
-    question    = payload.question
+    question = payload.question
     temperature = payload.temperature
-    max_tokens  = payload.max_tokens
-    reranked    = payload.documents or []
-    chat_model  = payload.chat_model
-    qid         = _extract_question_id(request, payload.question_id)
+    max_tokens = payload.max_tokens
+    reranked = payload.documents or []
+    chat_model = payload.chat_model
+    qid = _extract_question_id(request, payload.question_id)
 
     # --- AUDIT start ---
     audit_id = start_event(
@@ -184,18 +180,14 @@ def ask(payload: AskQuestion, request: Request):
 # ---------------------------------------------------------------------
 @rag_router.post("/ask/stream")
 async def ask_stream(payload: AskQuestion, request: Request):
-    """
-    Streaming compatibile con OpenAI SDK 2.6.0.
-    - Usa SOLO `content.delta` (no snapshot `chunk`) per evitare duplicazioni.
-    - I token al FE sono inviati come JSON: {"token": "<testo>"}.
-    """
+    
     t0 = time.time()
-    question    = payload.question
+    question = payload.question
     temperature = payload.temperature
-    max_tokens  = payload.max_tokens
-    reranked    = payload.documents or []
-    model       = payload.chat_model
-    qid         = _extract_question_id(request, payload.question_id)
+    max_tokens = payload.max_tokens
+    reranked = payload.documents or []
+    model = payload.chat_model
+    qid = _extract_question_id(request, payload.question_id)
 
     # --- AUDIT start ---
     audit_id = start_event(
@@ -283,8 +275,8 @@ def search_doc(payload: SearchDoc, request: Request) -> SearchDocOutput:
     t0 = time.time()
     app = request.app
     index = app.state.vdb_index
-    meta  = app.state.vdb_meta
-    qid   = _extract_question_id(request, payload.question_id)
+    meta = app.state.vdb_meta
+    qid = _extract_question_id(request, payload.question_id)
 
     logger.info(f" Ricerca: '{payload.question[:80]}...' (top_k={payload.top_k})")
 
@@ -292,7 +284,7 @@ def search_doc(payload: SearchDoc, request: Request) -> SearchDocOutput:
     audit_id = start_event(
         route="/search",
         question=payload.question,
-        model="text-embedding-3-small",  # (retriever) aggiorna se cambi
+        model="text-embedding-3-large",  # (retriever) aggiorna se cambi
         meta={"top_k": int(payload.top_k), "chat_model": payload.chat_model},
         question_id=qid,
     )
@@ -310,7 +302,7 @@ def search_doc(payload: SearchDoc, request: Request) -> SearchDocOutput:
         )
 
         logger.info(f" Restituiti {len(reranked)} documenti dopo rerank")
-        logger.info(f"⏱ Ricerca {(time.time()-t0)*1000:.0f} ms")
+        logger.info(f" Ricerca {(time.time()-t0)*1000:.0f} ms")
 
         # --- AUDIT: risorse consultate ---
         add_resources(audit_id, _map_resources_from_reranked(reranked))

@@ -21,7 +21,7 @@ load_dotenv()
 # =========================
 # Path base e normalizzazione
 # =========================
-# /app/RagCode/main.py -> BASE_DIR = /app
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 def _normalize_path(p: str | None, *fallback: str) -> Path:
@@ -29,6 +29,7 @@ def _normalize_path(p: str | None, *fallback: str) -> Path:
     - Accetta path da env con backslash di Windows.
     - Se non presente, usa fallback relativo a BASE_DIR.
     - Restituisce Path assoluto.
+    - Utile per Docker
     """
     if p and p.strip():
         p = p.replace("\\", "/")
@@ -146,7 +147,7 @@ if STATIC_DIR.is_dir():
     logger.info("Mount statico immagini: %s -> %s", STATIC_MOUNT, STATIC_DIR)
     app.mount(STATIC_MOUNT, StaticFiles(directory=str(STATIC_DIR)), name="static")
     try:
-        files = [f for f in os.listdir(STATIC_DIR) if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp", ".gif"))]
+        files = [f for f in os.listdir(STATIC_DIR)]
         sample = f"{STATIC_MOUNT}/{files[0]}" if files else None
         logger.info("Esempio URL statico: %s", sample)
     except Exception:
@@ -171,7 +172,6 @@ def static_list():
     try:
         files = sorted([
             f for f in os.listdir(STATIC_DIR)
-            if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp", ".gif"))
         ])
     except Exception:
         logger.exception("Errore lettura cartella static")

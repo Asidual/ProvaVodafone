@@ -119,7 +119,7 @@ def add_resources(audit_id: int, resources: Iterable[Dict[str, Any]]) -> None:
     Inserisce righe su audit_resource.
     Ogni dict può contenere: id/doc_id, title/doc_title, version/doc_version, page, score, chunk_id.
     """
-    rows: List[Tuple[Any, ...]] = []
+    rows= []
     for r in resources or []:
         rows.append((
             audit_id,

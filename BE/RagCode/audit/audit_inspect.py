@@ -1,5 +1,4 @@
 # audit/audit_inspect.py — CLI per ispezionare l'audit log (SQLite o JSONL)
-from __future__ import annotations
 import argparse, csv, json, sqlite3, sys
 from pathlib import Path
 from typing import Optional
@@ -10,6 +9,7 @@ DEFAULT_DB   = Path("BE") / "RagCode" / "audit" / "audit.db"
 DEFAULT_JSON = Path("BE") / "RagCode" / "audit" / "audit.jsonl"
 
 def _connect(db_path: Path) -> sqlite3.Connection:
+    "connessione al db"
     if not db_path.exists():
         print(f"[ERR] DB non trovato: {db_path}", file=sys.stderr)
         sys.exit(2)
@@ -18,6 +18,7 @@ def _connect(db_path: Path) -> sqlite3.Connection:
     return conn
 
 def _ts(s: Optional[str]) -> Optional[int]:
+    "time stamp"
     """Parsa 'YYYY-MM-DD' o epoch int/float a epoch int (UTC)."""
     if not s:
         return None
